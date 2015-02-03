@@ -1,0 +1,15 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.panel {
+  padding: 10px 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+  text-align:left;
+}
+
+#footer p {
+padding-left: 2px;
+}
