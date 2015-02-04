@@ -41,11 +41,10 @@ SOFTWARE.
 <body>
 
 <?php
-
 if ($_POST['submit']) { //check if submit button as been clicked
   
-  $height = $_POST['height'];
-  $gRatio = $_POST['gRatio'];
+  $height = $_POST['height']; //gets height from the form
+  $gRatio = $_POST['gRatio']; //gets glide ratio from the form
   $kmConversion = 0.0003048; //conversion maths from feet to kilometres
 
   function validate($input){ //validates inputs
@@ -85,8 +84,8 @@ if ($_POST['submit']) { //check if submit button as been clicked
     return $result;
   }
 	
-  $errHeight = validate($height);
-  $errGRatio = validate($gRatio);
+  $errHeight = validate($height); //validates height
+  $errGRatio = validate($gRatio); //validates glide ratio
 	
   if (!$errHeight && !$errGRatio) { // If there are no errors, start the calculations
     $result = calculate($height, $gRatio, $kmConversion, $errHeight, $errGRatio);
