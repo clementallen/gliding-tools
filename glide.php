@@ -50,12 +50,12 @@ if ($_POST['submit']) { //check if submit button as been clicked
   function validate($input){ //validates inputs
 	
     if (!$input) { //if the input has not been entered
-      $error = 'Please enter a height';
+      $error = 'Please enter a value';
     }
     elseif (!is_numeric($input)) { //if the input is not a number
-      $error = 'Please enter a number!';
+      $error = 'Please enter a number';
     }
-    elseif ($input > 60000 || $input <= 0) { //keeps input within a sensible limit
+    elseif ($input > 40000 || $input <= 0) { //keeps input within a sensible limit
       $error = 'Come on, make it sensible!';
     }
     else {
