@@ -45,10 +45,10 @@ if ($_POST['submit']) { //check if submit button as been clicked
   
   $height = $_POST['height']; //gets height from the form
   $gRatio = $_POST['gRatio']; //gets glide ratio from the form
-  $kmConversion = 0.0003048; //conversion maths from feet to kilometres
-
+  $rateOfSink = $_POST['rateOfSink']; //gets speed from the form
+  
   function validate($input){ //validates inputs
-	
+
     if (!$input) { //if the input has not been entered
       $error = 'Please enter a value';
     }
@@ -65,31 +65,48 @@ if ($_POST['submit']) { //check if submit button as been clicked
     return $error;
   }
 	
-  function calculate($height, $gRatio, $kmConversion, $errHeight, $errGRatio) { //calculates everything!
-
+  function calculateRange($height, $gRatio) { //calculates everything!
+    $kmConversion = 0.0003048; //conversion maths from feet to kilometres
     //calculate range into feet using height and glide ratio
     $rangeInFeet = $height * $gRatio;
-
     //convert feet into kilometres
     $rangeInKm = $rangeInFeet * $kmConversion;
     $rangeInKm = substr($rangeInKm,0,strpos($rangeInKm,".") + 3); //result to 2 decimal places
-
-    //calculate feet lost per km
+  
+    return $rangeInKm;
+  }
+  $rangeInKm = calculateRange($height, $gRatio);
+  
+  function calculateHeightLoss($height, $rangeInKm){
+	//calculate feet lost per km
     $feetLostPerKm = $height / $rangeInKm;
     $feetLostPerKm = round($feetLostPerKm);
-    
-    //success printout
-    $result = '<div class="alert alert-success">You can fly ' . $rangeInKm . ' Km and would lose ' . $feetLostPerKm . 'ft per Km travelled.</div>';
-  
-    return $result;
+	
+	return $feetLostPerKm;
   }
+  $heightLoss = calculateHeightLoss($height, $rangeInKm);
+  
+  function calculateDuration($height, $rateOfSink){
+	$durationMinutes = $height / $rateOfSink;
+	$durationMinutes = round($durationMinutes);
+	
+	return $durationMinutes;
+  }
+  $duration = calculateDuration($height, $rateOfSink);
 	
   $errHeight = validate($height); //validates height
   $errGRatio = validate($gRatio); //validates glide ratio
-	
-  if (!$errHeight && !$errGRatio) { // If there are no errors, start the calculations
-    $result = calculate($height, $gRatio, $kmConversion, $errHeight, $errGRatio);
+  
+  if($_POST['rateOfSink']){ //if rate of sink has been submitted
+    $errRateOfSink = validate($rateOfSink); //validates rate of sink
+	if(!$errHeight && !$errGRatio && !$errRateOfSink){ //if validation passes
+		$result = '<div class="alert alert-success">You can fly ' . $rangeInKm . ' Km and would lose ' . $heightLoss . 'ft per Km travelled.<br />Additionally, you would be able to fly for ' . $duration . ' minutes.</div>';
+	}
   }
+  elseif (!$errHeight && !$errGRatio) { // If there are no errors print out result
+	$result = '<div class="alert alert-success">You can fly ' . $rangeInKm . ' Km and would lose ' . $heightLoss . 'ft per Km travelled.</div>';
+  }
+  
 }
 ?>
 
@@ -99,16 +116,16 @@ if ($_POST['submit']) { //check if submit button as been clicked
         <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
           <div class="panel panel-default center-text">
             <h1>Glide range calculator</h1>
-	    <br />
+	        <br />
 
-	    <form novalidate class="form-horizontal" role="form" method="post">
+	          <form novalidate class="form-horizontal" role="form" method="post">
 
-	      <div class="form-group">
-	        <label for="height" class="col-sm-2 control-label center-block">Height</label>
+	            <div class="form-group">
+	            <label for="height" class="col-sm-2 control-label center-block">Height</label>
 	        
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="height" name="height" placeholder="Enter height in feet" value="<?php if(!isset($errHeight)){echo$height;} ?>">
-                <?php echo "<p class='text-danger'>$errHeight</p>";?>
+                <?php echo '<p class='text-danger'>$errHeight</p>';?>
                 </div>
                 </div>
 			
@@ -116,9 +133,17 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <label for="gRatio" class="col-sm-2 control-label">Glide ratio</label>
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="gRatio" name="gRatio" placeholder="Enter glide ratio" value="<?php if(!isset($errGRatio)){echo$gRatio;} ?>">
-		<?php echo "<p class='text-danger'>$errGRatio</p>";?>
+		        <?php echo '<p class='text-danger'>$errGRatio</p>';?>
                 </div>
                 </div>
+
+                <div class="form-group">
+                <label for="rateOfSink" class="col-sm-2 control-label">Rate of sink</label>
+                <div class="col-sm-10">
+                <input type="text" class="form-control" id="rateOfSink" name="rateOfSink" placeholder="Enter rate of sink in feet per minute (optional)" value="<?php if(!isset($errRateOfSink)){echo$rateOfSink;} ?>">
+		        <?php echo '<p class='text-danger'>$errRateOfSink</p>';?>
+                </div>
+                </div>				
 
                 <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
@@ -132,14 +157,14 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 </div>
                 </div>
 
-	    </form>
+	          </form>
 		  
           </div>
         </div>
       </div>
 		
       <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" id="footer">
-      <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date("Y")?>.</p>
+      <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date('Y')?>.</p>
       </div>
 	
   </div><!-- /container -->
