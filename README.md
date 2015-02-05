@@ -1,4 +1,4 @@
-# Glide-tools
+# Gliding-tools
 
 Simple website for calculating glide range using height and glide ratio for gliding.
 
