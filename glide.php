@@ -48,14 +48,13 @@ if ($_POST['submit']) { //check if submit button as been clicked
   $rateOfSink = $_POST['rateOfSink']; //gets speed from the form
   
   function validate($input){ //validates inputs
-
     if (!$input) { //if the input has not been entered
       $error = 'Please enter a value';
     }
-    elseif (!is_numeric($input)) { //if the input is not a number
+    elseif (!is_numeric($input)){ //if the input is not a number
       $error = 'Please enter a number';
     }
-    elseif ($input > 40000 || $input <= 0) { //keeps input within a sensible limit
+    elseif ($input > 40000 || $input <= 0){ //keeps input within a sensible limit
       $error = 'Come on, make it sensible!';
     }
     else {
@@ -125,7 +124,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
 	        
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="height" name="height" placeholder="Enter height in feet" value="<?php if(!isset($errHeight)){echo$height;} ?>">
-                <?php echo '<p class='text-danger'>$errHeight</p>';?>
+                <?php echo "<p class='text-danger'>$errHeight</p>";?>
                 </div>
                 </div>
 			
@@ -133,7 +132,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <label for="gRatio" class="col-sm-2 control-label">Glide ratio</label>
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="gRatio" name="gRatio" placeholder="Enter glide ratio" value="<?php if(!isset($errGRatio)){echo$gRatio;} ?>">
-		        <?php echo '<p class='text-danger'>$errGRatio</p>';?>
+		        <?php echo "<p class='text-danger'>$errGRatio</p>";?>
                 </div>
                 </div>
 
@@ -141,7 +140,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <label for="rateOfSink" class="col-sm-2 control-label">Rate of sink</label>
                 <div class="col-sm-10">
                 <input type="text" class="form-control" id="rateOfSink" name="rateOfSink" placeholder="Enter rate of sink in feet per minute (optional)" value="<?php if(!isset($errRateOfSink)){echo$rateOfSink;} ?>">
-		        <?php echo '<p class='text-danger'>$errRateOfSink</p>';?>
+		        <?php echo "<p class='text-danger'>$errRateOfSink</p>";?>
                 </div>
                 </div>				
 
