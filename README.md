@@ -2,6 +2,7 @@
 
 This is an ever expanding collection of useful gliding tools made to practice coding.
 
+<a href="https://codeclimate.com/github/clementallen/Gliding-tools"><img src="https://codeclimate.com/github/clementallen/Gliding-tools/badges/gpa.svg" /></a>  <a href="http://issuestats.com/github/clementallen/Gliding-tools"><img src="http://issuestats.com/github/clementallen/Gliding-tools/badge/pr" /></a>  <a href="http://issuestats.com/github/clementallen/Gliding-tools"><img src="http://issuestats.com/github/clementallen/Gliding-tools/badge/issue" /></a>
 
 <h3>Glide range calculator</h3>
 
