@@ -46,8 +46,8 @@ SOFTWARE.
 if ($_POST['submit']) { //check if submit button as been clicked
   
   $distance = $_POST['distance']; //gets height from the form
-  $originHeight = $_POST['originHeight']; //gets glide ratio from the form
-  $destinationHeight = $_POST['destinationHeight']; //gets rate of sink from the form
+  $originHeight = $_POST['originHeight']; //gets origin height from the form
+  $destinationHeight = $_POST['destinationHeight']; //gets destination height from the form
   
   function validate($input){ //validates inputs
     if (!$input) { //if the input has not been entered
@@ -81,17 +81,13 @@ if ($_POST['submit']) { //check if submit button as been clicked
 	
   $errDistance = validate($distance); //validates distance  
   
-  if($_POST['originHeight'] && $_POST['destinationHeight']){ //if rate of sink has been submitted
+  if($_POST['originHeight'] && $_POST['destinationHeight']){ //if airfield heights have been submitted
     $errOriginHeight = validate($originHeight); //validates origin height
     $errDestinationHeight = validate($destinationHeight); //validates destination height
   
-    if(!$errDistance && !$errOriginHeight && !$errDestinationHeight){ //if validation passes
+    if(!$errDistance && !$errOriginHeight && !$errDestinationHeight){ //if validation passes print out the result
       $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.<br />And without altitude calculations it is ' . $launchHeightFeet . 'ft.</div>';
     }
-  }
-  
-  elseif (!$_POST['originHeight'] && !$_POST['destinationHeight'] && !$_POST['distance']) { // If there are no errors print out result
-	$result = null;
   }
   
   elseif (!$_POST['originHeight'] && !$_POST['destinationHeight']) { // If there are no errors print out result
