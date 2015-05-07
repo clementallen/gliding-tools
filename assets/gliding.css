@@ -14,6 +14,13 @@ body {
 padding-left: 2px;
 }
 
+.github-fork-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
+
 @media screen and (max-width: 768px) {
   .banner-hide{
     display: none;
