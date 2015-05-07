@@ -30,7 +30,7 @@ SOFTWARE.
   <meta name="author" content="Clement Allen">
 
   <title>Silver launch height calculator</title>
-  
+
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="../assets/gliding.css" rel="stylesheet" type="text/css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,11 +44,11 @@ SOFTWARE.
 
 <?php
 if ($_POST['submit']) { //check if submit button as been clicked
-  
+
   $distance = $_POST['distance']; //gets height from the form
   $originHeight = $_POST['originHeight']; //gets origin height from the form
   $destinationHeight = $_POST['destinationHeight']; //gets destination height from the form
-  
+
   function validate($input){ //validates inputs
     if (!$input) { //if the input has not been entered
       $error = 'Please enter a value';
@@ -61,7 +61,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
     }
     return $error;
   }
-    
+
   function launchHeight($distance) { //calculates just max launch height
     $kmToFeet = 3.281; //conversion maths from km to feet
     $distancePercentKm = $distance / 100; //calculates 1% of the distance
@@ -71,25 +71,25 @@ if ($_POST['submit']) { //check if submit button as been clicked
     return $launchHeightFeet;
   }
   $launchHeightFeet = launchHeight($distance);
-  
+
   function airfieldHeight($launchHeightFeet, $originHeight, $destinationHeight){ //calculates max launch height using origin and destination altitudes
     $airfieldHeight = $destinationHeight - $originHeight; //total difference between airfields
     $maxLaunchHeight = $launchHeightFeet + $airfieldHeight; //calculates final launch height taking into account airfield heights
     return $maxLaunchHeight;
   }
   $maxLaunchHeight = airfieldHeight($launchHeightFeet, $originHeight, $destinationHeight);
-    
-  $errDistance = validate($distance); //validates distance  
-  
+
+  $errDistance = validate($distance); //validates distance
+
   if($_POST['originHeight'] && $_POST['destinationHeight']){ //if airfield heights have been submitted
     $errOriginHeight = validate($originHeight); //validates origin height
     $errDestinationHeight = validate($destinationHeight); //validates destination height
-  
+
     if(!$errDistance && !$errOriginHeight && !$errDestinationHeight){ //if validation passes print out the result
       $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.<br />And without altitude calculations it is ' . $launchHeightFeet . 'ft.</div>';
     }
   }
-  
+
   elseif (!$_POST['originHeight'] && !$_POST['destinationHeight']) { // If there are no errors print out result
     $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.</div>';
   }
@@ -113,7 +113,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <?php echo "<p class='text-danger'>$errDistance</p>";?>
                 </div>
                 </div>
-            
+
                 <div class="form-group">
                 <label for="originHeight" class="col-sm-3 control-label">Origin altitude</label>
                 <div class="col-sm-9">
@@ -121,14 +121,14 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <?php echo "<p class='text-danger'>$errOriginHeight</p>";?>
                 </div>
                 </div>
-                
+
                 <div class="form-group">
                 <label for="destinationHeight" class="col-sm-3 control-label">Destination altitude</label>
                 <div class="col-sm-9">
                 <input type="text" class="form-control" id="destinationHeight" name="destinationHeight" placeholder="Enter destination altitude in feet (optional)" value="<?php if(!isset($errDestinationHeight)){echo$destinationHeight;} ?>">
                 <?php echo "<p class='text-danger'>$errDestinationHeight</p>";?>
                 </div>
-                </div>    
+                </div>
 
                 <div class="form-group">
                 <div class="col-sm-9 col-sm-offset-3">
@@ -138,20 +138,20 @@ if ($_POST['submit']) { //check if submit button as been clicked
 
                 <div class="form-group">
                 <div class="col-sm-9 col-sm-offset-3">
-                <?php echo $result; ?>    
+                <?php echo $result; ?>
                 </div>
                 </div>
 
               </form>
-          
+
           </div>
         </div>
       </div>
-        
+
       <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" id="footer">
       <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date('Y')?>.</p>
       </div>
-    
+
   </div><!-- /container -->
 
 </body>

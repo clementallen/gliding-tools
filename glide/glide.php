@@ -30,7 +30,7 @@ SOFTWARE.
   <meta name="author" content="Clement Allen">
 
   <title>Glide range calculator</title>
-  
+
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="../assets/gliding.css" rel="stylesheet" type="text/css" />
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -44,11 +44,11 @@ SOFTWARE.
 
 <?php
 if ($_POST['submit']) { //check if submit button as been clicked
-  
+
   $height = $_POST['height']; //gets height from the form
   $gRatio = $_POST['gRatio']; //gets glide ratio from the form
   $rateOfSink = $_POST['rateOfSink']; //gets rate of sink from the form
-  
+
   function validate($input){ //validates inputs
     if (!$input) { //if the input has not been entered
       $error = 'Please enter a value';
@@ -62,10 +62,10 @@ if ($_POST['submit']) { //check if submit button as been clicked
     else {
       $error = null; //if validation has passed don't define the variable
     }
-    
+
     return $error;
   }
-    
+
   function calculateRange($height, $gRatio) { //calculates everything!
     $kmConversion = 0.0003048; //conversion maths from feet to kilometres
     //calculate range into feet using height and glide ratio
@@ -73,30 +73,30 @@ if ($_POST['submit']) { //check if submit button as been clicked
     //convert feet into kilometres
     $rangeInKm = $rangeInFeet * $kmConversion;
     $rangeInKm = substr($rangeInKm,0,strpos($rangeInKm,".") + 3); //result to 2 decimal places
-  
+
     return $rangeInKm;
   }
   $rangeInKm = calculateRange($height, $gRatio);
-  
+
   function calculateHeightLoss($height, $rangeInKm){ //calculate feet lost per km
     $feetLostPerKm = $height / $rangeInKm;
     $feetLostPerKm = round($feetLostPerKm);
-    
+
     return $feetLostPerKm;
   }
   $heightLoss = calculateHeightLoss($height, $rangeInKm);
-  
+
   function calculateDuration($height, $rateOfSink){ //calculates flight duration
     $durationMinutes = $height / $rateOfSink;
     $durationMinutes = round($durationMinutes);
-    
+
     return $durationMinutes;
   }
   $duration = calculateDuration($height, $rateOfSink);
-    
+
   $errHeight = validate($height); //validates height
   $errGRatio = validate($gRatio); //validates glide ratio
-  
+
   if($_POST['rateOfSink']){ //if rate of sink has been submitted
     $errRateOfSink = validate($rateOfSink); //validates rate of sink
     if(!$errHeight && !$errGRatio && !$errRateOfSink){ //if validation passes
@@ -106,7 +106,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
   elseif (!$errHeight && !$errGRatio) { // If there are no errors print out result
     $result = '<div class="alert alert-success">You can fly ' . $rangeInKm . ' Km and would lose ' . $heightLoss . 'ft per Km travelled.</div>';
   }
-  
+
 }
 ?>
 
@@ -127,7 +127,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <?php echo "<p class='text-danger'>$errHeight</p>";?>
                 </div>
                 </div>
-            
+
                 <div class="form-group">
                 <label for="gRatio" class="col-sm-2 control-label">Glide ratio</label>
                 <div class="col-sm-10">
@@ -142,7 +142,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <input type="text" class="form-control" id="rateOfSink" name="rateOfSink" placeholder="Enter rate of sink in feet per minute (optional)" value="<?php if(!isset($errRateOfSink)){echo$rateOfSink;} ?>">
                 <?php echo "<p class='text-danger'>$errRateOfSink</p>";?>
                 </div>
-                </div>                
+                </div>
 
                 <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
@@ -152,20 +152,20 @@ if ($_POST['submit']) { //check if submit button as been clicked
 
                 <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
-                <?php echo $result; ?>    
+                <?php echo $result; ?>
                 </div>
                 </div>
 
               </form>
-          
+
           </div>
         </div>
       </div>
-        
+
       <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" id="footer">
       <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date('Y')?>.</p>
       </div>
-    
+
   </div><!-- /container -->
 
 </body>
