@@ -21,6 +21,6 @@ This tool calculates how high your maximum launch height can be and also takes i
 
 ### Handicapped speed calculator
 
-
+Calculator your handicapped speed by entering your speed and glider handicap.
 
 #### View a live version [here](http://gliding.clementallen.com/)
