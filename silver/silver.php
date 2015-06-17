@@ -43,6 +43,9 @@ SOFTWARE.
 </a>
 
 <?php
+
+date_default_timezone_set('UTC');
+
 if ($_POST['submit']) { //check if submit button as been clicked
 
     $distance = $_POST['distance']; //gets height from the form
@@ -81,7 +84,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
 
     $errDistance = validate($distance); //validates distance
 
-    if($_POST['originHeight'] && $_POST['destinationHeight']){ //if airfield heights have been submitted
+    if($_POST['distance'] && $_POST['originHeight'] && $_POST['destinationHeight']){ //if airfield heights have been submitted
         $errOriginHeight = validate($originHeight); //validates origin height
         $errDestinationHeight = validate($destinationHeight); //validates destination height
 
@@ -90,7 +93,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
         }
     }
 
-    elseif (!$_POST['originHeight'] && !$_POST['destinationHeight']) { // If there are no errors print out result
+    elseif (!$_POST['originHeight'] || !$_POST['destinationHeight'] && !$errDistance) { // If there are no errors print out result
         $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.</div>';
     }
 }
