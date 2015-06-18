@@ -64,11 +64,14 @@ if ($_POST['submit']) { //check if submit button as been clicked
     $errSpeed = validate($speed); //validates speed
     $errHandicap = validate($handicap); //validates handicap
 
-    $handicapSpeed = ($speed / $handicap) * 100;
-
-    $handicapSpeed = round($handicapSpeed, 1);
+    function calculate($speed, $handicap) {
+        $handicapSpeed = ($speed / $handicap) * 100;
+        $handicapSpeed = round($handicapSpeed, 1);
+        return $handicapSpeed;
+    }
 
     if (!$errSpeed && !$errHandicap) { // If there are no errors print out result
+        $handicapSpeed = calculate($speed, $handicap);
         $result = '<div class="alert alert-success">You flew at a handicapped speed of ' . $handicapSpeed . '</div>';
     }
 
