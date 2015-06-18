@@ -52,7 +52,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
     $originHeight = $_POST['originHeight']; //gets origin height from the form
     $destinationHeight = $_POST['destinationHeight']; //gets destination height from the form
 
-    function validate($input){ //validates inputs
+    function validate($input) { //validates inputs
         if (!$input) { //if the input has not been entered
             $error = 'Please enter a value';
         }
@@ -75,7 +75,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
     }
     $launchHeightFeet = launchHeight($distance);
 
-    function airfieldHeight($launchHeightFeet, $originHeight, $destinationHeight){ //calculates max launch height using origin and destination altitudes
+    function airfieldHeight($launchHeightFeet, $originHeight, $destinationHeight) { //calculates max launch height using origin and destination altitudes
         $airfieldHeight = $destinationHeight - $originHeight; //total difference between airfields
         $maxLaunchHeight = $launchHeightFeet + $airfieldHeight; //calculates final launch height taking into account airfield heights
         return $maxLaunchHeight;
@@ -84,18 +84,17 @@ if ($_POST['submit']) { //check if submit button as been clicked
 
     $errDistance = validate($distance); //validates distance
 
-    if($_POST['distance'] && $_POST['originHeight'] && $_POST['destinationHeight']){ //if airfield heights have been submitted
+    if ($distance && $originHeight && $destinationHeight) { //if airfield heights have been submitted
         $errOriginHeight = validate($originHeight); //validates origin height
         $errDestinationHeight = validate($destinationHeight); //validates destination height
 
-        if(!$errDistance && !$errOriginHeight && !$errDestinationHeight){ //if validation passes print out the result
+        if (!$errDistance && !$errOriginHeight && !$errDestinationHeight) { //if validation passes print out the result
             $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.<br />And without altitude calculations it is ' . $launchHeightFeet . 'ft.</div>';
         }
-    }
 
-    elseif (!$_POST['originHeight'] || !$_POST['destinationHeight'] && !$errDistance) { // If there are no errors print out result
+    } elseif ((!$$originHeight || !$destinationHeight) && !$errDistance) { // If there are no errors print out result
         $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.</div>';
-    }
+
 }
 ?>
 
