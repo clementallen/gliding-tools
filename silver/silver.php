@@ -94,6 +94,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
 
     } elseif ((!$$originHeight || !$destinationHeight) && !$errDistance) { // If there are no errors print out result
         $result = '<div class="alert alert-success">Maximum launch height is ' . $maxLaunchHeight . 'ft.</div>';
+    }
 
 }
 ?>
