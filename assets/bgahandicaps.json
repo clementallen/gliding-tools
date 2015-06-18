@@ -1,0 +1,461 @@
+// WIP: need to add more gliders!
+
+[
+    {
+        "glider"   : "AC-4C",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ACRO TWIN",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ACRO TWIN 2",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ACRO TWIN 3",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "ALLIANCE SNC34C",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ANTARES (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "ANTARES (20.0)",
+        "handicap" : 114
+    },
+    {
+        "glider"   : "ARCUS",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "ASG 29 (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "ASG 29 (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "ASG 32",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "ASH 25",
+        "handicap" : 114
+    },
+    {
+        "glider"   : "ASH 25 B",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "ASH 25 EB28",
+        "handicap" : 117
+    },
+    {
+        "glider"   : "ASH25 MI",
+        "handicap" : 114
+    },
+    {
+        "glider"   : "ASH25 MI (25.6)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASH25 MI (26.0)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASH25 WL (25.6)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASH25 WL (26.0)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASH25 WL (27.6)",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "ASH 26",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "ASH 31 MI (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "ASH 31 MI (21.0)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASK 13",
+        "handicap" : 67
+    },
+    {
+        "glider"   : "ASK 14",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "ASK 16",
+        "handicap" : 60
+    },
+    {
+        "glider"   : "ASK 21",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ASK 23",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "ASTIR CS",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "ASTIR CS-77",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "ASTIR CS-77 W",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "ASTIR JEANS",
+        "handicap" : 86
+    },
+    {
+        "glider"   : "ASW 12",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "ASW 15 STD",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "ASW 17",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "ASW 19 CLUB",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "ASW 19A",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "ASW 19B",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "ASW 20",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "ASW 20B",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "ASW 20BL",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "ASW 20BW",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "ASW 20C",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "ASW 20CL",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "ASW 20F",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "ASW 20F W",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "ASW 20FL",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "ASW 20L",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "ASW 20L W (15.0)",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "ASW 22 (24.0)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "ASW 22B",
+        "handicap" : 117
+    },
+    {
+        "glider"   : "ASW 22BL",
+        "handicap" : 118
+    },
+    {
+        "glider"   : "ASW 24",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "ASW 24W",
+        "handicap" : 97.5
+    },
+    {
+        "glider"   : "ASW 27A",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "ASW 27B",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "ASW 28",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "ASW 28 (18.0)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "BERGFALKE",
+        "handicap" : 65
+    },
+    {
+        "glider"   : "BERGFALKE 4",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "BG 135",
+        "handicap" : 74
+    },
+    {
+        "glider"   : "BLANIK",
+        "handicap" : 65
+    },
+    {
+        "glider"   : "BOCIAN",
+        "handicap" : 65
+    },
+    {
+        "glider"   : "CALIF A21",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "CAPSTAN",
+        "handicap" : 62
+    },
+    {
+        "glider"   : "CIRRUS (17.7)",
+        "handicap" : 94
+    },
+    {
+        "glider"   : "CIRRUS (18.8)",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "CLUB LIBELLE",
+        "handicap" : 86
+    },
+    {
+        "glider"   : "CLUB PEGASE",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "COBRA (15.0)",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "DART (15.0)",
+        "handicap" : 76
+    },
+    {
+        "glider"   : "DART (17.0) R",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "DG 100",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "DG 100 (FIXED)",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "DG 1000 (18.0) (FIXED)",
+        "handicap" : 94
+    },
+    {
+        "glider"   : "DG 1000 (18.0) (RETR)",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "DG 1000 (20.0)",
+        "handicap" : 102
+    },
+    {
+        "glider"   : "DG 101",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "DG 101 (FIXED)",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "DG 200",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "DG 202 (15.0)",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "DG 202 (17.0)",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "DG 300",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "DG 300 CLUB (FIXED)",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "DG 300 CLUB (RETR)",
+        "handicap" : 95
+    },
+    {
+        "glider"   : "DG 300 W",
+        "handicap" : 96.5
+    },
+    {
+        "glider"   : "DG 400 (15.0)",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "DG 400 (17.0)",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "DG 500 (20.0)",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "DG 500 (22.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "DG 500 ORION (20.0)",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "DG 500 TRAINER (FIXED)",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "DG 500 TRAINER (RETR)",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "DG 500M",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "DG 505",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "DG 505 (20.0)",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "DG 505 (22.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "DG 505 ORION (17.2)",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "DG 505 ORION (20.0)",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "DG 505 TRAINER (FIXED)",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "DG 505 TRAINER (RETR)",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "DG 600 (15.0)",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "DG 600 (17.0)",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "DG 600 (18.0)",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "DG 600 W (15.0)",
+        "handicap" : 99.5
+    },
+    {
+        "glider"   : "DG 800 (15.0)",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "DG 800 (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "DG 800 W (15.0)",
+        "handicap" : 103.5
+    },
+    {
+        "glider"   : "DIAMANT (16.5)",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "DIAMANT (18.0)",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "DISCUS",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "DISCUS 2",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "DISCUS 2 W",
+        "handicap" : 100.5
+    },
+    {
+        "glider"   : "DISCUS 2C (15.0)",
+        "handicap" : 100.5
+    }
+
+]
