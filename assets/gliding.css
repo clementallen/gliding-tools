@@ -1,29 +1,41 @@
 body {
-  background-color: #f0f0f0;
-  color: #444444;
+    background-color: #f0f0f0;
+    color: #444444;
 }
 
 .panel {
-  padding: 10px 30px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align:left;
+    padding: 10px 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align:left;
 }
 
 #footer p {
-padding-left: 2px;
+padding-left: 0px;
+}
+
+.bga-handicap .panel {
+    padding: 0;
+}
+
+.bga-handicap .panel h1 {
+    padding: 0 0 0 25px;
+}
+
+.bga-handicap table tbody tr:first-child {
+    font-weight: bold;
 }
 
 .github-fork-banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .banner-hide{
-    display: none;
-  }
+    .banner-hide{
+        display: none;
+    }
 }
