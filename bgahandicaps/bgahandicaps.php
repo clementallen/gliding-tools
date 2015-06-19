@@ -44,8 +44,7 @@ SOFTWARE.
                 <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
                     <div class="panel panel-default">
                         <h1>BGA Handicaps</h1>
-                        <div class="handicap-table">
-                        <table class="table table-striped table-bordered table-condensed">
+                        <table class="table table-striped table-condensed">
                             <tbody>
 
                             <tr>
@@ -68,7 +67,6 @@ SOFTWARE.
 
                             </tbody>
                         </table>
-                        </div>
 
                     </div>
                 </div>
