@@ -454,6 +454,346 @@
     {
         "glider"   : "DISCUS 2C (15.0)",
         "handicap" : 100.5
+    },
+    {
+        "glider"   : "DISCUS 2C (18.0)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "DISCUS 2C TURBO",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "DISCUS 2T",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "DISCUS W",
+        "handicap" : 98.5
+    },
+    {
+        "glider"   : "DUO DISCUS",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "DUO DISCUS W",
+        "handicap" : 101.5
+    },
+    {
+        "glider"   : "DUO DISCUS X",
+        "handicap" : 102
+    },
+    {
+        "glider"   : "DUO DISCUS XL",
+        "handicap" : 102
+    },
+    {
+        "glider"   : "EAGLE",
+        "handicap" : 68
+    },
+    {
+        "glider"   : "ELFE S4A",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "FALKE",
+        "handicap" : 46
+    },
+    {
+        "glider"   : "FAUVETTE",
+        "handicap" : 74
+    },
+    {
+        "glider"   : "FK3",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "FOKA 4",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "FOKA 5",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "GLASFLUGEL 304",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "GLASFLUGEL 604",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "GROB 102",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "GROB 109B",
+        "handicap" : 70
+    },
+    {
+        "glider"   : "HORNET",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "HORNET WL",
+        "handicap" : 90.5
+    },
+    {
+        "glider"   : "IRIS",
+        "handicap" : 80
+    },
+    {
+        "glider"   : "IS 28B",
+        "handicap" : 80
+    },
+    {
+        "glider"   : "IS 29D",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "IS 32",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "JANTAR 1 (19.0)",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "JANTAR 2",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "JANTAR STD 3",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "JANUS A",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "JANUS B",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "JANUS C (FIXED)",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "JANUS C (RETR)",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "JANUS CM",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "JASKOLKA",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "JP15-36A",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "JS1 A",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "JS1 B",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "JS1 C (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "JS1 C (21.0)",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "KA 18",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "KA 2",
+        "handicap" : 64
+    },
+    {
+        "glider"   : "KA 6CR",
+        "handicap" : 76
+    },
+    {
+        "glider"   : "KA 6E",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "KA 7",
+        "handicap" : 64
+    },
+    {
+        "glider"   : "KA 8",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "KESTREL (17.0)",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "KESTREL (19.0)",
+        "handicap" : 102
+    },
+    {
+        "glider"   : "KESTREL (20.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "KESTREL (22.0)",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "KH 1",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "KITE 2A",
+        "handicap" : 60
+    },
+    {
+        "glider"   : "KRANICH",
+        "handicap" : 58
+    },
+    {
+        "glider"   : "LAK 12",
+        "handicap" : 105
+    },
+    {
+        "glider"   : "LAK 17A (15.0)",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "LAK 17A (18.0)",
+        "handicap" : 109
+    },
+    {
+        "glider"   : "LAK 17A W (15.0)",
+        "handicap" : 103.5
+    },
+    {
+        "glider"   : "LAK 17B (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "LAK 17B (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "LAK 18 (18.0)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "LAK 19 (15.0)",
+        "handicap" : 99.5
+    },
+    {
+        "glider"   : "LAK 19 (18.0)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "LAK 19 W (15.0)",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "LIBELLE",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "LIBELLE 301",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "LIBELLE W",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "LS 1-0",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "LS10 (15.0)",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "LS10 (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "LS1-0 (FIXED)",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "LS1C",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "LS1D",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "LS1F",
+        "handicap" : 91
+    },
+    {
+        "glider"   : "LS1F W",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "LS3",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "LS3 (17.0)",
+        "handicap" : 102
+    },
+    {
+        "glider"   : "LS4",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "LS4 W",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "LS6",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "LS6 W",
+        "handicap" : 101.5
+    },
+    {
+        "glider"   : "LS6C (17.5)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "LS6C (18.0)",
+        "handicap" : 107
+    },
+    {
+        "glider"   : "LS7",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "LS7 WL",
+        "handicap" : 97.5
+    },
+    {
+        "glider"   : "LS8",
+        "handicap" : 100
+    },
+    {
+        "glider"   : "LS8 (18.0)",
+        "handicap" : 106
     }
 
 ]
