@@ -42,11 +42,9 @@ SOFTWARE.
 
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-                    <div class="panel panel-default">
+                    <div id="handicap-search" class="panel panel-default">
                         <h1>BGA Handicaps</h1>
-                        <!-- <p class="lead">Updated May 2015</p> -->
-
-                        <div id="handicap-search">
+                        <p class="lead">Updated May 2015</p>
 
                             <div class="filter">
 
@@ -64,11 +62,6 @@ SOFTWARE.
                             <table class="table table-striped table-condensed">
                                 <tbody class="list">
 
-                                <tr>
-                                    <td>Glider</td>
-                                    <td>Handicap</td>
-                                </tr>
-
                                 <?php
 
                                 date_default_timezone_set('UTC');
@@ -84,8 +77,6 @@ SOFTWARE.
 
                                 </tbody>
                             </table>
-
-                        </div>
 
                     </div>
                 </div>

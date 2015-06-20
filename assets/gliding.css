@@ -11,25 +11,22 @@ body {
     text-align:left;
 }
 
-#footer p {
-padding-left: 0px;
-}
-
 .bga-handicap .panel {
     padding: 0;
 }
 
-.bga-handicap .panel h1,
-.bga-handicap .panel p {
-    padding: 0 0 0 25px;
+.bga-handicap .panel h1 {
+    display: inline-block;
+    padding: 0 0 0 15px;
 }
 
-.bga-handicap table tbody tr:first-child {
-    font-weight: bold;
+.bga-handicap .panel p {
+    padding: 0 0 0 15px;
+    margin-bottom: 10px;
 }
 
 .bga-handicap .filter {
-    padding: 0 10px 10px 10px;
+    padding: 0 10px 10px 15px;
 }
 
 .bga-handicap .filter input {
@@ -56,6 +53,7 @@ padding-left: 0px;
 
 .bga-handicap .filter .sort:focus {
   outline:none;
+  background-color: #1b8aba;
 }
 
 .bga-handicap .filter .sort:after {
