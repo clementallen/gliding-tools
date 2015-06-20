@@ -43,35 +43,22 @@ date_default_timezone_set('UTC');
 
 if ($_POST['submit']) { //check if submit button as been clicked
 
+    //inclues the Handicap class
+    include 'Handicap.php';
+
+    //creates instance of the Handicap class
+    $Handicap = new Handicap();
+
     $speed = $_POST['speed']; //gets speed from the form
     $handicap = $_POST['handicap']; //gets handicap from the form
 
-    function validate($input){ //validates inputs
-        if (!$input) { //if the input has not been entered
-            $error = 'Please enter a value';
-        }
-        elseif (!is_numeric($input)){ //if the input is not a number
-            $error = 'Please enter a number';
-        }
-        else {
-            $error = null; //if validation has passed don't define the variable
-        }
-
-        return $error;
-    }
-
-
-    $errSpeed = validate($speed); //validates speed
-    $errHandicap = validate($handicap); //validates handicap
-
-    function calculate($speed, $handicap) {
-        $handicapSpeed = ($speed / $handicap) * 100;
-        $handicapSpeed = round($handicapSpeed, 1);
-        return $handicapSpeed;
-    }
+    $errSpeed = $Handicap->validate($speed); //validates speed
+    $errHandicap = $Handicap->validate($handicap); //validates handicap
 
     if (!$errSpeed && !$errHandicap) { // If there are no errors print out result
-        $handicapSpeed = calculate($speed, $handicap);
+
+        $handicapSpeed = $Handicap->calculate($speed, $handicap);
+
         $result = '<div class="alert alert-success">You flew at a handicapped speed of ' . $handicapSpeed . '</div>';
     }
 
@@ -91,7 +78,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                                 <div class="form-group">
                                 <label for="speed" class="col-sm-2 control-label center-block">Speed</label>
                                 <div class="col-sm-10">
-                                <input type="text" class="form-control" id="speed" name="speed" placeholder="Enter flown task speed" value="<?php if(!isset($errSpeed)){echo$speed;} ?>">
+                                <input type="text" class="form-control" id="speed" name="speed" placeholder="Enter flown task speed" value="<?php echo !isset($errSpeed) ? $speed : null ?>">
                                 <?php echo "<p class='text-danger'>$errSpeed</p>";?>
                                 </div>
                                 </div>
@@ -99,7 +86,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                                 <div class="form-group">
                                 <label for="handicap" class="col-sm-2 control-label">Handicap</label>
                                 <div class="col-sm-10">
-                                <input type="text" class="form-control" id="handicap" name="handicap" placeholder="Enter handicap" value="<?php if(!isset($errHandicap)){echo$handicap;} ?>">
+                                <input type="text" class="form-control" id="handicap" name="handicap" placeholder="Enter handicap" value="<?php echo !isset($errHandicap) ? $handicap : null ?>">
                                 <?php echo "<p class='text-danger'>$errHandicap</p>";?>
                                 </div>
                                 </div>
