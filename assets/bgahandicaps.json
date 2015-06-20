@@ -794,6 +794,429 @@
     {
         "glider"   : "LS8 (18.0)",
         "handicap" : 106
+    },
+    {
+        "glider"   : "L-SPATZ",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "m100s",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "M200",
+        "handicap" : 74
+    },
+    {
+        "glider"   : "MARIANNE",
+        "handicap" : 91
+    },
+    {
+        "glider"   : "MEISE",
+        "handicap" : 62
+    },
+    {
+        "glider"   : "MINI NIMBUS",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "MISTRAL (FIXED)",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "MOSQUITO A",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "MOSQUITO A W",
+        "handicap" : 99
+    },
+    {
+        "glider"   : "MOSQUITO B",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "MOSWAY 3",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "MOSWAY 4",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "MU 13",
+        "handicap" : 58
+    },
+    {
+        "glider"   : "MUCHA STD",
+        "handicap" : 65
+    },
+    {
+        "glider"   : "NIMBUS 2B",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "NIMBUS 2C",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "NIMBUS 2CS (23.5)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "NIMBUS 3 (24.5)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "NIMBUS 3 (25.5)",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "NIMBUS 3D",
+        "handicap" : 114
+    },
+    {
+        "glider"   : "NIMBUS 3D (25.5)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "NIMBUS 3DT",
+        "handicap" : 114
+    },
+    {
+        "glider"   : "NIMBUS EDT (25.5)",
+        "handicap" : 115
+    },
+    {
+        "glider"   : "NIMBUS 4",
+        "handicap" : 118
+    },
+    {
+        "glider"   : "NIMBUS 4D",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "NIMBUS 4DT",
+        "handicap" : 116
+    },
+    {
+        "glider"   : "OLYMPIA 2",
+        "handicap" : 62
+    },
+    {
+        "glider"   : "OLYMPIA 403",
+        "handicap" : 76
+    },
+    {
+        "glider"   : "OLYMPIA 419",
+        "handicap" : 78
+    },
+    {
+        "glider"   : "OLYMPIA 463",
+        "handicap" : 76
+    },
+    {
+        "glider"   : "PEGASE",
+        "handicap" : 95
+    },
+    {
+        "glider"   : "PHOEBUS (17.0)",
+        "handicap" : 93
+    },
+    {
+        "glider"   : "PIK 20",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "PIK 20E",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "PILATUS B4 (FIXED)",
+        "handicap" : 80
+    },
+    {
+        "glider"   : "PILATUS B4 (RETR)",
+        "handicap" : 82
+    },
+    {
+        "glider"   : "PIRAT",
+        "handicap" : 78
+    },
+    {
+        "glider"   : "PREFECT",
+        "handicap" : 56
+    },
+    {
+        "glider"   : "PUCHACZ",
+        "handicap" : 80
+    },
+    {
+        "glider"   : "PW5",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "PW6",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "RF 5B",
+        "handicap" : 60
+    },
+    {
+        "glider"   : "SALTO",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "SB5A",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SB5B",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SB5C",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SB5E (16.5)",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SD3/15",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SF26",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "SF27A",
+        "handicap" : 82
+    },
+    {
+        "glider"   : "SF27B",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "SFH 34",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "SHARK (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "SHK-1",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "SIE 3",
+        "handicap" : 81
+    },
+    {
+        "glider"   : "SILENE",
+        "handicap" : 88
+    },
+    {
+        "glider"   : "SILENT 2 ELECTO/TARGA",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "SKY",
+        "handicap" : 67
+    },
+    {
+        "glider"   : "SKYLARK 2",
+        "handicap" : 67
+    },
+    {
+        "glider"   : "SKYLARK 3",
+        "handicap" : 77
+    },
+    {
+        "glider"   : "SKYLARK 4",
+        "handicap" : 78
+    },
+    {
+        "glider"   : "SPEED ASTIR",
+        "handicap" : 96
+    },
+    {
+        "glider"   : "SPORT VEGA",
+        "handicap" : 89
+    },
+    {
+        "glider"   : "SPS 31",
+        "handicap" : 64
+    },
+    {
+        "glider"   : "STD ASTIR",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "STD CIRRUS",
+        "handicap" : 90
+    },
+    {
+        "glider"   : "STD CIRRUS (16.0)",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "STD CIRRUS W",
+        "handicap" : 91
+    },
+    {
+        "glider"   : "STD JANTAR",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "STEMME S10",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "SUPER BLANIK",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "SUPERFALKE",
+        "handicap" : 64
+    },
+    {
+        "glider"   : "SWALLOW",
+        "handicap" : 62
+    },
+    {
+        "glider"   : "SZD 30",
+        "handicap" : 78
+    },
+    {
+        "glider"   : "SZD 50",
+        "handicap" : 80
+    },
+    {
+        "glider"   : "SZD 51 JUNIOR",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "SZD 55",
+        "handicap" : 98
+    },
+    {
+        "glider"   : "SZD 56",
+        "handicap" : 103
+    },
+    {
+        "glider"   : "SZD 59",
+        "handicap" : 92
+    },
+    {
+        "glider"   : "T21",
+        "handicap" : 50
+    },
+    {
+        "glider"   : "T53",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "TANDEM FALKE",
+        "handicap" : 60
+    },
+    {
+        "glider"   : "TORVA",
+        "handicap" : 83
+    },
+    {
+        "glider"   : "TWIN ASTIR",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "VEGA (15.0)",
+        "handicap" : 97
+    },
+    {
+        "glider"   : "VEGA L (17.0)",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "VENTUS (16.6)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS (17.6)",
+        "handicap" : 106
+    },
+    {
+        "glider"   : "VENTUS 2A (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS 2AX (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS 2B (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS 2C (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS 2C (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "VENTUS 2CX (15.0)",
+        "handicap" : 104
+    },
+    {
+        "glider"   : "VENTUS 2CX (18.0)",
+        "handicap" : 110
+    },
+    {
+        "glider"   : "VENTUS 2CXA (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "VENTUS A",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "VENTUS B",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "VENTUS C",
+        "handicap" : 101
+    },
+    {
+        "glider"   : "VIKING (GROB)",
+        "handicap" : 85
+    },
+    {
+        "glider"   : "WA22",
+        "handicap" : 72
+    },
+    {
+        "glider"   : "WA28",
+        "handicap" : 86
+    },
+    {
+        "glider"   : "WEIHE",
+        "handicap" : 67
+    },
+    {
+        "glider"   : "XIMANGO",
+        "handicap" : 67
+    },
+    {
+        "glider"   : "YS53",
+        "handicap" : 69
+    },
+    {
+        "glider"   : "ZUGVOGEL IIIB",
+        "handicap" : 83
     }
-
 ]
