@@ -30,9 +30,13 @@ body {
 }
 
 .bga-handicap .filter input {
-    border:solid 1px #ccc;
+    border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
+}
+
+.bga-handicap .filter input:focus {
+    border: 1px solid #a7a7a7;
 }
 
 .bga-handicap .filter button.sort {
