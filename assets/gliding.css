@@ -19,7 +19,8 @@ padding-left: 0px;
     padding: 0;
 }
 
-.bga-handicap .panel h1 {
+.bga-handicap .panel h1,
+.bga-handicap .panel p {
     padding: 0 0 0 25px;
 }
 
