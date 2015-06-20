@@ -44,30 +44,48 @@ SOFTWARE.
                 <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
                     <div class="panel panel-default">
                         <h1>BGA Handicaps</h1>
-                        <p class="lead">Updated May 2015</p>
-                        <table class="table table-striped table-condensed">
-                            <tbody>
+                        <!-- <p class="lead">Updated May 2015</p> -->
 
-                            <tr>
-                                <td>Glider</td>
-                                <td>Handicap</td>
-                            </tr>
+                        <div id="handicap-search">
 
-                            <?php
+                            <div class="filter">
 
-                            date_default_timezone_set('UTC');
+                                <input class="search" placeholder="Search" />
+                                <button class="sort" data-sort="glider">
+                                    Sort by glider
+                                </button>
 
-                            $json = file_get_contents('../assets/bgahandicaps.json');
-                            $jsonArray = json_decode($json, true);
+                                <button class="sort" data-sort="handicap">
+                                    Sort by handicap
+                                </button>
 
-                            foreach($jsonArray as $item){
-                                echo '<tr><td>' . $item['glider'] . '</td><td>' . $item['handicap'] . '</td></tr>';
-                            }
+                            </div>
 
-                            ?>
+                            <table class="table table-striped table-condensed">
+                                <tbody class="list">
 
-                            </tbody>
-                        </table>
+                                <tr>
+                                    <td>Glider</td>
+                                    <td>Handicap</td>
+                                </tr>
+
+                                <?php
+
+                                date_default_timezone_set('UTC');
+
+                                $json = file_get_contents('../assets/bgahandicaps.json');
+                                $jsonArray = json_decode($json, true);
+
+                                foreach($jsonArray as $item){
+                                    echo '<tr><td class="glider">' . $item['glider'] . '</td><td class="handicap">' . $item['handicap'] . '</td></tr>';
+                                }
+
+                                ?>
+
+                                </tbody>
+                            </table>
+
+                        </div>
 
                     </div>
                 </div>
@@ -78,6 +96,9 @@ SOFTWARE.
             </div>
 
     </div><!-- /container -->
+
+    <script src="../assets/list.min.js"></script>
+    <script src="../assets/bgahandicaps.js"></script>
 
 </body>
 
