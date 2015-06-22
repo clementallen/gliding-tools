@@ -16,5 +16,4 @@ php:
     - hhvm
 
 before_script:
-    - wget http://getcomposer.org/composer.phar
-    - php composer.phar install --no-interaction
+    - composer install
