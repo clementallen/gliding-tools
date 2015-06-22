@@ -41,7 +41,8 @@ SOFTWARE.
 
 date_default_timezone_set('UTC');
 
-if ($_POST['submit']) { //check if submit button as been clicked
+//check if submit button as been clicked
+if ($_POST['submit']) {
 
     //inclues the Handicap class
     include 'Handicap.php';
@@ -49,13 +50,20 @@ if ($_POST['submit']) { //check if submit button as been clicked
     //creates instance of the Handicap class
     $Handicap = new Handicap();
 
-    $speed = $_POST['speed']; //gets speed from the form
-    $handicap = $_POST['handicap']; //gets handicap from the form
+    //gets speed from the form
+    $speed = $_POST['speed'];
 
-    $errSpeed = $Handicap->validate($speed); //validates speed
-    $errHandicap = $Handicap->validate($handicap); //validates handicap
+    //gets handicap from the form
+    $handicap = $_POST['handicap'];
 
-    if (!$errSpeed && !$errHandicap) { // If there are no errors print out result
+    //validates speed
+    $errSpeed = $Handicap->validate($speed);
+
+    //validates handicap
+    $errHandicap = $Handicap->validate($handicap);
+
+    // If there are no errors print out result
+    if (!$errSpeed && !$errHandicap) {
 
         $handicapSpeed = $Handicap->calculate($speed, $handicap);
 
@@ -114,7 +122,7 @@ if ($_POST['submit']) { //check if submit button as been clicked
                 <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date('Y'); ?></p>
             </div>
 
-    </div><!-- /container -->
+    </div>
 
 </body>
 
