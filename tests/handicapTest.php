@@ -4,7 +4,7 @@ class HandicapTest extends PHPUnit_Framework_TestCase {
 
     protected function setUp() {
 
-        $this->Handicap = new Handicap;
+        $this->Handicap = new Handicap();
     }
 
     protected function tearDown() {
