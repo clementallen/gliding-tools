@@ -1,0 +1,14 @@
+{
+
+    "autoload" : {
+        "classmap" : [
+            "glide",
+            "handicap",
+            "silver"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit-selenium": "^1.4",
+        "phpunit/phpunit": "^4.7"
+    }
+}

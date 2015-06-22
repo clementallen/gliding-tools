@@ -2,6 +2,8 @@
 
 This is an ever expanding collection of useful gliding tools made to practice coding.
 
+[![Build Status](https://travis-ci.org/clementallen/Gliding-tools.svg)](https://travis-ci.org/clementallen/Gliding-tools)
+
 
 ### Glide range calculator
 
@@ -27,5 +29,17 @@ Calculates your handicapped speed by entering your speed and glider handicap.
 ### BGA handicaps list
 
 List of bga handicaps displayed in a nice responsive list
+
+
+### Testing
+
+Follow the following instructions to run the PHPUnit tests on this code
+
+- Install [PHPUnit](https://phpunit.de/getting-started.html)
+- Install [Composer](https://getcomposer.org/download/)
+- open a terminal in the gliding-tools directory
+- `composer install`
+- `phpunit` and you should see the tests pass!
+
 
 #### View a live version [here](http://gliding.clementallen.com/)
