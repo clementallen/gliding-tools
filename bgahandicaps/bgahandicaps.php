@@ -31,8 +31,8 @@ SOFTWARE.
 
     <title>BGA Handicaps</title>
 
-    <link href="../assets/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/gliding.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/gliding.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -48,7 +48,7 @@ SOFTWARE.
 
                             <div class="filter">
 
-                                <input class="search" placeholder="Search" />
+                                <input class="search" placeholder="Filter" />
                                 <button class="sort" data-sort="glider">
                                     Sort by glider
                                 </button>
@@ -56,6 +56,8 @@ SOFTWARE.
                                 <button class="sort" data-sort="handicap">
                                     Sort by handicap
                                 </button>
+
+                                <p style="float: right" class="lead total">Total: <span></span></p>
 
                             </div>
 
@@ -88,8 +90,9 @@ SOFTWARE.
 
     </div><!-- /container -->
 
-    <script src="../assets/list.min.js"></script>
-    <script src="../assets/bgahandicaps.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="../assets/js/list.min.js"></script>
+    <script src="../assets/js/bgahandicaps.js"></script>
 
 </body>
 
