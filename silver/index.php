@@ -31,8 +31,8 @@ SOFTWARE.
 
     <title>Silver launch height calculator</title>
 
-    <link href="../assets/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/gliding.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/gliding.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>

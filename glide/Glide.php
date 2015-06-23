@@ -4,39 +4,51 @@ class Glide {
 
     public function validate($input) {
 
-        if (!$input) { //if the input has not been entered
+        //if the input has not been entered
+        if (!$input) {
             $error = 'Please enter a value';
 
-        } elseif (!is_numeric($input)) { //if the input is not a number
+        //if the input is not a number
+        } elseif (!is_numeric($input)) {
             $error = 'Please enter a number';
 
-        } elseif ($input > 40000 || $input <= 0) { //keeps input within a sensible limit
+        //keeps input within a sensible limit
+        } elseif ($input > 40000 || $input <= 0) {
             $error = 'Come on, make it sensible!';
 
+        //if validation has passed don't define the variable
         } else {
-            $error = null; //if validation has passed don't define the variable
+            $error = null;
         }
 
         return $error;
     }
 
-    public function calculateRange($height, $gRatio) { //calculates everything!
+    //calculates everything!
+    public function calculateRange($height, $gRatio) {
 
-        $kmConversion = 0.0003048; //conversion maths from feet to kilometres
-        $rangeInFeet = $height * $gRatio; //calculate range into feet
-        $rangeInKm = round(($rangeInFeet * $kmConversion), 2); //convert feet into kilometres and rounds to two decimal places
+        //conversion maths from feet to kilometres
+        $kmConversion = 0.0003048;
+
+        //calculate range into feet
+        $rangeInFeet = $height * $gRatio;
+
+        //convert feet into kilometres and rounds to two decimal places
+        $rangeInKm = round($rangeInFeet * $kmConversion, 2);
 
         return $rangeInKm;
     }
 
-    public function calculateHeightLoss($height, $rangeInKm){ //calculate feet lost per km
+    //calculate feet lost per km
+    public function calculateHeightLoss($height, $rangeInKm){
 
         $feetLostPerKm = round($height / $rangeInKm);
 
         return $feetLostPerKm;
     }
 
-    public function calculateDuration($height, $rateOfSink){ //calculates flight duration
+    //calculates flight duration
+    public function calculateDuration($height, $rateOfSink){
 
         $durationMinutes = round($height / $rateOfSink);
 
