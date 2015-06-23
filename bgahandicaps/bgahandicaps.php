@@ -48,7 +48,7 @@ SOFTWARE.
 
                             <div class="filter">
 
-                                <input class="search" placeholder="Filter" />
+                                <input id="glider-search" class="search" placeholder="Filter" />
                                 <button class="sort" data-sort="glider">
                                     Sort by glider
                                 </button>
