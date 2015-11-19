@@ -11,6 +11,10 @@ body {
     text-align:left;
 }
 
+#silver-result {
+    display: none;
+}
+
 .bga-handicap .panel {
     padding: 0;
 }
@@ -40,61 +44,61 @@ body {
 }
 
 .bga-handicap .filter button.sort {
-  padding:5px;
-  padding-right: 10px;
-  border-radius: 6px;
-  border:none;
-  display:inline-block;
-  color:#fff;
-  text-decoration: none;
-  background-color: #28a8e0;
+    padding:5px;
+    padding-right: 10px;
+    border-radius: 6px;
+    border:none;
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    background-color: #28a8e0;
 }
 
 .bga-handicap .filter .sort:hover {
-  text-decoration: none;
-  background-color:#1b8aba;
+    text-decoration: none;
+    background-color:#1b8aba;
 }
 
 .bga-handicap .filter .sort:focus {
-  outline:none;
-  background-color: #1b8aba;
+    outline:none;
+    background-color: #1b8aba;
 }
 
 .bga-handicap .filter .sort:after {
-  display:inline-block;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  content:"";
-  position: relative;
-  top:-10px;
-  right:-5px;
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    content:"";
+    position: relative;
+    top:-10px;
+    right:-5px;
 }
 
 .bga-handicap .filter .sort.asc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #fff;
-  content:"";
-  position: relative;
-  top:4px;
-  right:-5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:4px;
+    right:-5px;
 }
 
 .bga-handicap .filter .sort.desc:after {
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid #fff;
-  content:"";
-  position: relative;
-  top:-4px;
-  right:-5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+    content:"";
+    position: relative;
+    top:-4px;
+    right:-5px;
 }
 
 @media screen and (max-width: 475px) {
