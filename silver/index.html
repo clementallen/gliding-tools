@@ -1,0 +1,87 @@
+<!--
+The MIT License (MIT)
+Copyright (c) 2015 Clement Allen
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<!-- fork this project on GitHub! http://github.com/clementallen/gliding-tools/ -->
+
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Calculates max launch height for silver distance using airfield heights and the 1% rule">
+    <meta name="author" content="Clement Allen">
+
+    <title>Silver launch height calculator</title>
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/gliding.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+
+                    <h1>Silver launch height calculator</h1>
+
+                        <form id="silver-form" class="form-horizontal">
+
+                            <div class="form-group">
+                                <label for="silver-distance">Flight distance</label>
+                                <input type="text" class="form-control" id="silver-distance" placeholder="Flight distance in km">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="silver-origin">Origin altitude</label>
+                                <input type="text" class="form-control" id="silver-origin" placeholder="Origin altitude in feet (optional)">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="silver-destination">Destination altitude</label>
+                                <input type="text" class="form-control" id="silver-destination" placeholder="Destination altitude in feet (optional)">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" id="silver-submit" name="silver-submit" class="btn btn-primary">Calculate</button>
+                            </div>
+
+                        </form>
+
+                        <div class="alert alert-success" id="silver-result"></div>
+
+                </div>
+            </div>
+        </div>
+
+            <div class="col-md-8 col-md-offset-2" id="footer">
+                <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - 2015</p>
+            </div>
+
+    </div><!-- /container -->
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/gliding.js"></script>
+
+</body>
+
+</html>
