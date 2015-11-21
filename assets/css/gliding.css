@@ -11,7 +11,7 @@ body {
     text-align:left;
 }
 
-#silver-result {
+.form-result {
     display: none;
 }
 

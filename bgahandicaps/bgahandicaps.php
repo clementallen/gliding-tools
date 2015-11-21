@@ -26,7 +26,7 @@ SOFTWARE.
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Calculates handicapped speed of task">
+    <meta name="description" content="List of BGA handicaps">
     <meta name="author" content="Clement Allen">
 
     <title>BGA Handicaps</title>
@@ -41,7 +41,7 @@ SOFTWARE.
     <div class="container bga-handicap">
 
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                <div class="col-md-8 col-md-offset-2">
                     <div id="handicap-search" class="panel panel-default">
                         <h1>BGA Handicaps</h1>
                         <p class="lead">Updated May 2015</p>
@@ -49,13 +49,10 @@ SOFTWARE.
                             <div class="filter">
 
                                 <input id="glider-search" class="search" placeholder="Filter" />
-                                <button class="sort" data-sort="glider">
-                                    Sort by glider
-                                </button>
 
-                                <button class="sort" data-sort="handicap">
-                                    Sort by handicap
-                                </button>
+                                <button class="sort" data-sort="glider">Sort by glider</button>
+
+                                <button class="sort" data-sort="handicap">Sort by handicap</button>
 
                                 <p style="float: right" class="lead total">Total: <span></span></p>
 
@@ -65,8 +62,6 @@ SOFTWARE.
                                 <tbody class="list">
 
                                 <?php
-
-                                date_default_timezone_set('UTC');
 
                                 $json = file_get_contents('../assets/bgahandicaps.json');
                                 $jsonArray = json_decode($json, true);
@@ -85,14 +80,26 @@ SOFTWARE.
             </div>
 
             <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" id="footer">
-                <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - <?php echo date('Y'); ?></p>
+                <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - </p>
             </div>
 
     </div><!-- /container -->
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="../assets/js/list.min.js"></script>
-    <script src="../assets/js/bgahandicaps.js"></script>
+    <script>
+    var options = {
+        valueNames: [ 'glider', 'handicap' ],
+        page: [306]
+    };
+    var gliderList = new List('handicap-search', options);
+
+    $('p.total span').text($('tbody.list tr').length);
+
+    document.getElementById('glider-search').onkeyup = function() {
+        $('p.total span').text($('tbody.list tr').length);
+    };
+    </script>
 
 </body>
 
