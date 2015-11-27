@@ -107,15 +107,20 @@ body {
     }
 }
 
-.github-fork-banner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
+.welcome-link:hover {
+    text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
-    .banner-hide{
-        display: none;
-    }
+.welcome-link h3,
+.welcome-link p {
+    text-align:center;
+    margin-top: 10px;
+}
+
+.welcome-link p {
+    color: #000000;
+}
+
+.welcome-link .panel:hover {
+    background-color: #f4f4f4;
 }
