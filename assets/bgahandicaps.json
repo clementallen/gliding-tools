@@ -884,7 +884,7 @@
         "handicap" : 114
     },
     {
-        "glider"   : "NIMBUS EDT (25.5)",
+        "glider"   : "NIMBUS 3DT (25.5)",
         "handicap" : 115
     },
     {
@@ -1088,27 +1088,27 @@
         "handicap" : 62
     },
     {
-        "glider"   : "SZD 30",
+        "glider"   : "SZD-30 Pirat",
         "handicap" : 78
     },
     {
-        "glider"   : "SZD 50",
+        "glider"   : "SZD-50 Puchacz",
         "handicap" : 80
     },
     {
-        "glider"   : "SZD 51 JUNIOR",
+        "glider"   : "SZD-51 Junior",
         "handicap" : 83
     },
     {
-        "glider"   : "SZD 55",
+        "glider"   : "SZD-55 Nexus",
         "handicap" : 98
     },
     {
-        "glider"   : "SZD 56",
+        "glider"   : "SZD-56 Diana",
         "handicap" : 103
     },
     {
-        "glider"   : "SZD 59",
+        "glider"   : "SZD-59 Acro",
         "handicap" : 92
     },
     {
