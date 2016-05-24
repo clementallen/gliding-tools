@@ -1,6 +1,6 @@
 #Gliding-tools
 
-This is an ever expanding collection of useful gliding tools made to practice coding.
+This is an ever expanding collection of useful gliding tools made for the fun of it.
 
 
 ### Glide range calculator
@@ -26,7 +26,7 @@ Calculates your handicapped speed by entering your speed and glider handicap.
 
 ### BGA handicaps list
 
-List of bga handicaps displayed in a nice responsive list
+List of bga handicaps displayed in a nice responsive list.
 
 
 
