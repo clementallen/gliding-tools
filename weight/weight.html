@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Calculates required weight and balance">
+    <meta name="author" content="Clement Allen">
+
+    <title>Weight and Balance calculator</title>
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/gliding.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <h1>Weight and Balance calculator</h1>
+
+                    <div class="panel-body">
+
+                        <form id="weight-form" class="form-horizontal">
+
+                            <div class="form-group">
+                                <a id="weight-unit" class="btn btn-warning">Imperial</a>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="weight-pilot">Pilot weight</label>
+                                <input type="text" class="form-control" id="weight-pilot" placeholder="lbs">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="weight-select-glider">Select glider</label>
+                                <select class="form-control" id="weight-select-glider">
+                                    <option value="Select glider">Select glider</option>
+                                    <option value="other">other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group hidden">
+                                <label for="weight-glider">Glider minimum weight</label>
+                                <input type="text" class="form-control" id="weight-glider" placeholder="lbs">
+                            </div>
+
+                            <div class="form-group hidden">
+                                <label for="weight-individual">Weight of each lead weight</label>
+                                <input type="text" class="form-control" id="weight-individual" placeholder="lbs">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" id="weight-submit" name="weight-submit" class="btn btn-primary">Calculate</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="alert alert-success form-result" id="weight-result"></div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 col-md-offset-2" id="footer">
+            <p>Created by <a target="_blank" href="http://clementallen.com">Clement Allen</a> - </p>
+        </div>
+
+    </div>
+
+    <script data-main="../assets/js/weight" src="../assets/js/vendor/require.js"></script>
+
+</body>
+
+</html>
