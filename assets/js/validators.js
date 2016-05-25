@@ -3,7 +3,7 @@ define([], function() {
     var exports = {};
 
     exports.number = function(n) {
-        return !isNaN(+n) && isFinite(n);
+        return !isNaN(+n) && isFinite(n) && n >= 0;
     };
 
     exports.numberGroup = function(numbers) {
@@ -20,10 +20,9 @@ define([], function() {
     };
 
     exports.processErrors = function(errors) {
-        var err, i, results;
-        results = [];
+        var results = [];
 
-        for (i = 0; i < errors.length; i++) {
+        for (var i = 0; i < errors.length; i++) {
             results.push($(errors[i]).parent().addClass('has-error'));
         }
 

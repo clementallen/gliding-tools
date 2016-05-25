@@ -67,6 +67,7 @@ require(['config'], function() {
             $('#weight-pilot').parent().removeClass('has-error');
             $('#weight-glider').parent().removeClass('has-error');
             $('#weight-individual').parent().removeClass('has-error');
+            resultBox.hide();
 
             pilotWeight = parseInt(pilotWeight, 10);
             gliderWeight = parseInt(gliderWeight, 10);
@@ -92,15 +93,17 @@ require(['config'], function() {
             if(pilotWeight > gliderWeight) {
                 resultBox.html('<p>No need for weights, you are ' + weightMargin + unit + ' over the minimum limit</p>');
                 resultBox.show();
-
-            } else {
-                resultBox.html('<p>You are ' + weightMargin + unit + ' under the minimum limit</p>');
-                if(eachWeight) {
-                    requiredWeights = weightMargin / eachWeight;
-                    resultBox.append('<p>You would need ' + Math.ceil(requiredWeights) + ' weights to be over the minimum limit</p>');
-                }
-                resultBox.show();
+                return;
             }
+
+            resultBox.html('<p>You are ' + weightMargin + unit + ' under the minimum limit</p>');
+
+            if(eachWeight) {
+                requiredWeights = weightMargin / eachWeight;
+                resultBox.append('<p>You would need ' + Math.ceil(requiredWeights) + ' weights to be over the minimum limit</p>');
+            }
+            
+            resultBox.show();
 
         });
 
