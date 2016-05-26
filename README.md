@@ -24,6 +24,9 @@ This tool calculates how high your maximum launch height can be and also takes i
 Calculates your handicapped speed by entering your speed and glider handicap.
 
 
+### Weight and Balance calculator
+
+
 ### BGA handicaps list
 
 List of bga handicaps displayed in a nice responsive list.

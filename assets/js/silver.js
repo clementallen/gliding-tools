@@ -1,61 +1,71 @@
-require(['validators', 'jquery'], function(valid, $) {
-    $('#silver-form').submit(function(e) {
-        e.preventDefault();
+require(['config'], function() {
+    require(['main', 'validators', 'jquery'], function(main, validate, $) {
 
-        var distance = $('#silver-distance'),
-            distanceVal = distance.val(),
-            origin = $('#silver-origin'),
-            originVal = origin.val(),
-            destination = $('#silver-destination'),
-            destinationVal = destination.val(),
-            resultBox = $('#silver-result'),
-            kmToFeet, distancePercentKm, launchHeight, launchHeightFeet, airfieldHeight, distanceOnlyResult, result;
-
-        function findLaunchHeight(distance) {
+        function maxLaunchHeight(distance) {
             kmToFeet = 3.281;
             distancePercentKm = distance / 100;
             launchHeight = distancePercentKm * kmToFeet;
             return Math.round(launchHeight * 1000);
         }
 
-        function includeAirfieldHeight(distance, origin, destination) {
-            launchHeightFeet = findLaunchHeight(distance);
-            airfieldHeight = destination - origin;
-            return launchHeightFeet - airfieldHeight;
+        function includeAirfieldHeight(launchHeight, origin, destination) {
+            var airfieldHeight = destination - origin;
+            return launchHeight - airfieldHeight;
         }
 
-        distance.parent().removeClass('has-error');
-        origin.parent().removeClass('has-error');
-        destination.parent().removeClass('has-error');
-        resultBox.hide();
+        $('#silver-form').submit(function(e) {
+            e.preventDefault();
 
-        if(valid.number(distanceVal)) {
+            var distanceEl = $('#silver-distance'),
+                distance = distanceEl.val(),
+                originEl = $('#silver-origin'),
+                origin = originEl.val(),
+                destinationEl = $('#silver-destination'),
+                destination = destinationEl.val(),
+                resultBox = $('#silver-result');
 
-            if(originVal || destinationVal) {
+            distanceEl.parent().removeClass('has-error');
+            originEl.parent().removeClass('has-error');
+            destinationEl.parent().removeClass('has-error');
+            resultBox.hide();
 
-                if(valid.number(originVal) && valid.number(destinationVal)) {
-                    // calculate everything
-                    result = includeAirfieldHeight(distanceVal, originVal, destinationVal);
-                    distanceOnlyResult = findLaunchHeight(distanceVal);
-                    resultBox.html('<p>Maximum launch height: ' + result + 'ft</p>');
-                    resultBox.append('<p>Without altitude calculations: ' + distanceOnlyResult + 'ft</p>');
-                    resultBox.show();
+            distance = parseInt(distance, 10);
 
-                } else {
-                    origin.parent().addClass('has-error');
-                    destination.parent().addClass('has-error');
-                }
+            var entries = {
+                '#silver-distance': distance
+            };
 
-            } else {
-                // calculate only distance
-                result = findLaunchHeight(distanceVal);
-                resultBox.html('Maximum launch height is ' + result + 'ft.');
-                resultBox.show();
+            if(origin) {
+                origin = parseInt(origin, 10);
+                entries['#silver-origin'] = origin;
             }
 
-        } else {
-            distance.parent().addClass('has-error');
-        }
+            if(destination) {
+                destination = parseInt(destination, 10);
+                entries['#silver-destination'] = destination;
+            }
 
+            var errors = validate.numberGroup(entries);
+
+            if(errors.length) {
+                validate.processErrors(errors);
+                return;
+            }
+
+            launchHeight = maxLaunchHeight(distance);
+
+            resultBox.html('<p>Maximum launch height is ' + launchHeight + 'ft</p>');
+
+            if(!origin && !destination) {
+                resultBox.show();
+                return;
+            }
+
+            var launchHeightWithAirfields = includeAirfieldHeight(launchHeight, origin, destination);
+
+            resultBox.append('<p>Maximum launch height including airfield heights: ' + launchHeightWithAirfields + 'ft</p>');
+            resultBox.show();
+
+        });
     });
 });
