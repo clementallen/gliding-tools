@@ -1,10 +1,32 @@
 require(['config'], function() {
     require(['main', 'validators', 'jquery'], function(main, validate, $) {
+        var handicapData;
 
         function handicapSpeed(handicap, speed) {
             var handicappedSpeed = (speed / handicap) * 100;
             return handicappedSpeed.toFixed(1);
         }
+
+        $.get('../assets/bgahandicaps.json', function(data) {
+            handicapData = data;
+            $.each(data, function(index, value) {
+                $('#handicap-select-glider').append('<option data-index="' + index + '" value="' + value.handicap + '">' + value.glider + '</option>');
+            });
+        });
+
+        $('#handicap-select-glider').on('change', function() {
+            var selectedValue = $(this).val();
+            var selectedIndex = $(this).find(':selected').attr('data-index');
+            if(selectedValue == 'other' || selectedValue == 'Select glider') {
+                $('#handicap-number').parent().removeClass('hidden');
+                $('#handicap-number').val('');
+
+            } else {
+                $('#handicap-number').parent().addClass('hidden');
+                $('#handicap-number').val(handicapData[selectedIndex].handicap);
+            }
+        });
+
 
         $('#handicap-form').submit(function(e) {
             e.preventDefault();

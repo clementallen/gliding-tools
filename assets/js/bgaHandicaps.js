@@ -6,12 +6,16 @@ require(['config'], function() {
             page: [306]
         };
 
+        function displayResultsAmount() {
+            $('p.total span').text($('tbody.list tr').length);
+        }
+
         var gliderList = new List('handicap-search', options);
 
-        $('p.total span').text($('tbody.list tr').length);
+        displayResultsAmount();
 
         document.getElementById('glider-search').onkeyup = function() {
-            $('p.total span').text($('tbody.list tr').length);
+            displayResultsAmount();
         };
 
     });
