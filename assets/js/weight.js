@@ -1,5 +1,5 @@
 require(['config'], function() {
-    require(['main', 'validators', 'jquery', 'aircraftWeights'], function(main, validate, $, aircraft) {
+    require(['main', 'validators', 'jquery'], function(main, validate, $) {
 
         function updatePlaceholder(id, value) {
             $(id).attr('placeholder', value);
@@ -12,26 +12,6 @@ require(['config'], function() {
                 return gliderWeight - pilotWeight;
             }
         }
-
-        $.each(aircraft, function(index, value) {
-            $('#weight-select-glider').append('<option value="' + index + '">' + index + '</option>');
-        });
-
-        $('#weight-select-glider').on('change', function() {
-            var selected = $(this).val();
-            if(selected == 'other' || selected == 'Select glider') {
-                $('#weight-glider').parent().removeClass('hidden');
-                $('#weight-individual').parent().removeClass('hidden');
-                $('#weight-glider').val('');
-                $('#weight-individual').val('');
-
-            } else {
-                $('#weight-glider').parent().addClass('hidden');
-                $('#weight-individual').parent().addClass('hidden');
-                $('#weight-glider').val(aircraft[selected].minWeight);
-                $('#weight-individual').val(aircraft[selected].leadWeight);
-            }
-        });
 
         $('#weight-unit').on('click', function() {
             var unit = $(this).text(),
@@ -102,7 +82,7 @@ require(['config'], function() {
                 requiredWeights = weightMargin / eachWeight;
                 resultBox.append('<p>You would need ' + Math.ceil(requiredWeights) + ' weights to be over the minimum limit</p>');
             }
-            
+
             resultBox.show();
 
         });
