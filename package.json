@@ -1,0 +1,32 @@
+{
+  "name": "gliding-tools",
+  "version": "1.0.0",
+  "description": "This is an ever expanding collection of useful gliding tools made for the fun of it.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
+    "coverage": "babel-node ./node_modules/.bin/isparta cover _mocha --include-all-sources --report lcov --report html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clementallen/gliding-tools.git"
+  },
+  "author": "Clement Allen <clementallen313@gmail.com> (http://clementallen.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clementallen/gliding-tools/issues"
+  },
+  "homepage": "https://github.com/clementallen/gliding-tools#readme",
+  "devDependencies": {
+    "amd-loader": "0.0.5",
+    "babel-cli": "^6.16.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "isparta": "^4.0.0",
+    "mocha": "^3.1.0",
+    "sinon": "^1.17.6"
+  }
+}
