@@ -26,3 +26,20 @@ describe('number', () => {
         assert.isFalse(actual);
     });
 });
+
+describe('numberGroup', () => {
+    it('should return array of errors', () => {
+        var mockObject = {
+            '#test-selector': 1,
+            '#another-selector': 'not a number'
+        };
+
+        var expectedArray = [
+            '#another-selector'
+        ];
+
+        var actual = validators.numberGroup(mockObject);
+
+        assert.deepEqual(actual, expectedArray);
+    });
+});
