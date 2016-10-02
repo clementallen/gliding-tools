@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+    <meta name="theme-color" content="#3f51b5">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Calculates required weight and balance">
     <meta name="author" content="Clement Allen">
+    <link rel="shortcut icon" sizes="144x144" href="../favicon.ico">
+    <link rel="manifest" href="../manifest.json">
 
     <title>Weight and Balance calculator</title>
 
@@ -75,6 +78,16 @@
         ga('require', 'displayfeatures');
         ga('require', 'linkid', 'linkid.js');
         ga('send', 'pageview');
+
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('../sw.js')
+            .then(function() {
+                console.log('Offline ready');
+            })
+            .catch(function () {
+                console.log('Offline installation failed');
+            });
+        }
     </script>
 
     <script data-main="../assets/js/weight" src="../assets/js/vendor/require.js"></script>
