@@ -1,5 +1,7 @@
 #Gliding-tools
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clementallen/gliding-tools.svg)](https://greenkeeper.io/)
+
 This is an ever expanding collection of useful gliding tools made for the fun of it.
 
 
