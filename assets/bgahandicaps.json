@@ -84,6 +84,10 @@
         "handicap" : 110
     },
     {
+        "glider"   : "ASH 30",
+        "handicap" : 118
+    },
+    {
         "glider"   : "ASH 31 MI (18.0)",
         "handicap" : 111
     },
@@ -176,6 +180,10 @@
         "handicap" : 103
     },
     {
+        "glider"   : "ASW 20CW",
+        "handicap" : 101
+    },
+    {
         "glider"   : "ASW 20F",
         "handicap" : 98
     },
@@ -185,7 +193,7 @@
     },
     {
         "glider"   : "ASW 20FL",
-        "handicap" : 99
+        "handicap" : 101
     },
     {
         "glider"   : "ASW 20L",
@@ -376,10 +384,6 @@
         "handicap" : 105
     },
     {
-        "glider"   : "DG 505",
-        "handicap" : 105
-    },
-    {
         "glider"   : "DG 505 (20.0)",
         "handicap" : 100
     },
@@ -530,6 +534,10 @@
     {
         "glider"   : "GROB 109B",
         "handicap" : 70
+    },
+    {
+        "glider"   : "GRAUNAU BABY",
+        "handicap" : 55
     },
     {
         "glider"   : "HORNET",
@@ -716,7 +724,7 @@
         "handicap" : 90
     },
     {
-        "glider"   : "LS 1-0",
+        "glider"   : "LS1-0",
         "handicap" : 88
     },
     {
@@ -761,7 +769,7 @@
     },
     {
         "glider"   : "LS4 W",
-        "handicap" : 97
+        "handicap" : 96.5
     },
     {
         "glider"   : "LS6",
@@ -812,6 +820,10 @@
         "handicap" : 91
     },
     {
+        "glider"   : "ME7",
+        "handicap" : 83
+    },
+    {
         "glider"   : "MEISE",
         "handicap" : 62
     },
@@ -836,11 +848,11 @@
         "handicap" : 98
     },
     {
-        "glider"   : "MOSWAY 3",
+        "glider"   : "MOSWEY 3",
         "handicap" : 69
     },
     {
-        "glider"   : "MOSWAY 4",
+        "glider"   : "MOSWEY 4",
         "handicap" : 72
     },
     {
@@ -850,6 +862,10 @@
     {
         "glider"   : "MUCHA STD",
         "handicap" : 65
+    },
+    {
+        "glider"   : "NIMBUS 2",
+        "handicap" : 106
     },
     {
         "glider"   : "NIMBUS 2B",
@@ -981,7 +997,7 @@
     },
     {
         "glider"   : "SB5E (16.5)",
-        "handicap" : 81
+        "handicap" : 83
     },
     {
         "glider"   : "SD3/15",
@@ -1021,7 +1037,7 @@
     },
     {
         "glider"   : "SILENT 2 ELECTO/TARGA",
-        "handicap" : 96
+        "handicap" : 94
     },
     {
         "glider"   : "SKY",
@@ -1112,6 +1128,14 @@
         "handicap" : 92
     },
     {
+        "glider"   : "SZD-54-2 Perkoz (17.5)",
+        "handicap" : 87
+    },
+    {
+        "glider"   : "SZD-54-2 Perkoz (20)",
+        "handicap" : 93
+    },
+    {
         "glider"   : "T21",
         "handicap" : 50
     },
@@ -1177,6 +1201,10 @@
     },
     {
         "glider"   : "VENTUS 2CXA (18.0)",
+        "handicap" : 111
+    },
+    {
+        "glider"   : "VENTUS 3 (18.0)",
         "handicap" : 111
     },
     {
