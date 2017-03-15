@@ -1,12 +1,11 @@
 require(['config'], function() {
     require(['main', 'validators', 'jquery'], function(main, validate, $) {
-
         function updatePlaceholder(id, value) {
             $(id).attr('placeholder', value);
         }
 
         function calculateWeightMargin(pilotWeight, gliderWeight) {
-            if(pilotWeight > gliderWeight) {
+            if (pilotWeight > gliderWeight) {
                 return pilotWeight - gliderWeight;
             } else {
                 return gliderWeight - pilotWeight;
@@ -17,12 +16,11 @@ require(['config'], function() {
             var unit = $(this).text(),
                 newUnit;
 
-            if(unit == 'Imperial') {
+            if (unit == 'Imperial') {
                 newUnit = 'Metric';
                 updatePlaceholder('#weight-pilot', 'kgs');
                 updatePlaceholder('#weight-glider', 'kgs');
                 updatePlaceholder('#weight-individual', 'kgs');
-
             } else {
                 newUnit = 'Imperial';
                 updatePlaceholder('#weight-pilot', 'lbs');
@@ -57,13 +55,13 @@ require(['config'], function() {
                 '#weight-glider': gliderWeight
             };
 
-            if(eachWeight) {
+            if (eachWeight) {
                 entries['#weight-individual'] = eachWeight;
             }
 
             errors = validate.numberGroup(entries);
 
-            if(errors.length) {
+            if  (errors.length) {
                 validate.processErrors(errors);
                 return;
             }
@@ -78,14 +76,12 @@ require(['config'], function() {
 
             resultBox.html('<p>You are ' + weightMargin + unit + ' under the minimum limit</p>');
 
-            if(eachWeight) {
+            if (eachWeight) {
                 requiredWeights = weightMargin / eachWeight;
                 resultBox.append('<p>You would need ' + Math.ceil(requiredWeights) + ' weights to be over the minimum limit</p>');
             }
 
             resultBox.show();
-
         });
-
     });
 });

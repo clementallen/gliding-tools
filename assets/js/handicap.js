@@ -17,10 +17,9 @@ require(['config'], function() {
         $('#handicap-select-glider').on('change', function() {
             var selectedValue = $(this).val();
             var selectedIndex = $(this).find(':selected').attr('data-index');
-            if(selectedValue == 'other' || selectedValue == 'Select glider') {
+            if (selectedValue == 'other' || selectedValue == 'Select glider') {
                 $('#handicap-number').parent().removeClass('hidden');
                 $('#handicap-number').val('');
-
             } else {
                 $('#handicap-number').parent().addClass('hidden');
                 $('#handicap-number').val(handicapData[selectedIndex].handicap);
@@ -51,7 +50,7 @@ require(['config'], function() {
 
             var errors = validate.numberGroup(entries);
 
-            if(errors.length) {
+            if (errors.length) {
                 validate.processErrors(errors);
                 return;
             }
@@ -60,8 +59,6 @@ require(['config'], function() {
 
             resultBox.html('<p>Handicapped speed: ' + handicappedSpeed + '</p>');
             resultBox.show();
-
         });
-
     });
 });

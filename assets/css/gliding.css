@@ -29,6 +29,10 @@ body {
     margin-bottom: 10px;
 }
 
+.bga-handicap .glider {
+    padding-left: 15px;
+}
+
 .bga-handicap .filter {
     padding: 0 10px 10px 15px;
 }
@@ -51,17 +55,17 @@ body {
     display:inline-block;
     color:#fff;
     text-decoration: none;
-    background-color: #28a8e0;
+    background-color: #428bca;
 }
 
 .bga-handicap .filter .sort:hover {
     text-decoration: none;
-    background-color:#1b8aba;
+    background-color:#3276b1;
 }
 
 .bga-handicap .filter .sort:focus {
     outline:none;
-    background-color: #1b8aba;
+    background-color: #3276b1;
 }
 
 .bga-handicap .filter .sort:after {
@@ -102,6 +106,10 @@ body {
 }
 
 @media screen and (max-width: 475px) {
+    .bga-handicap .filter .search {
+        width: 100%;
+    }
+
     .bga-handicap .filter button.sort {
         margin-top: 10px;
     }

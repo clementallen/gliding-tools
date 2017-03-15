@@ -1,31 +1,30 @@
 require(['config'], function() {
     require(['main', 'list', 'jquery'], function(main, List, $) {
-
+        var gliderList;
         var options = {
             valueNames: ['glider', 'handicap'],
-            page: [306]
+            page: []
         };
+
+        function displayResultsAmount(amount) {
+            $('p.total span').text(amount);
+        }
 
         $.ajax({
             type: 'GET',
             url: '../assets/bgahandicaps.json',
             success: function(data) {
+                console.log(data.length);
                 $.each(data, function(index, item) {
                     $('tbody.list').append('<tr><td class="glider">' + item.glider + '</td><td class="handicap">' + item.handicap + '</td></tr>');
                 });
-
-                var gliderList = new List('handicap-search', options);
-                displayResultsAmount();
+                options.page[0] = data.length;
+                gliderList = new List('handicap-search', options);
+                gliderList.on('updated', function() {
+                    displayResultsAmount(gliderList.visibleItems.length);
+                });
+                displayResultsAmount(gliderList.visibleItems.length);
             }
         });
-
-        function displayResultsAmount() {
-            $('p.total span').text($('tbody.list tr').length);
-        }
-
-        document.getElementById('glider-search').onkeyup = function() {
-            displayResultsAmount();
-        };
-
     });
 });

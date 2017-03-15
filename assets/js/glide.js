@@ -40,14 +40,14 @@ require(['config'], function() {
                 '#glide-ratio': glideRatio
             };
 
-            if(rateOfSink) {
+            if (rateOfSink) {
                 rateOfSink = parseInt(rateOfSink, 10);
                 entries['#glide-rate-of-sink'] = rateOfSink;
             }
 
             errors = validate.numberGroup(entries);
 
-            if(errors.length) {
+            if (errors.length) {
                 validate.processErrors(errors);
                 return;
             }
@@ -58,13 +58,12 @@ require(['config'], function() {
             resultBox.html('<p>Maximum flight distance: ' + rangeInKm + 'km</p');
             resultBox.append('<p>Loss of height per Km travelled: ' + heightLoss + 'ft</p>');
 
-            if(rateOfSink) {
+            if (rateOfSink) {
                 flightDuration = duration(height, rateOfSink);
                 resultBox.append('<p>Flight duration: ' + flightDuration + ' minutes</p>');
             }
 
             resultBox.show();
-
         });
     });
 });

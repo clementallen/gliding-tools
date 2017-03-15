@@ -1,6 +1,5 @@
 require(['config'], function() {
     require(['main', 'validators', 'jquery'], function(main, validate, $) {
-
         function maxLaunchHeight(distance) {
             kmToFeet = 3.281;
             distancePercentKm = distance / 100;
@@ -35,19 +34,19 @@ require(['config'], function() {
                 '#silver-distance': distance
             };
 
-            if(origin) {
+            if (origin) {
                 origin = parseInt(origin, 10);
                 entries['#silver-origin'] = origin;
             }
 
-            if(destination) {
+            if (destination) {
                 destination = parseInt(destination, 10);
                 entries['#silver-destination'] = destination;
             }
 
             var errors = validate.numberGroup(entries);
 
-            if(errors.length) {
+            if (errors.length) {
                 validate.processErrors(errors);
                 return;
             }
@@ -56,7 +55,7 @@ require(['config'], function() {
 
             resultBox.html('<p>Maximum launch height is ' + launchHeight + 'ft</p>');
 
-            if(!origin && !destination) {
+            if (!origin && !destination) {
                 resultBox.show();
                 return;
             }
@@ -65,7 +64,6 @@ require(['config'], function() {
 
             resultBox.append('<p>Maximum launch height including airfield heights: ' + launchHeightWithAirfields + 'ft</p>');
             resultBox.show();
-
         });
     });
 });

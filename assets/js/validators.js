@@ -1,5 +1,4 @@
 define([], function() {
-
     var exports = {};
 
     exports.number = function(n) {
@@ -30,5 +29,4 @@ define([], function() {
     };
 
     return exports;
-
 });
