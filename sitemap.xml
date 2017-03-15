@@ -6,21 +6,21 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://gliding.clementallen.com/</loc>
+        <loc>https://gliding.clementallen.com</loc>
     </url>
     <url>
-        <loc>http://gliding.clementallen.com/glide/</loc>
+        <loc>https://gliding.clementallen.com/glide</loc>
     </url>
     <url>
-        <loc>http://gliding.clementallen.com/silver/</loc>
+        <loc>https://gliding.clementallen.com/silver</loc>
     </url>
     <url>
-        <loc>http://gliding.clementallen.com/handicap/</loc>
+        <loc>https://gliding.clementallen.com/handicap</loc>
     </url>
     <url>
-        <loc>http://gliding.clementallen.com/bgahandicaps/</loc>
+        <loc>https://gliding.clementallen.com/bgahandicaps</loc>
     </url>
     <url>
-        <loc>http://gliding.clementallen.com/weight/</loc>
+        <loc>https://gliding.clementallen.com/weight</loc>
     </url>
 </urlset>
