@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/clementallen/gliding-tools#readme",
   "devDependencies": {
-    "amd-loader": "0.0.5",
+    "amd-loader": "0.0.8",
     "babel-cli": "^6.16.0",
     "chai": "^4.0.2",
     "coveralls": "^2.11.14",
