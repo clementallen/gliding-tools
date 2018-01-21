@@ -18,7 +18,6 @@ var precacheList = [
     './assets/js/vendor/jquery.js',
     './assets/js/vendor/list.js',
     './assets/js/vendor/require.js',
-    './assets/bgahandicaps.json',
     './assets/css/bootstrap.min.css',
     './assets/css/gliding.css'
 ];
