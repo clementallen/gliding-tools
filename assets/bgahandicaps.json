@@ -220,7 +220,7 @@
         "handicap" : 97
     },
     {
-        "glider"   : "ASW 24W",
+        "glider"   : "ASW 24 W",
         "handicap" : 97.5
     },
     {
@@ -620,6 +620,14 @@
         "handicap" : 116
     },
     {
+        "glider"   : "JS3 (15.0)",
+        "handicap" : 104.5
+    },
+    {
+        "glider"   : "JS3 (18.0)",
+        "handicap" : 111.5
+    },
+    {
         "glider"   : "KA 18",
         "handicap" : 81
     },
@@ -728,16 +736,16 @@
         "handicap" : 88
     },
     {
+        "glider"   : "LS1-0 (FIXED)",
+        "handicap" : 85
+    },
+    {
         "glider"   : "LS10 (15.0)",
         "handicap" : 103
     },
     {
         "glider"   : "LS10 (18.0)",
         "handicap" : 110
-    },
-    {
-        "glider"   : "LS1-0 (FIXED)",
-        "handicap" : 85
     },
     {
         "glider"   : "LS1C",
@@ -830,6 +838,10 @@
     {
         "glider"   : "MINI NIMBUS",
         "handicap" : 98
+    },
+    {
+        "glider"   : "MINIMOA",
+        "handicap" : 70
     },
     {
         "glider"   : "MISTRAL (FIXED)",
@@ -980,6 +992,10 @@
         "handicap" : 60
     },
     {
+        "glider"   : "RHOENSPERBER",
+        "handicap": 57
+    },
+    {
         "glider"   : "SALTO",
         "handicap" : 87
     },
@@ -1081,7 +1097,7 @@
     },
     {
         "glider"   : "STD CIRRUS W",
-        "handicap" : 91
+        "handicap" : 90.5
     },
     {
         "glider"   : "STD JANTAR",
@@ -1104,35 +1120,35 @@
         "handicap" : 62
     },
     {
-        "glider"   : "SZD-30 Pirat",
+        "glider"   : "SZD-30 PIRAT",
         "handicap" : 78
     },
     {
-        "glider"   : "SZD-50 Puchacz",
+        "glider"   : "SZD-50 PUCHACZ",
         "handicap" : 80
     },
     {
-        "glider"   : "SZD-51 Junior",
+        "glider"   : "SZD-51 JUNIOR",
         "handicap" : 83
     },
     {
-        "glider"   : "SZD-55 Nexus",
+        "glider"   : "SZD-55 NEXUS",
         "handicap" : 98
     },
     {
-        "glider"   : "SZD-56 Diana",
+        "glider"   : "SZD-56 DIANA",
         "handicap" : 103
     },
     {
-        "glider"   : "SZD-59 Acro",
+        "glider"   : "SZD-59 ACRO",
         "handicap" : 92
     },
     {
-        "glider"   : "SZD-54-2 Perkoz (17.5)",
+        "glider"   : "SZD-54-2 PERKOZ (17.5)",
         "handicap" : 87
     },
     {
-        "glider"   : "SZD-54-2 Perkoz (20)",
+        "glider"   : "SZD-54-2 PERKOZ (20)",
         "handicap" : 93
     },
     {
@@ -1202,6 +1218,10 @@
     {
         "glider"   : "VENTUS 2CXA (18.0)",
         "handicap" : 111
+    },
+    {
+        "glider"   : "VENTUS 3 (15.0)",
+        "handicap" : 104.5
     },
     {
         "glider"   : "VENTUS 3 (18.0)",
