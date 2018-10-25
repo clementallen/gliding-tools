@@ -1,11 +1,8 @@
-define([], function() {
-    var exports = {};
-
-    exports.number = function(n) {
+const validate = {
+    number(n) {
         return !isNaN(+n) && isFinite(n) && n >= 0;
-    };
-
-    exports.numberGroup = function(numbers) {
+    },
+    numberGroup(numbers) {
         var errors = [];
         var self = this;
 
@@ -16,9 +13,8 @@ define([], function() {
         });
 
         return errors;
-    };
-
-    exports.processErrors = function(errors) {
+    },
+    processErrors(errors) {
         var results = [];
 
         for (var i = 0; i < errors.length; i++) {
@@ -26,7 +22,5 @@ define([], function() {
         }
 
         return results;
-    };
-
-    return exports;
-});
+    }
+};
