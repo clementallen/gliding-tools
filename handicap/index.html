@@ -74,16 +74,6 @@
         ga('require', 'displayfeatures');
         ga('require', 'linkid', 'linkid.js');
         ga('send', 'pageview');
-
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('../sw.js')
-            .then(function() {
-                console.log('Offline ready');
-            })
-            .catch(function () {
-                console.log('Offline installation failed');
-            });
-        }
     </script>
     <script data-main="../assets/js/handicap" src="../assets/js/vendor/require.js"></script>
 

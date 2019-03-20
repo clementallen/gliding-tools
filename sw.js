@@ -2,11 +2,6 @@ importScripts('node_modules/sw-toolbox/sw-toolbox.js');
 
 var precacheList = [
     './',
-    './glide',
-    './bgahandicaps',
-    './handicap',
-    './silver',
-    './weight',
     './assets/js/config.js',
     './assets/js/main.js',
     './assets/js/validators.js',
