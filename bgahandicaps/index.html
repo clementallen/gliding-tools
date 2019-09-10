@@ -22,7 +22,7 @@
                 <div class="col-md-8 col-md-offset-2">
                     <div id="handicap-search" class="panel panel-default">
                         <h1>BGA Handicaps</h1>
-                        <p class="lead">Updated March 2018</p>
+                        <p class="lead">Updated March 2019</p>
                         <p class="lead total">Total: <span></span></p>
 
                         <div class="filter">
@@ -54,16 +54,6 @@
         ga('require', 'displayfeatures');
         ga('require', 'linkid', 'linkid.js');
         ga('send', 'pageview');
-
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('../sw.js')
-            .then(function() {
-                console.log('Offline ready');
-            })
-            .catch(function () {
-                console.log('Offline installation failed');
-            });
-        }
     </script>
     <script data-main="../assets/js/bgaHandicaps" src="../assets/js/vendor/require.js"></script>
 </body>
