@@ -12,7 +12,7 @@ require(['config'], function() {
 
         $.ajax({
             type: 'GET',
-            url: '../assets/bgahandicaps-2019.json',
+            url: '../assets/bgahandicaps-2020.json',
             success: function(data) {
                 console.log(data.length);
                 $.each(data, function(index, item) {

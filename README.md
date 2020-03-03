@@ -33,4 +33,4 @@ List of bga handicaps displayed in a nice responsive list.
 
 
 
-#### View a live version [here](http://gliding.clementallen.com/)
+#### View a live version [here](https://gliding.clementallen.com/)
