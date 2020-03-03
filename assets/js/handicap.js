@@ -8,7 +8,7 @@ function handicapSpeed(handicap, speed) {
 $.get('../assets/bgahandicaps-2020.json', function(data) {
     handicapData = data;
     $.each(data, function(index, value) {
-        $('#handicap-select-glider').append('<option data-index="' + index + '" value="' + value.handicap + '">' + value.glider + '</option>');
+        $('#handicap-select-glider').append('<option data-index="' + index + '" value="' + value.Handicap + '">' + value.GliderType + '</option>');
     });
 });
 
@@ -20,7 +20,7 @@ $('#handicap-select-glider').on('change', function() {
         $('#handicap-number').val('');
     } else {
         $('#handicap-number').parent().addClass('hidden');
-        $('#handicap-number').val(handicapData[selectedIndex].handicap);
+        $('#handicap-number').val(handicapData[selectedIndex].Handicap);
     }
 });
 
