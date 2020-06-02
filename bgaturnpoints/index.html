@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="theme-color" content="#3f51b5">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="List of BGA Turnpoints and Trigraphs">
+    <meta name="author" content="Clement Allen">
+    <link rel="shortcut icon" sizes="144x144" href="../favicon.ico">
+    <link rel="manifest" href="../manifest.json">
+
+    <title>BGA Turnpoints | Clement Allen Gliding Tools</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="../assets/css/gliding.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container bga-handicap">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div id="turnpoint-search" class="panel panel-default">
+                        <h1>BGA Turnpoints</h1>
+                        <p class="lead">Updated March 2020</p>
+                        <p class="lead total">Total: <span></span></p>
+
+                        <div class="filter">
+                            <input id="glider-search" class="search" placeholder="Filter" />
+                            <button class="sort" data-sort="name">Sort by name</button>
+                            <button class="sort" data-sort="trigraph">Sort by trigraph</button>
+                        </div>
+
+                        <table class="table table-striped table-condensed">
+                            <tbody class="list"></tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" id="footer">
+                <p>Created by <a target="_blank" rel="noopener" href="https://clementallen.com">Clement Allen</a> - </p>
+            </div>
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68367355-3"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-68367355-3');
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+    });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/vendor/list.js"></script>
+    <script src="../assets/js/validators.js"></script>
+    <script src="../assets/js/bgaTurnpoints.js"></script>
+
+</body>
+</html>
