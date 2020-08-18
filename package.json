@@ -1,35 +1,24 @@
 {
-  "name": "gliding-tools",
-  "version": "1.0.0",
-  "description": "This is an ever expanding collection of useful gliding tools made for the fun of it.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
-    "coverage": "babel-node ./node_modules/.bin/isparta cover _mocha --include-all-sources --report lcov --report html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/clementallen/gliding-tools.git"
-  },
-  "author": "Clement Allen <clementallen313@gmail.com> (https://clementallen.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/clementallen/gliding-tools/issues"
-  },
-  "homepage": "https://github.com/clementallen/gliding-tools#readme",
-  "devDependencies": {
-    "amd-loader": "0.0.8",
-    "babel-cli": "^6.16.0",
-    "chai": "^4.0.2",
-    "coveralls": "^2.11.14",
-    "isparta": "^4.0.0",
-    "mocha": "^3.4.2",
-    "sinon": "^2.0.0"
-  },
-  "dependencies": {
-    "sw-toolbox": "^3.3.0"
-  }
+    "name": "gliding-tools",
+    "version": "1.0.0",
+    "description": "This is an ever expanding collection of useful gliding tools made for the fun of it.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/clementallen/gliding-tools.git"
+    },
+    "author": "Clement Allen (https://clementallen.com)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/clementallen/gliding-tools/issues"
+    },
+    "scripts": {
+        "generate-turnpoints": "node cup2json.js > assets/bgaturnpoints-2020.json",
+        "dev": "serve"
+    },
+    "homepage": "https://github.com/clementallen/gliding-tools#readme",
+    "devDependencies": {},
+    "dependencies": {
+        "cup-parser": "^0.2.0"
+    }
 }
