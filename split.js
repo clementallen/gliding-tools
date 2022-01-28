@@ -272,11 +272,22 @@ Zugvogel 3b 83`;
 
 const each = toSplit.split('\n');
 
-const handicaps = each.map((item) => {
-    const parts = item.split(' ');
-    const Handicap = parts.pop();
-    const GliderType = parts.join(' ');
-    return { GliderType, Handicap };
-});
+const handicaps = each
+    .map((item) => {
+        const parts = item.split(' ');
+        const Handicap = parts.pop();
+        const GliderType = parts
+            .join(' ')
+            .toUpperCase();
+        return { GliderType, Handicap };
+    })
+    .sort((a, b) =>
+        a.GliderType > b.GliderType
+            ? 1
+            : b.GliderType >
+              a.GliderType
+            ? -1
+            : 0,
+    );
 
 console.log(JSON.stringify(handicaps));
