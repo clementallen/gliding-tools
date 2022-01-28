@@ -1,1354 +1,1082 @@
 [
     {
+        "GliderType": "AC-4A",
+        "Handicap": "83"
+    },
+    {
+        "GliderType": "AC-4B",
+        "Handicap": "83"
+    },
+    {
         "GliderType": "AC-4C",
-        "Handicap": 85
+        "Handicap": "85"
     },
     {
-        "GliderType": "ACRO TWIN",
-        "Handicap": 85
+        "GliderType": "Acro Twin 2",
+        "Handicap": "85"
     },
     {
-        "GliderType": "ACRO TWIN 2",
-        "Handicap": 85
+        "GliderType": "Acro Twin 3",
+        "Handicap": "89"
     },
     {
-        "GliderType": "ACRO TWIN 3",
-        "Handicap": 89
+        "GliderType": "Antares (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "ALLIANCE SNC34C",
-        "Handicap": 85
+        "GliderType": "Antares (20m)",
+        "Handicap": "114"
     },
     {
-        "GliderType": "ANTARES (18.0)",
-        "Handicap": 111
+        "GliderType": "Arcus",
+        "Handicap": "107"
     },
     {
-        "GliderType": "ANTARES (20.0)",
-        "Handicap": 114
+        "GliderType": "AS33 (15m)",
+        "Handicap": "104.5"
     },
     {
-        "GliderType": "APIS M (15.0)",
-        "Handicap": 88
+        "GliderType": "AS33 (18m)",
+        "Handicap": "111.5"
     },
     {
-        "GliderType": "ARCUS",
-        "Handicap": 107
+        "GliderType": "ASG29 (15m)",
+        "Handicap": "104"
     },
     {
-        "GliderType": "AS33 (15)",
-        "Handicap": 104.5
+        "GliderType": "ASG29 (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "AS33 (18)",
-        "Handicap": 111.5
+        "GliderType": "ASH30",
+        "Handicap": "117.5"
     },
     {
-        "GliderType": "ASG 29 (15.0)",
-        "Handicap": 104
+        "GliderType": "ASG32",
+        "Handicap": "107"
     },
     {
-        "GliderType": "ASG 29 (18.0)",
-        "Handicap": 111
+        "GliderType": "ASH25",
+        "Handicap": "113"
     },
     {
-        "GliderType": "ASG 32",
-        "Handicap": 107
+        "GliderType": "ASH25 (25.6m)",
+        "Handicap": "114"
     },
     {
-        "GliderType": "ASH 25",
-        "Handicap": 113
+        "GliderType": "ASH25 (26m)",
+        "Handicap": "115"
     },
     {
-        "GliderType": "ASH 25 B (27)",
-        "Handicap": 115
+        "GliderType": "ASH25 (27m)",
+        "Handicap": "115"
     },
     {
-        "GliderType": "ASH 25 EB28",
-        "Handicap": 116
+        "GliderType": "ASH25EB28",
+        "Handicap": "116"
     },
     {
-        "GliderType": "ASH 25 MI",
-        "Handicap": 114
+        "GliderType": "ASH26",
+        "Handicap": "110"
     },
     {
-        "GliderType": "ASH 25 MI (25.6)",
-        "Handicap": 115
+        "GliderType": "ASH31 (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "ASH 25 MI (26.0)",
-        "Handicap": 115
+        "GliderType": "ASH31 (21m)",
+        "Handicap": "115"
     },
     {
-        "GliderType": "ASH 25 WL (25.6)",
-        "Handicap": 114
+        "GliderType": "ASK13",
+        "Handicap": "67"
     },
     {
-        "GliderType": "ASH 25 WL (26.0)",
-        "Handicap": 115
+        "GliderType": "ASK14",
+        "Handicap": "72"
     },
     {
-        "GliderType": "ASH 25 WL (27.6)",
-        "Handicap": 116
+        "GliderType": "ASK16",
+        "Handicap": "60"
     },
     {
-        "GliderType": "ASH 26",
-        "Handicap": 110
+        "GliderType": "ASK18",
+        "Handicap": "81"
     },
     {
-        "GliderType": "ASH 30",
-        "Handicap": 117.5
+        "GliderType": "ASK21",
+        "Handicap": "85"
     },
     {
-        "GliderType": "ASH31 MI (18.0)",
-        "Handicap": 111
+        "GliderType": "ASK23",
+        "Handicap": "85"
     },
     {
-        "GliderType": "ASH31 MI (21.0)",
-        "Handicap": 115
+        "GliderType": "Astir CS",
+        "Handicap": "89"
     },
     {
-        "GliderType": "ASK 13",
-        "Handicap": 67
+        "GliderType": "Astir Jeans",
+        "Handicap": "86"
     },
     {
-        "GliderType": "ASK 14",
-        "Handicap": 72
+        "GliderType": "ASW12",
+        "Handicap": "105"
     },
     {
-        "GliderType": "ASK 16",
-        "Handicap": 60
+        "GliderType": "ASW15",
+        "Handicap": "89"
     },
     {
-        "GliderType": "ASK 21",
-        "Handicap": 85
+        "GliderType": "ASW17",
+        "Handicap": "106"
     },
     {
-        "GliderType": "ASK 23",
-        "Handicap": 85
+        "GliderType": "ASW19a,b",
+        "Handicap": "93"
     },
     {
-        "GliderType": "ASTIR CS",
-        "Handicap": 89
+        "GliderType": "ASW19club",
+        "Handicap": "90"
     },
     {
-        "GliderType": "ASTIR CS-77",
-        "Handicap": 89
+        "GliderType": "ASW20",
+        "Handicap": "98"
     },
     {
-        "GliderType": "ASTIR CS-77 W",
-        "Handicap": 89.5
+        "GliderType": "ASW20b,c",
+        "Handicap": "98"
     },
     {
-        "GliderType": "ASTIR JEANS",
-        "Handicap": 86
+        "GliderType": "ASW20bl",
+        "Handicap": "102"
     },
     {
-        "GliderType": "ASW 12",
-        "Handicap": 105
+        "GliderType": "ASW20 cl",
+        "Handicap": "101"
     },
     {
-        "GliderType": "ASW 15 STD",
-        "Handicap": 89
+        "GliderType": "ASW20f",
+        "Handicap": "98"
     },
     {
-        "GliderType": "ASW 17",
-        "Handicap": 106
+        "GliderType": "ASW20FL",
+        "Handicap": "101"
     },
     {
-        "GliderType": "ASW 19 CLUB",
-        "Handicap": 90
+        "GliderType": "ASW20L",
+        "Handicap": "101"
     },
     {
-        "GliderType": "ASW 19A",
-        "Handicap": 93
+        "GliderType": "ASW22 (24m)",
+        "Handicap": "114"
     },
     {
-        "GliderType": "ASW 19B",
-        "Handicap": 93
+        "GliderType": "ASW22b",
+        "Handicap": "116"
     },
     {
-        "GliderType": "ASW 20 (15.0)",
-        "Handicap": 98
+        "GliderType": "ASW22bl",
+        "Handicap": "117.5"
     },
     {
-        "GliderType": "ASW 20B (15.0)",
-        "Handicap": 100
+        "GliderType": "ASW24",
+        "Handicap": "97"
     },
     {
-        "GliderType": "ASW 20BL  (16.6)",
-        "Handicap": 103
+        "GliderType": "ASW24 (w)",
+        "Handicap": "97.5"
     },
     {
-        "GliderType": "ASW 20BW (15.0)",
-        "Handicap": 100.5
+        "GliderType": "ASW27a,b",
+        "Handicap": "104"
     },
     {
-        "GliderType": "ASW 20C (15.0)",
-        "Handicap": 100
+        "GliderType": "ASW28",
+        "Handicap": "100"
     },
     {
-        "GliderType": "ASW 20CL (16.6)",
-        "Handicap": 103
+        "GliderType": "ASW28-18 (15m)",
+        "Handicap": "100"
     },
     {
-        "GliderType": "ASW 20CW (15.0)",
-        "Handicap": 100.5
+        "GliderType": "ASW28-18 (18m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "ASW 20F (15.0)",
-        "Handicap": 98
+        "GliderType": "Bergfalke 4",
+        "Handicap": "69"
     },
     {
-        "GliderType": "ASW 20F W (15.0)",
-        "Handicap": 98.5
+        "GliderType": "Bergfalke",
+        "Handicap": "65"
     },
     {
-        "GliderType": "ASW 20FL (16.6)",
-        "Handicap": 101
+        "GliderType": "BG135",
+        "Handicap": "74"
     },
     {
-        "GliderType": "ASW 20L (16.6)",
-        "Handicap": 101
+        "GliderType": "Blanik",
+        "Handicap": "65"
     },
     {
-        "GliderType": "ASW 20L W (15.0)",
-        "Handicap": 98.5
+        "GliderType": "Bocian",
+        "Handicap": "65"
     },
     {
-        "GliderType": "ASW 22 (24.0)",
-        "Handicap": 114
+        "GliderType": "Calif A21",
+        "Handicap": "100"
     },
     {
-        "GliderType": "ASW 22B",
-        "Handicap": 116
+        "GliderType": "Capstan",
+        "Handicap": "62"
     },
     {
-        "GliderType": "ASW 22BL",
-        "Handicap": 117.5
+        "GliderType": "Cirrus (17.7m)",
+        "Handicap": "94"
     },
     {
-        "GliderType": "ASW 24",
-        "Handicap": 97
+        "GliderType": "Cirrus (18.8m)",
+        "Handicap": "96"
     },
     {
-        "GliderType": "ASW 24 W",
-        "Handicap": 97.5
+        "GliderType": "Club Libelle",
+        "Handicap": "86"
     },
     {
-        "GliderType": "ASW 27A",
-        "Handicap": 104
+        "GliderType": "Cobra 15",
+        "Handicap": "85"
     },
     {
-        "GliderType": "ASW 27B",
-        "Handicap": 104
+        "GliderType": "Dart 15",
+        "Handicap": "76"
     },
     {
-        "GliderType": "ASW 28",
-        "Handicap": 100
+        "GliderType": "Dart 17r",
+        "Handicap": "83"
     },
     {
-        "GliderType": "ASW 28 (18.0)",
-        "Handicap": 106
+        "GliderType": "DG300 club (fixed)",
+        "Handicap": "93"
     },
     {
-        "GliderType": "BERGFALKE",
-        "Handicap": 65
+        "GliderType": "DG100/101",
+        "Handicap": "90"
     },
     {
-        "GliderType": "BERGFALKE 4",
-        "Handicap": 69
+        "GliderType": "DG100/101 (fixed)",
+        "Handicap": "88"
     },
     {
-        "GliderType": "BG 135",
-        "Handicap": 74
+        "GliderType": "DG200",
+        "Handicap": "97"
     },
     {
-        "GliderType": "BLANIK",
-        "Handicap": 65
+        "GliderType": "DG202 (15m)",
+        "Handicap": "97"
     },
     {
-        "GliderType": "BOCIAN",
-        "Handicap": 65
+        "GliderType": "DG202 (17m)",
+        "Handicap": "101"
     },
     {
-        "GliderType": "CALIF A21",
-        "Handicap": 100
+        "GliderType": "DG300 club (retractable)",
+        "Handicap": "95"
     },
     {
-        "GliderType": "CAPSTAN",
-        "Handicap": 62
+        "GliderType": "DG300",
+        "Handicap": "96"
     },
     {
-        "GliderType": "CARMAM 15/36 AR",
-        "Handicap": 89
+        "GliderType": "DG300 (w)",
+        "Handicap": "96.5"
     },
     {
-        "GliderType": "CIRRUS (17.7)",
-        "Handicap": 94
+        "GliderType": "DG303",
+        "Handicap": "97"
     },
     {
-        "GliderType": "CIRRUS (18.8)",
-        "Handicap": 96
+        "GliderType": "DG400 (15m)",
+        "Handicap": "97"
     },
     {
-        "GliderType": "CLUB LIBELLE",
-        "Handicap": 86
+        "GliderType": "DG400 (17m)",
+        "Handicap": "101"
     },
     {
-        "GliderType": "CLUB PEGASE",
-        "Handicap": 92
+        "GliderType": "DG500/505 trainer (fixed gear)",
+        "Handicap": "90"
     },
     {
-        "GliderType": "COBRA (15.0)",
-        "Handicap": 85
+        "GliderType": "DG500/505 trainer (retractable)",
+        "Handicap": "92"
     },
     {
-        "GliderType": "DART (15.0)",
-        "Handicap": 76
+        "GliderType": "DG500/505 Orion (20m)",
+        "Handicap": "98"
     },
     {
-        "GliderType": "DART (17.0) R",
-        "Handicap": 83
+        "GliderType": "DG500/505 (20m) flapped",
+        "Handicap": "100"
     },
     {
-        "GliderType": "DG 100",
-        "Handicap": 90
+        "GliderType": "DG500/505 (22m)",
+        "Handicap": "104"
     },
     {
-        "GliderType": "DG 100 (FIXED)",
-        "Handicap": 88
+        "GliderType": "DG600 (17m)",
+        "Handicap": "105"
     },
     {
-        "GliderType": "DG 1000 (18.0) (FIXED)",
-        "Handicap": 94
+        "GliderType": "DG600 (15m)",
+        "Handicap": "99"
     },
     {
-        "GliderType": "DG 1000 (18.0) (RETR)",
-        "Handicap": 96
+        "GliderType": "DG600 (15m-w)",
+        "Handicap": "99.5"
     },
     {
-        "GliderType": "DG 1000 (20.0)",
-        "Handicap": 102
+        "GliderType": "DG600 (18m)",
+        "Handicap": "107"
     },
     {
-        "GliderType": "DG 101",
-        "Handicap": 90
+        "GliderType": "DG800 (18m)",
+        "Handicap": "110"
     },
     {
-        "GliderType": "DG 101 (FIXED)",
-        "Handicap": 88
+        "GliderType": "DG800 (15m)",
+        "Handicap": "103"
     },
     {
-        "GliderType": "DG 200",
-        "Handicap": 97
+        "GliderType": "DG800 (15m-w)",
+        "Handicap": "103.5"
     },
     {
-        "GliderType": "DG 202 (15.0)",
-        "Handicap": 97
+        "GliderType": "DG1000 (20m)",
+        "Handicap": "102"
     },
     {
-        "GliderType": "DG 202 (17.0)",
-        "Handicap": 101
+        "GliderType": "DG1000 (18)",
+        "Handicap": "96"
     },
     {
-        "GliderType": "DG 300",
-        "Handicap": 96
+        "GliderType": "DG1000 (18) (fixed gear)",
+        "Handicap": "94"
     },
     {
-        "GliderType": "DG 300 CLUB (FIXED)",
-        "Handicap": 93
+        "GliderType": "Diamant 18",
+        "Handicap": "100"
     },
     {
-        "GliderType": "DG 300 CLUB (RETR)",
-        "Handicap": 95
+        "GliderType": "Diamant (16.5m)",
+        "Handicap": "89"
     },
     {
-        "GliderType": "DG 300 W",
-        "Handicap": 96.5
+        "GliderType": "Discus",
+        "Handicap": "98"
     },
     {
-        "GliderType": "DG 303",
-        "Handicap": 97
+        "GliderType": "Discus (w)",
+        "Handicap": "98.5"
     },
     {
-        "GliderType": "DG 400 (15.0)",
-        "Handicap": 97
+        "GliderType": "Discus 2",
+        "Handicap": "100"
     },
     {
-        "GliderType": "DG 400 (17.0)",
-        "Handicap": 101
+        "GliderType": "Discus 2 (w) & 2c (15m)",
+        "Handicap": "100.5"
     },
     {
-        "GliderType": "DG 500 (20.0)",
-        "Handicap": 100
+        "GliderType": "Discus 2c (18m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "DG 500 (22.0)",
-        "Handicap": 104
+        "GliderType": "Discus 2c FES (15m)",
+        "Handicap": "99.5"
     },
     {
-        "GliderType": "DG 500 ORION (20.0)",
-        "Handicap": 98
+        "GliderType": "Discus 2c FES (18m)",
+        "Handicap": "105"
     },
     {
-        "GliderType": "DG 500 TRAINER (FIXED)",
-        "Handicap": 90
+        "GliderType": "Duo Discus",
+        "Handicap": "101"
     },
     {
-        "GliderType": "DG 500 TRAINER (RETR)",
-        "Handicap": 92
+        "GliderType": "Duo Discus (w)",
+        "Handicap": "101.5"
     },
     {
-        "GliderType": "DG 500M",
-        "Handicap": 105
+        "GliderType": "Duo Discus X (700kg)",
+        "Handicap": "101.5"
     },
     {
-        "GliderType": "DG 505 (20.0)",
-        "Handicap": 100
+        "GliderType": "Duo DiscusX (750kg)",
+        "Handicap": "102"
     },
     {
-        "GliderType": "DG 505 (22.0)",
-        "Handicap": 104
+        "GliderType": "Duo Discus XL",
+        "Handicap": "102"
     },
     {
-        "GliderType": "DG 505 ORION (17.2)",
-        "Handicap": 92
+        "GliderType": "Eagle",
+        "Handicap": "68"
     },
     {
-        "GliderType": "DG 505 ORION (20.0)",
-        "Handicap": 98
-    },
-    {
-        "GliderType": "DG 505 TRAINER (FIXED)",
-        "Handicap": 90
-    },
-    {
-        "GliderType": "DG 505 TRAINER (RETR)",
-        "Handicap": 92
-    },
-    {
-        "GliderType": "DG 600 (15.0)",
-        "Handicap": 99
-    },
-    {
-        "GliderType": "DG 600 (17.0)",
-        "Handicap": 105
-    },
-    {
-        "GliderType": "DG 600 (18.0)",
-        "Handicap": 107
-    },
-    {
-        "GliderType": "DG 600 W (15.0)",
-        "Handicap": 99.5
-    },
-    {
-        "GliderType": "DG 800 (15.0)",
-        "Handicap": 103
-    },
-    {
-        "GliderType": "DG 800 (18.0)",
-        "Handicap": 110
-    },
-    {
-        "GliderType": "DG 800 W (15.0)",
-        "Handicap": 103.5
-    },
-    {
-        "GliderType": "DG 800S (15.0)",
-        "Handicap": 103
-    },
-    {
-        "GliderType": "DG 800S (18.0)",
-        "Handicap": 110
-    },
-    {
-        "GliderType": "DG 800S W (15.0)",
-        "Handicap": 103.5
-    },
-    {
-        "GliderType": "DG 800S W (18.0)",
-        "Handicap": 110.5
-    },
-    {
-        "GliderType": "DIAMANT (16.5)",
-        "Handicap": 89
-    },
-    {
-        "GliderType": "DIAMANT (18.0)",
-        "Handicap": 100
-    },
-    {
-        "GliderType": "DISCUS",
-        "Handicap": 98
-    },
-    {
-        "GliderType": "DISCUS 2",
-        "Handicap": 100
-    },
-    {
-        "GliderType": "DISCUS 2 W",
-        "Handicap": 100.5
-    },
-    {
-        "GliderType": "DISCUS 2C (15.0)",
-        "Handicap": 100.5
-    },
-    {
-        "GliderType": "DISCUS 2C (18.0)",
-        "Handicap": 106
-    },
-    {
-        "GliderType": "DISCUS 2C TURBO",
-        "Handicap": 106
-    },
-    {
-        "GliderType": "DISCUS 2T",
-        "Handicap": 100
-    },
-    {
-        "GliderType": "DISCUS W",
-        "Handicap": 98.5
-    },
-    {
-        "GliderType": "DUO DISCUS",
-        "Handicap": 101
-    },
-    {
-        "GliderType": "DUO DISCUS W",
-        "Handicap": 101.5
-    },
-    {
-        "GliderType": "DUO DISCUS X",
-        "Handicap": 102
-    },
-    {
-        "GliderType": "DUO DISCUS XL",
-        "Handicap": 102
-    },
-    {
-        "GliderType": "Discus 2c FES (15) ",
-        "Handicap": 99.5
-    },
-    {
-        "GliderType": "Discus 2c FES (18)",
-        "Handicap": 105
-    },
-    {
-        "GliderType": "EAGLE",
-        "Handicap": 68
-    },
-    {
-        "GliderType": "ELFE S4A",
-        "Handicap": 87
-    },
-    {
-        "GliderType": "FALKE",
-        "Handicap": 46
-    },
-    {
-        "GliderType": "FAUVETTE",
-        "Handicap": 74
+        "GliderType": "Fauvette",
+        "Handicap": "74"
     },
     {
         "GliderType": "FK3",
-        "Handicap": 89
+        "Handicap": "89"
     },
     {
-        "GliderType": "FOKA 4",
-        "Handicap": 81
+        "GliderType": "Foka 4",
+        "Handicap": "81"
     },
     {
-        "GliderType": "FOKA 5",
-        "Handicap": 83
+        "GliderType": "Foka 5",
+        "Handicap": "83"
     },
     {
-        "GliderType": "GLASFLUGEL 304",
-        "Handicap": 99
+        "GliderType": "Glasflugel 304",
+        "Handicap": "99"
     },
     {
-        "GliderType": "GLASFLUGEL 604",
-        "Handicap": 107
+        "GliderType": "Glasflugel 604",
+        "Handicap": "107"
     },
     {
-        "GliderType": "GROB 102",
-        "Handicap": 85
+        "GliderType": "Grob 102",
+        "Handicap": "85"
     },
     {
-        "GliderType": "GROB 109B",
-        "Handicap": 70
+        "GliderType": "Grob 109b",
+        "Handicap": "70"
     },
     {
-        "GliderType": "GRUNAU BABY",
-        "Handicap": 55
+        "GliderType": "Grunau Baby",
+        "Handicap": "55"
     },
     {
-        "GliderType": "HORNET",
-        "Handicap": 90
+        "GliderType": "Hornet",
+        "Handicap": "90"
     },
     {
-        "GliderType": "HORNET WL",
-        "Handicap": 90.5
-    },
-    {
-        "GliderType": "HPH 304 TS",
-        "Handicap": 107
-    },
-    {
-        "GliderType": "HPH 304S FES (18)",
-        "Handicap": 109
+        "GliderType": "HpH304SFES",
+        "Handicap": "109"
     },
     {
         "GliderType": "HpH304S",
-        "Handicap": 110
+        "Handicap": "110"
     },
     {
-        "GliderType": "IRIS",
-        "Handicap": 80
+        "GliderType": "HpH304TS",
+        "Handicap": "107"
     },
     {
-        "GliderType": "IS 28B",
-        "Handicap": 80
+        "GliderType": "Iris",
+        "Handicap": "80"
     },
     {
-        "GliderType": "IS 29D",
-        "Handicap": 83
+        "GliderType": "IS28b",
+        "Handicap": "80"
     },
     {
-        "GliderType": "IS 32",
-        "Handicap": 101
+        "GliderType": "IS29d",
+        "Handicap": "83"
     },
     {
-        "GliderType": "JANTAR 1 (19.0)",
-        "Handicap": 105
+        "GliderType": "IS32",
+        "Handicap": "101"
     },
     {
-        "GliderType": "JANTAR 2",
-        "Handicap": 106
+        "GliderType": "Janus a,b",
+        "Handicap": "96"
     },
     {
-        "GliderType": "JANTAR STD 3",
-        "Handicap": 93
+        "GliderType": "Janus c (fixed gear)",
+        "Handicap": "98"
     },
     {
-        "GliderType": "JANUS A",
-        "Handicap": 96
+        "GliderType": "Janus c (retractable)",
+        "Handicap": "100"
     },
     {
-        "GliderType": "JANUS B",
-        "Handicap": 96
+        "GliderType": "Jaskolka",
+        "Handicap": "69"
     },
     {
-        "GliderType": "JANUS C (FIXED)",
-        "Handicap": 98
+        "GliderType": "JS1a,b",
+        "Handicap": "111"
     },
     {
-        "GliderType": "JANUS C (RETR)",
-        "Handicap": 100
+        "GliderType": "JS1c (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "JANUS CM",
-        "Handicap": 100
+        "GliderType": "JS1c (21m)",
+        "Handicap": "118"
     },
     {
-        "GliderType": "JASKOLKA",
-        "Handicap": 69
+        "GliderType": "JP15-36a",
+        "Handicap": "87"
     },
     {
-        "GliderType": "JP15-36A",
-        "Handicap": 87
+        "GliderType": "JS3 (15m)",
+        "Handicap": "104.5"
     },
     {
-        "GliderType": "JS1 A",
-        "Handicap": 111
+        "GliderType": "JS3 (18m)",
+        "Handicap": "111.5"
     },
     {
-        "GliderType": "JS1 B",
-        "Handicap": 111
+        "GliderType": "K-2",
+        "Handicap": "64"
     },
     {
-        "GliderType": "JS1 C (18.0)",
-        "Handicap": 111
+        "GliderType": "K-6cr",
+        "Handicap": "76"
     },
     {
-        "GliderType": "JS1 C (21.0)",
-        "Handicap": 118
+        "GliderType": "K-6e",
+        "Handicap": "81"
     },
     {
-        "GliderType": "JS3 (15.0)",
-        "Handicap": 104.5
+        "GliderType": "K-7",
+        "Handicap": "64"
     },
     {
-        "GliderType": "JS3 (18.0)",
-        "Handicap": 111.5
+        "GliderType": "K-8",
+        "Handicap": "69"
     },
     {
-        "GliderType": "KA 18",
-        "Handicap": 81
+        "GliderType": "Kestrel 17",
+        "Handicap": "98"
     },
     {
-        "GliderType": "KA 2",
-        "Handicap": 64
+        "GliderType": "Kestrel 19",
+        "Handicap": "102"
     },
     {
-        "GliderType": "KA 6CR",
-        "Handicap": 76
+        "GliderType": "Kestrel 20",
+        "Handicap": "104"
     },
     {
-        "GliderType": "KA 6E",
-        "Handicap": 81
+        "GliderType": "Kestrel 22",
+        "Handicap": "107"
     },
     {
-        "GliderType": "KA 7",
-        "Handicap": 64
+        "GliderType": "Kite 2a",
+        "Handicap": "60"
     },
     {
-        "GliderType": "KA 8",
-        "Handicap": 69
+        "GliderType": "Kranich",
+        "Handicap": "58"
     },
     {
-        "GliderType": "KESTREL (17.0)",
-        "Handicap": 98
+        "GliderType": "Lak12",
+        "Handicap": "105"
     },
     {
-        "GliderType": "KESTREL (19.0)",
-        "Handicap": 102
+        "GliderType": "Lak17a (15m)",
+        "Handicap": "103"
     },
     {
-        "GliderType": "KESTREL (20.0)",
-        "Handicap": 104
+        "GliderType": "Lak17a (15m-w)",
+        "Handicap": "103.5"
     },
     {
-        "GliderType": "KESTREL (22.0)",
-        "Handicap": 107
+        "GliderType": "Lak17a (18m)",
+        "Handicap": "109"
     },
     {
-        "GliderType": "KH 1",
-        "Handicap": 87
+        "GliderType": "Lak17b (15m)",
+        "Handicap": "104"
     },
     {
-        "GliderType": "KITE 2A",
-        "Handicap": 60
+        "GliderType": "Lak17b (18m)",
+        "Handicap": "110"
     },
     {
-        "GliderType": "KRANICH",
-        "Handicap": 58
+        "GliderType": "Lak17b FES (15m)",
+        "Handicap": "103"
     },
     {
-        "GliderType": "L-SPATZ",
-        "Handicap": 72
+        "GliderType": "Lak17b FES (18m)",
+        "Handicap": "109"
     },
     {
-        "GliderType": "LAK 12",
-        "Handicap": 105
+        "GliderType": "Lak 19 (15m)",
+        "Handicap": "99.5"
     },
     {
-        "GliderType": "LAK 17A (15.0)",
-        "Handicap": 103
+        "GliderType": "Lak 19 (15m-w)",
+        "Handicap": "100"
     },
     {
-        "GliderType": "LAK 17A (18.0)",
-        "Handicap": 109
+        "GliderType": "Lak 19 (18m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "LAK 17A W (15.0)",
-        "Handicap": 103.5
+        "GliderType": "Libelle 301",
+        "Handicap": "96"
     },
     {
-        "GliderType": "LAK 17B (15.0)",
-        "Handicap": 104
+        "GliderType": "LS1 (0,c,d)",
+        "Handicap": "88"
     },
     {
-        "GliderType": "LAK 17B (18.0)",
-        "Handicap": 110
+        "GliderType": "LS1-0 (fixed)",
+        "Handicap": "85"
     },
     {
-        "GliderType": "LAK 18 (18.0)",
-        "Handicap": 106
+        "GliderType": "LS1f",
+        "Handicap": "91"
     },
     {
-        "GliderType": "LAK 19 (15.0)",
-        "Handicap": 99.5
+        "GliderType": "LS3 (15m)",
+        "Handicap": "98"
     },
     {
-        "GliderType": "LAK 19 (18.0)",
-        "Handicap": 106
-    },
-    {
-        "GliderType": "LAK 19 W (15.0)",
-        "Handicap": 100
-    },
-    {
-        "GliderType": "LIBELLE",
-        "Handicap": 89
-    },
-    {
-        "GliderType": "LIBELLE 301",
-        "Handicap": 96
-    },
-    {
-        "GliderType": "LIBELLE W",
-        "Handicap": 89.5
-    },
-    {
-        "GliderType": "LS1-0",
-        "Handicap": 88
-    },
-    {
-        "GliderType": "LS1-0 (FIXED)",
-        "Handicap": 85
-    },
-    {
-        "GliderType": "LS10 (15.0)",
-        "Handicap": 103
-    },
-    {
-        "GliderType": "LS10 (18.0)",
-        "Handicap": 110
-    },
-    {
-        "GliderType": "LS1C",
-        "Handicap": 88
-    },
-    {
-        "GliderType": "LS1D",
-        "Handicap": 88
-    },
-    {
-        "GliderType": "LS1F",
-        "Handicap": 91
-    },
-    {
-        "GliderType": "LS1F W",
-        "Handicap": 91.5
-    },
-    {
-        "GliderType": "LS3",
-        "Handicap": 98
-    },
-    {
-        "GliderType": "LS3 (17.0)",
-        "Handicap": 102
+        "GliderType": "LS3 (17m)",
+        "Handicap": "102"
     },
     {
         "GliderType": "LS4",
-        "Handicap": 96
+        "Handicap": "96"
     },
     {
-        "GliderType": "LS4 W",
-        "Handicap": 96.5
+        "GliderType": "LS6 (15m)",
+        "Handicap": "101"
     },
     {
-        "GliderType": "LS6",
-        "Handicap": 101
+        "GliderType": "LS6 (15m-w)",
+        "Handicap": "101.5"
     },
     {
-        "GliderType": "LS6 W",
-        "Handicap": 101.5
+        "GliderType": "LS6c (17.5m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "LS6C (17.5)",
-        "Handicap": 106
-    },
-    {
-        "GliderType": "LS6C (18.0)",
-        "Handicap": 107
+        "GliderType": "LS6c (18m)",
+        "Handicap": "107"
     },
     {
         "GliderType": "LS7",
-        "Handicap": 97
+        "Handicap": "97"
     },
     {
-        "GliderType": "LS7 WL",
-        "Handicap": 97.5
+        "GliderType": "LS7 (w)",
+        "Handicap": "97.5"
     },
     {
-        "GliderType": "LS8",
-        "Handicap": 100
+        "GliderType": "LS8 (15m)",
+        "Handicap": "100"
     },
     {
-        "GliderType": "LS8 (18.0)",
-        "Handicap": 106
+        "GliderType": "LS8-18 (18m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "Lak 17B FES (18)",
-        "Handicap": 109
+        "GliderType": "LS-10",
+        "Handicap": "110"
     },
     {
-        "GliderType": "Lak 17b FES (15)",
-        "Handicap": 103
-    },
-    {
-        "GliderType": "M100S",
-        "Handicap": 72
-    },
-    {
-        "GliderType": "M200",
-        "Handicap": 74
-    },
-    {
-        "GliderType": "MARIANNE",
-        "Handicap": 91
+        "GliderType": "L-Spatz",
+        "Handicap": "72"
     },
     {
         "GliderType": "ME7",
-        "Handicap": 83
+        "Handicap": "83"
     },
     {
-        "GliderType": "MEISE",
-        "Handicap": 62
+        "GliderType": "M 100S",
+        "Handicap": "72"
     },
     {
-        "GliderType": "MINI NIMBUS",
-        "Handicap": 98
+        "GliderType": "M 200",
+        "Handicap": "74"
     },
     {
-        "GliderType": "MINIMOA",
-        "Handicap": 70
+        "GliderType": "Marianne",
+        "Handicap": "91"
     },
     {
-        "GliderType": "MISTRAL (FIXED)",
-        "Handicap": 88
+        "GliderType": "Meise",
+        "Handicap": "62"
     },
     {
-        "GliderType": "MOSQUITO A",
-        "Handicap": 98
+        "GliderType": "Minimoa",
+        "Handicap": "70"
     },
     {
-        "GliderType": "MOSQUITO A W",
-        "Handicap": 98.5
+        "GliderType": "Mini Nimbus",
+        "Handicap": "98"
     },
     {
-        "GliderType": "MOSQUITO B",
-        "Handicap": 98
+        "GliderType": "Mistral c (fixed)",
+        "Handicap": "88"
     },
     {
-        "GliderType": "MOSWEY 3",
-        "Handicap": 69
+        "GliderType": "Mosquito a,b",
+        "Handicap": "98"
     },
     {
-        "GliderType": "MOSWEY 4",
-        "Handicap": 72
+        "GliderType": "Moswey 3",
+        "Handicap": "69"
     },
     {
-        "GliderType": "MU 13",
-        "Handicap": 58
+        "GliderType": "Moswey 4",
+        "Handicap": "72"
     },
     {
-        "GliderType": "MUCHA STD",
-        "Handicap": 65
+        "GliderType": "Nimbus 3 (25.5m)",
+        "Handicap": "115"
     },
     {
-        "GliderType": "NIMBUS 2",
-        "Handicap": 106
+        "GliderType": "Nimbus 2,b,c",
+        "Handicap": "106"
     },
     {
-        "GliderType": "NIMBUS 2B",
-        "Handicap": 106
+        "GliderType": "Nimbus 2cs (23.5m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "NIMBUS 2C",
-        "Handicap": 106
+        "GliderType": "Nimbus 3 (24.5m)",
+        "Handicap": "114"
     },
     {
-        "GliderType": "NIMBUS 2CS (23.5)",
-        "Handicap": 111
+        "GliderType": "Nimbus 3 (25.5m)",
+        "Handicap": "115"
     },
     {
-        "GliderType": "NIMBUS 3 (24.5)",
-        "Handicap": 114
+        "GliderType": "Nimbus 3d (24.6m)",
+        "Handicap": "113"
     },
     {
-        "GliderType": "NIMBUS 3 (25.5)",
-        "Handicap": 115
+        "GliderType": "Nimbus 3d (25.6m)",
+        "Handicap": "114"
     },
     {
-        "GliderType": "NIMBUS 3D (24.6)",
-        "Handicap": 113
+        "GliderType": "Nimbus 4",
+        "Handicap": "117.5"
     },
     {
-        "GliderType": "NIMBUS 3D (25.6)",
-        "Handicap": 114
+        "GliderType": "Nimbus 4d",
+        "Handicap": "115"
     },
     {
-        "GliderType": "NIMBUS 3DT (24.6)",
-        "Handicap": 113
+        "GliderType": "Oly 403",
+        "Handicap": "76"
     },
     {
-        "GliderType": "NIMBUS 3DT (25.5)",
-        "Handicap": 115
+        "GliderType": "Oly 463",
+        "Handicap": "76"
     },
     {
-        "GliderType": "NIMBUS 4",
-        "Handicap": 117.5
+        "GliderType": "Olympia 2",
+        "Handicap": "62"
     },
     {
-        "GliderType": "NIMBUS 4D",
-        "Handicap": 115
+        "GliderType": "Olympia 419",
+        "Handicap": "78"
     },
     {
-        "GliderType": "NIMBUS 4DT",
-        "Handicap": 115
+        "GliderType": "Pegasus Club (fixed gear)",
+        "Handicap": "92"
     },
     {
-        "GliderType": "OLYMPIA 2",
-        "Handicap": 62
+        "GliderType": "Pegasus",
+        "Handicap": "95"
     },
     {
-        "GliderType": "OLYMPIA 403",
-        "Handicap": 76
+        "GliderType": "Phoebus 17",
+        "Handicap": "93"
     },
     {
-        "GliderType": "OLYMPIA 419",
-        "Handicap": 78
+        "GliderType": "Pik20",
+        "Handicap": "96"
     },
     {
-        "GliderType": "OLYMPIA 463",
-        "Handicap": 76
+        "GliderType": "Pilatus B4 (fixed gear)",
+        "Handicap": "80"
     },
     {
-        "GliderType": "PEGASE",
-        "Handicap": 95
+        "GliderType": "Pilatus B4 (retractable)",
+        "Handicap": "82"
     },
     {
-        "GliderType": "PHOEBUS (17.0)",
-        "Handicap": 93
+        "GliderType": "Prefect",
+        "Handicap": "56"
     },
     {
-        "GliderType": "PIK 20",
-        "Handicap": 96
+        "GliderType": "PW 5",
+        "Handicap": "81"
     },
     {
-        "GliderType": "PIK 20E",
-        "Handicap": 96
+        "GliderType": "Rhoensperber",
+        "Handicap": "57"
     },
     {
-        "GliderType": "PILATUS B4 (FIXED)",
-        "Handicap": 80
+        "GliderType": "Salto (15.5m-w)",
+        "Handicap": "87"
     },
     {
-        "GliderType": "PILATUS B4 (RETR)",
-        "Handicap": 82
+        "GliderType": "SB 5e (16.5m)",
+        "Handicap": "83"
     },
     {
-        "GliderType": "PIRAT",
-        "Handicap": 78
+        "GliderType": "SD 3/15",
+        "Handicap": "81"
     },
     {
-        "GliderType": "PREFECT",
-        "Handicap": 56
+        "GliderType": "SF 26",
+        "Handicap": "76"
     },
     {
-        "GliderType": "PUCHACZ",
-        "Handicap": 80
+        "GliderType": "SF 27a",
+        "Handicap": "82"
     },
     {
-        "GliderType": "PW5",
-        "Handicap": 81
-    },
-    {
-        "GliderType": "PW6",
-        "Handicap": 85
-    },
-    {
-        "GliderType": "RF 5B",
-        "Handicap": 60
-    },
-    {
-        "GliderType": "RHOENSPERBER",
-        "Handicap": 57
-    },
-    {
-        "GliderType": "SALTO",
-        "Handicap": 87
-    },
-    {
-        "GliderType": "SB5A",
-        "Handicap": 81
-    },
-    {
-        "GliderType": "SB5B",
-        "Handicap": 81
-    },
-    {
-        "GliderType": "SB5C",
-        "Handicap": 81
-    },
-    {
-        "GliderType": "SB5E (16.5)",
-        "Handicap": 83
-    },
-    {
-        "GliderType": "SD3/15",
-        "Handicap": 81
-    },
-    {
-        "GliderType": "SF26",
-        "Handicap": 76
-    },
-    {
-        "GliderType": "SF27A",
-        "Handicap": 82
-    },
-    {
-        "GliderType": "SF27B",
-        "Handicap": 83
+        "GliderType": "SF 27b",
+        "Handicap": "83"
     },
     {
         "GliderType": "SFH 34",
-        "Handicap": 85
+        "Handicap": "85"
     },
     {
         "GliderType": "SHK-1",
-        "Handicap": 89
+        "Handicap": "89"
     },
     {
-        "GliderType": "SIE 3",
-        "Handicap": 81
+        "GliderType": "Sie3",
+        "Handicap": "81"
     },
     {
-        "GliderType": "SILENE",
-        "Handicap": 88
+        "GliderType": "Silene",
+        "Handicap": "88"
     },
     {
-        "GliderType": "SILENT 2 ELECTRO",
-        "Handicap": 96
+        "GliderType": "Silent 2 Electro",
+        "Handicap": "94"
     },
     {
-        "GliderType": "SKY",
-        "Handicap": 72
+        "GliderType": "Sky",
+        "Handicap": "72"
     },
     {
-        "GliderType": "SKYLARK 2",
-        "Handicap": 67
+        "GliderType": "Skylark 2",
+        "Handicap": "67"
     },
     {
-        "GliderType": "SKYLARK 3",
-        "Handicap": 77
+        "GliderType": "Skylark 3",
+        "Handicap": "77"
     },
     {
-        "GliderType": "SKYLARK 4",
-        "Handicap": 78
+        "GliderType": "Skylark 4",
+        "Handicap": "78"
     },
     {
-        "GliderType": "SPEED ASTIR",
-        "Handicap": 96
+        "GliderType": "Speed Astir",
+        "Handicap": "96"
     },
     {
-        "GliderType": "SPORT VEGA",
-        "Handicap": 89
+        "GliderType": "Sport Vega",
+        "Handicap": "89"
     },
     {
-        "GliderType": "SPS 31",
-        "Handicap": 64
+        "GliderType": "Std. Cirrus",
+        "Handicap": "90"
     },
     {
-        "GliderType": "STD ASTIR",
-        "Handicap": 92
+        "GliderType": "Std. Cirrus (16m)",
+        "Handicap": "92"
     },
     {
-        "GliderType": "STD CIRRUS",
-        "Handicap": 90
+        "GliderType": "Std. Libelle",
+        "Handicap": "89"
     },
     {
-        "GliderType": "STD CIRRUS (16.0)",
-        "Handicap": 92
+        "GliderType": "Stemme S10",
+        "Handicap": "104"
     },
     {
-        "GliderType": "STD CIRRUS W",
-        "Handicap": 90.5
+        "GliderType": "Super Blanik",
+        "Handicap": "72"
     },
     {
-        "GliderType": "STD JANTAR",
-        "Handicap": 92
+        "GliderType": "Superfalke",
+        "Handicap": "64"
     },
     {
-        "GliderType": "STD JANTAR 2",
-        "Handicap": 93
-    },
-    {
-        "GliderType": "STEMME S10",
-        "Handicap": 104
-    },
-    {
-        "GliderType": "SUPER BLANIK",
-        "Handicap": 72
-    },
-    {
-        "GliderType": "SUPERFALKE",
-        "Handicap": 64
-    },
-    {
-        "GliderType": "SWALLOW",
-        "Handicap": 62
-    },
-    {
-        "GliderType": "SZD 30",
-        "Handicap": 78
-    },
-    {
-        "GliderType": "SZD 50",
-        "Handicap": 80
-    },
-    {
-        "GliderType": "SZD 51 JUNIOR",
-        "Handicap": 83
-    },
-    {
-        "GliderType": "SZD 55",
-        "Handicap": 98
-    },
-    {
-        "GliderType": "SZD 56",
-        "Handicap": 103
+        "GliderType": "Swallow",
+        "Handicap": "62"
     },
     {
         "GliderType": "SZD 59",
-        "Handicap": 92
+        "Handicap": "92"
     },
     {
-        "GliderType": "SZD54-2 PERKOZ (17.5)",
-        "Handicap": 87
+        "GliderType": "SZD 30 Pirat",
+        "Handicap": "78"
     },
     {
-        "GliderType": "SZD54-2 PERKOZ (20.0)",
-        "Handicap": 93
+        "GliderType": "SZD 38 Jantar 1",
+        "Handicap": "102"
+    },
+    {
+        "GliderType": "SZD 42 Jantar 2",
+        "Handicap": "106"
+    },
+    {
+        "GliderType": "SZD 41 Standard Jantar",
+        "Handicap": "92"
+    },
+    {
+        "GliderType": "SZD 50 Puchacz",
+        "Handicap": "80"
+    },
+    {
+        "GliderType": "SZD 51 Junior",
+        "Handicap": "83"
+    },
+    {
+        "GliderType": "SZD 55",
+        "Handicap": "98"
+    },
+    {
+        "GliderType": "SZD 56",
+        "Handicap": "103"
+    },
+    {
+        "GliderType": "SZD-54-2 Perkoz (20m)",
+        "Handicap": "93"
+    },
+    {
+        "GliderType": "SZD-54-2 Perkoz (17.5m)",
+        "Handicap": "87"
     },
     {
         "GliderType": "T21",
-        "Handicap": 50
+        "Handicap": "50"
     },
     {
         "GliderType": "T53",
-        "Handicap": 69
+        "Handicap": "69"
     },
     {
-        "GliderType": "TANDEM FALKE",
-        "Handicap": 60
+        "GliderType": "Tandem Falke",
+        "Handicap": "60"
     },
     {
-        "GliderType": "TORVA",
-        "Handicap": 83
+        "GliderType": "Torva",
+        "Handicap": "83"
     },
     {
-        "GliderType": "TWIN ASTIR",
-        "Handicap": 87
+        "GliderType": "Twin Astir",
+        "Handicap": "87"
     },
     {
-        "GliderType": "VEGA (15.0)",
-        "Handicap": 97
+        "GliderType": "Vega (17m)",
+        "Handicap": "101"
     },
     {
-        "GliderType": "VEGA L (17.0)",
-        "Handicap": 101
+        "GliderType": "Vega (15m)",
+        "Handicap": "97"
     },
     {
-        "GliderType": "VENTUS (16.6)",
-        "Handicap": 104
+        "GliderType": "Ventus a,b (16.6m)",
+        "Handicap": "104"
     },
     {
-        "GliderType": "VENTUS (17.6)",
-        "Handicap": 106
+        "GliderType": "Ventus a,b,c (15m)",
+        "Handicap": "101"
     },
     {
-        "GliderType": "VENTUS 2A (15.0)",
-        "Handicap": 104
+        "GliderType": "Ventus c (17.6m)",
+        "Handicap": "106"
     },
     {
-        "GliderType": "VENTUS 2AX (15.0)",
-        "Handicap": 104
+        "GliderType": "Ventus 2a,b,ax",
+        "Handicap": "104"
     },
     {
-        "GliderType": "VENTUS 2B (15.0)",
-        "Handicap": 104
+        "GliderType": "Ventus 2c,cx,cxa (15m)",
+        "Handicap": "104"
     },
     {
-        "GliderType": "VENTUS 2C (15.0)",
-        "Handicap": 104
+        "GliderType": "Ventus 2cxa FES (15m)",
+        "Handicap": "103"
     },
     {
-        "GliderType": "VENTUS 2C (18.0)",
-        "Handicap": 110
+        "GliderType": "Ventus 2c (18m)",
+        "Handicap": "109.5"
     },
     {
-        "GliderType": "VENTUS 2CX (15.0)",
-        "Handicap": 104
+        "GliderType": "Ventus 2cx (18m)",
+        "Handicap": "110"
     },
     {
-        "GliderType": "VENTUS 2CX (18.0)",
-        "Handicap": 110
+        "GliderType": "Ventus 2cxa (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "VENTUS 2CXA (18.0)",
-        "Handicap": 111
+        "GliderType": "Ventus 2cxa FES (18m)",
+        "Handicap": "110"
     },
     {
-        "GliderType": "VENTUS 3 (15.0)",
-        "Handicap": 104.5
+        "GliderType": "Ventus 3S (15m)",
+        "Handicap": "104.5"
     },
     {
-        "GliderType": "VENTUS 3 (18.0)",
-        "Handicap": 111.5
+        "GliderType": "Ventus 3S (18m)",
+        "Handicap": "111.5"
     },
     {
-        "GliderType": "VENTUS A",
-        "Handicap": 101
+        "GliderType": "Ventus 3S T (15m)",
+        "Handicap": "104.5"
     },
     {
-        "GliderType": "VENTUS B",
-        "Handicap": 101
+        "GliderType": "Ventus 3S T (18m)",
+        "Handicap": "111.5"
     },
     {
-        "GliderType": "VENTUS C",
-        "Handicap": 101
+        "GliderType": "Ventus 3S FES (15m)",
+        "Handicap": "103.5"
     },
     {
-        "GliderType": "VIKING (GROB)",
-        "Handicap": 85
+        "GliderType": "Ventus 3S FES (18m)",
+        "Handicap": "110.5"
     },
     {
-        "GliderType": "Ventus 2cxa FES (15)",
-        "Handicap": 103
+        "GliderType": "Ventus 3P T (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "Ventus 2cxa FES (18)",
-        "Handicap": 110
+        "GliderType": "Ventus 3P M (18m)",
+        "Handicap": "111"
     },
     {
-        "GliderType": "Ventus 3 FES (18)",
-        "Handicap": 110.5
+        "GliderType": "Viking",
+        "Handicap": "85"
     },
     {
-        "GliderType": "Ventus 3 FES(15)",
-        "Handicap": 103.5
-    },
-    {
-        "GliderType": "Ventus 3M (18)",
-        "Handicap": 111
+        "GliderType": "Weihe",
+        "Handicap": "67"
     },
     {
         "GliderType": "WA22",
-        "Handicap": 72
+        "Handicap": "72"
     },
     {
         "GliderType": "WA28",
-        "Handicap": 86
+        "Handicap": "86"
     },
     {
-        "GliderType": "WEIHE",
-        "Handicap": 67
-    },
-    {
-        "GliderType": "XIMANGO",
-        "Handicap": 67
-    },
-    {
-        "GliderType": "YS53",
-        "Handicap": 69
-    },
-    {
-        "GliderType": "ZUGVOGEL IIIB",
-        "Handicap": 83
+        "GliderType": "Zugvogel 3b",
+        "Handicap": "83"
     }
 ]
