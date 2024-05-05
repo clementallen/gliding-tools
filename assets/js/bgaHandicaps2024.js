@@ -10,7 +10,7 @@ function displayResultsAmount(amount) {
 
 $.ajax({
     type: 'GET',
-    url: '../assets/bgahandicaps-2022.json',
+    url: '../assets/bgahandicaps-2024.json',
     success: function(data) {
         for (let i = 0; i < data.length; i++) {
             const item = data[i];
