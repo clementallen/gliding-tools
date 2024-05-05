@@ -10,7 +10,7 @@ function displayResultsAmount(amount) {
 
 $.ajax({
     type: 'GET',
-    url: '../assets/bgaturnpoints-2020.json',
+    url: '../assets/bgaturnpoints-2024.json',
     success: function(data) {
         for (let i = 0; i < data.length; i++) {
             const item = data[i];
