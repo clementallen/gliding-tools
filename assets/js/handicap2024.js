@@ -5,14 +5,16 @@ function handicapSpeed(handicap, speed) {
     return handicappedSpeed.toFixed(1);
 }
 
-$.get('../assets/bgahandicaps-2022.json', function(data) {
+$.get('../assets/bgahandicaps-4.json', function (data) {
     handicapData = data;
-    $.each(data, function(index, value) {
-        $('#handicap-select-glider').append('<option data-index="' + index + '" value="' + value.Handicap + '">' + value.GliderType + '</option>');
+    $.each(data, function (index, value) {
+        $('#handicap-select-glider').append(
+            '<option data-index="' + index + '" value="' + value.Handicap + '">' + value.GliderType + '</option>',
+        );
     });
 });
 
-$('#handicap-select-glider').on('change', function() {
+$('#handicap-select-glider').on('change', function () {
     var selectedValue = $(this).val();
     var selectedIndex = $(this).find(':selected').attr('data-index');
     if (selectedValue == 'other' || selectedValue == 'Select glider') {
@@ -24,8 +26,7 @@ $('#handicap-select-glider').on('change', function() {
     }
 });
 
-
-$('#handicap-form').submit(function(e) {
+$('#handicap-form').submit(function (e) {
     e.preventDefault();
 
     var handicapEl = $('#handicap-number'),
@@ -43,7 +44,7 @@ $('#handicap-form').submit(function(e) {
 
     var entries = {
         '#handicap-number': handicap,
-        '#handicap-speed': speed
+        '#handicap-speed': speed,
     };
 
     var errors = validate.numberGroup(entries);
