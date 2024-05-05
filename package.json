@@ -13,7 +13,7 @@
         "url": "https://github.com/clementallen/gliding-tools/issues"
     },
     "scripts": {
-        "generate-turnpoints": "node cup2json.js > assets/bgaturnpoints-2020.json",
+        "generate-turnpoints": "node cup2json.js > assets/bgaturnpoints-2024.json",
         "dev": "serve"
     },
     "homepage": "https://github.com/clementallen/gliding-tools#readme",
