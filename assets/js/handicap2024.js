@@ -5,7 +5,7 @@ function handicapSpeed(handicap, speed) {
     return handicappedSpeed.toFixed(1);
 }
 
-$.get('../assets/bgahandicaps-4.json', function (data) {
+$.get('../assets/bgahandicaps.json', function (data) {
     handicapData = data;
     $.each(data, function (index, value) {
         $('#handicap-select-glider').append(
