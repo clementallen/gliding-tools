@@ -1,0 +1,5586 @@
+[
+    {
+        "name": "AB1-Aboyne Bridge",
+        "trigraph": "AB1"
+    },
+    {
+        "name": "ABA-Abbey St Bathans",
+        "trigraph": "ABA"
+    },
+    {
+        "name": "ABB-Abbot's Bromley",
+        "trigraph": "ABB"
+    },
+    {
+        "name": "ABD-Aboyne Dinnet",
+        "trigraph": "ABD"
+    },
+    {
+        "name": "ABE-Abergavenny",
+        "trigraph": "ABE"
+    },
+    {
+        "name": "ABF-Aberfeldy",
+        "trigraph": "ABF"
+    },
+    {
+        "name": "ABG-Abingdon Airfield",
+        "trigraph": "ABG"
+    },
+    {
+        "name": "ABI-Abington",
+        "trigraph": "ABI"
+    },
+    {
+        "name": "ABL-Aberfoyle",
+        "trigraph": "ABL"
+    },
+    {
+        "name": "ABN-Abingdon Bridge",
+        "trigraph": "ABN"
+    },
+    {
+        "name": "ABO-Aboyne",
+        "trigraph": "ABO"
+    },
+    {
+        "name": "ABP-Ashburnham",
+        "trigraph": "ABP"
+    },
+    {
+        "name": "ABR-Aberchirder",
+        "trigraph": "ABR"
+    },
+    {
+        "name": "ABS-Abergavenny SW",
+        "trigraph": "ABS"
+    },
+    {
+        "name": "ABY-Aberystwyth Pier",
+        "trigraph": "ABY"
+    },
+    {
+        "name": "ACB-Alconbury",
+        "trigraph": "ACB"
+    },
+    {
+        "name": "ACC-Accrington NE",
+        "trigraph": "ACC"
+    },
+    {
+        "name": "ACH-Achnasheen",
+        "trigraph": "ACH"
+    },
+    {
+        "name": "ACN-Achnabourin",
+        "trigraph": "ACN"
+    },
+    {
+        "name": "AD1-Aston Down Finish N",
+        "trigraph": "AD1"
+    },
+    {
+        "name": "AD2-Aston Down Finish S",
+        "trigraph": "AD2"
+    },
+    {
+        "name": "ADE-Aberdare SE",
+        "trigraph": "ADE"
+    },
+    {
+        "name": "ADF-Andoversford",
+        "trigraph": "ADF"
+    },
+    {
+        "name": "ADN-Aberdaron",
+        "trigraph": "ADN"
+    },
+    {
+        "name": "AFB-Alfriston Bridge",
+        "trigraph": "AFB"
+    },
+    {
+        "name": "AFD-Alford",
+        "trigraph": "AFD"
+    },
+    {
+        "name": "AGS-Abergele South",
+        "trigraph": "AGS"
+    },
+    {
+        "name": "AHA-Altnaharra",
+        "trigraph": "AHA"
+    },
+    {
+        "name": "AKE-Alnwick E",
+        "trigraph": "AKE"
+    },
+    {
+        "name": "ALB-Aln Bridge",
+        "trigraph": "ALB"
+    },
+    {
+        "name": "ALC-Alcester",
+        "trigraph": "ALC"
+    },
+    {
+        "name": "ALE-Aylesham",
+        "trigraph": "ALE"
+    },
+    {
+        "name": "ALF-Alfreton",
+        "trigraph": "ALF"
+    },
+    {
+        "name": "ALL-Allendale Bridge",
+        "trigraph": "ALL"
+    },
+    {
+        "name": "ALM-Alnwick Moor SW",
+        "trigraph": "ALM"
+    },
+    {
+        "name": "ALO-Alston",
+        "trigraph": "ALO"
+    },
+    {
+        "name": "ALR-Aberlour",
+        "trigraph": "ALR"
+    },
+    {
+        "name": "ALS-Alfreton South",
+        "trigraph": "ALS"
+    },
+    {
+        "name": "ALV-Alva",
+        "trigraph": "ALV"
+    },
+    {
+        "name": "ALW-Alton Southwest",
+        "trigraph": "ALW"
+    },
+    {
+        "name": "ALY-Alyth",
+        "trigraph": "ALY"
+    },
+    {
+        "name": "AMB-Amberley",
+        "trigraph": "AMB"
+    },
+    {
+        "name": "AMS-Ambleside",
+        "trigraph": "AMS"
+    },
+    {
+        "name": "AMU-Amulree",
+        "trigraph": "AMU"
+    },
+    {
+        "name": "AND-Andover SW",
+        "trigraph": "AND"
+    },
+    {
+        "name": "ANE-Andover SE",
+        "trigraph": "ANE"
+    },
+    {
+        "name": "ANX-Ansty Cross",
+        "trigraph": "ANX"
+    },
+    {
+        "name": "APP-Appleby",
+        "trigraph": "APP"
+    },
+    {
+        "name": "ARD-Ardvasar",
+        "trigraph": "ARD"
+    },
+    {
+        "name": "ARL-Ardrishaig Lighthouse",
+        "trigraph": "ARL"
+    },
+    {
+        "name": "ARU-Arundel",
+        "trigraph": "ARU"
+    },
+    {
+        "name": "ASB-Ashbury",
+        "trigraph": "ASB"
+    },
+    {
+        "name": "ASE-Ashford East",
+        "trigraph": "ASE"
+    },
+    {
+        "name": "ASH-Ashbourne",
+        "trigraph": "ASH"
+    },
+    {
+        "name": "ASP-Aspatria",
+        "trigraph": "ASP"
+    },
+    {
+        "name": "ASS-Ashford South",
+        "trigraph": "ASS"
+    },
+    {
+        "name": "AST-Aston Down",
+        "trigraph": "AST"
+    },
+    {
+        "name": "ASW-Airdrie Southwest",
+        "trigraph": "ASW"
+    },
+    {
+        "name": "ASY-Ashley",
+        "trigraph": "ASY"
+    },
+    {
+        "name": "ATH-Atherstone",
+        "trigraph": "ATH"
+    },
+    {
+        "name": "ATT-Attleborough",
+        "trigraph": "ATT"
+    },
+    {
+        "name": "ATW-Alton Towers",
+        "trigraph": "ATW"
+    },
+    {
+        "name": "AUL-Auldgirth",
+        "trigraph": "AUL"
+    },
+    {
+        "name": "AVE-Avebury",
+        "trigraph": "AVE"
+    },
+    {
+        "name": "AVN-Avening",
+        "trigraph": "AVN"
+    },
+    {
+        "name": "AXM-Axminster",
+        "trigraph": "AXM"
+    },
+    {
+        "name": "AYL-Aylesbury",
+        "trigraph": "AYL"
+    },
+    {
+        "name": "AYS-Aysgarth",
+        "trigraph": "AYS"
+    },
+    {
+        "name": "BA1-Banbury W",
+        "trigraph": "BA1"
+    },
+    {
+        "name": "BA2-Banbury N",
+        "trigraph": "BA2"
+    },
+    {
+        "name": "BAA-Balallan",
+        "trigraph": "BAA"
+    },
+    {
+        "name": "BAB-Ballachulish Bridge",
+        "trigraph": "BAB"
+    },
+    {
+        "name": "BAC-Backwater Reservoir",
+        "trigraph": "BAC"
+    },
+    {
+        "name": "BAD-Badminton",
+        "trigraph": "BAD"
+    },
+    {
+        "name": "BAE-Bath East",
+        "trigraph": "BAE"
+    },
+    {
+        "name": "BAF-Balfron",
+        "trigraph": "BAF"
+    },
+    {
+        "name": "BAG-Bangor-on-Dee",
+        "trigraph": "BAG"
+    },
+    {
+        "name": "BAH-Barrhill",
+        "trigraph": "BAH"
+    },
+    {
+        "name": "BAK-Bakewell",
+        "trigraph": "BAK"
+    },
+    {
+        "name": "BAL-Bala",
+        "trigraph": "BAL"
+    },
+    {
+        "name": "BAM-Bampton",
+        "trigraph": "BAM"
+    },
+    {
+        "name": "BAN-Banbury",
+        "trigraph": "BAN"
+    },
+    {
+        "name": "BAR-Barnard Castle",
+        "trigraph": "BAR"
+    },
+    {
+        "name": "BAS-Basingstoke",
+        "trigraph": "BAS"
+    },
+    {
+        "name": "BAT-Bath Racecourse SW",
+        "trigraph": "BAT"
+    },
+    {
+        "name": "BAW-Banchory West",
+        "trigraph": "BAW"
+    },
+    {
+        "name": "BBG-Boat O'Brig",
+        "trigraph": "BBG"
+    },
+    {
+        "name": "BBK-Bracken Bank",
+        "trigraph": "BBK"
+    },
+    {
+        "name": "BBR-Bath Bridge",
+        "trigraph": "BBR"
+    },
+    {
+        "name": "BCA-Bishop's Caundle",
+        "trigraph": "BCA"
+    },
+    {
+        "name": "BCE-Banchory East",
+        "trigraph": "BCE"
+    },
+    {
+        "name": "BCL-Bishop's Cleeve NW",
+        "trigraph": "BCL"
+    },
+    {
+        "name": "BCN-Brechin",
+        "trigraph": "BCN"
+    },
+    {
+        "name": "BCS-Bishops Castle",
+        "trigraph": "BCS"
+    },
+    {
+        "name": "BCW-Bishops Cleeve W",
+        "trigraph": "BCW"
+    },
+    {
+        "name": "BCY-Banchory",
+        "trigraph": "BCY"
+    },
+    {
+        "name": "BDM-Bodmin SE",
+        "trigraph": "BDM"
+    },
+    {
+        "name": "BDN-Beadnell Harbour",
+        "trigraph": "BDN"
+    },
+    {
+        "name": "BDO-Balado",
+        "trigraph": "BDO"
+    },
+    {
+        "name": "BDW-Bodelwyddan",
+        "trigraph": "BDW"
+    },
+    {
+        "name": "BDY-Bardney",
+        "trigraph": "BDY"
+    },
+    {
+        "name": "BE2-Beal",
+        "trigraph": "BE2"
+    },
+    {
+        "name": "BEA-Beaminster",
+        "trigraph": "BEA"
+    },
+    {
+        "name": "BEC-Beckington",
+        "trigraph": "BEC"
+    },
+    {
+        "name": "BED-Bedford Bridge",
+        "trigraph": "BED"
+    },
+    {
+        "name": "BEE-Beer Head W",
+        "trigraph": "BEE"
+    },
+    {
+        "name": "BEL-Bellingham",
+        "trigraph": "BEL"
+    },
+    {
+        "name": "BEM-Bembridge",
+        "trigraph": "BEM"
+    },
+    {
+        "name": "BEN-Bentpath",
+        "trigraph": "BEN"
+    },
+    {
+        "name": "BER-Berwick W",
+        "trigraph": "BER"
+    },
+    {
+        "name": "BES-St Bees Head",
+        "trigraph": "BES"
+    },
+    {
+        "name": "BET-Beattock",
+        "trigraph": "BET"
+    },
+    {
+        "name": "BEU-Beulah",
+        "trigraph": "BEU"
+    },
+    {
+        "name": "BEV-Beverley",
+        "trigraph": "BEV"
+    },
+    {
+        "name": "BEW-Bewl Water",
+        "trigraph": "BEW"
+    },
+    {
+        "name": "BF1-Booker Finish SW",
+        "trigraph": "BF1"
+    },
+    {
+        "name": "BF2-Booker Finish NW",
+        "trigraph": "BF2"
+    },
+    {
+        "name": "BFD-Belford",
+        "trigraph": "BFD"
+    },
+    {
+        "name": "BFF-Banff",
+        "trigraph": "BFF"
+    },
+    {
+        "name": "BGA-Biggar",
+        "trigraph": "BGA"
+    },
+    {
+        "name": "BGG-Brigg",
+        "trigraph": "BGG"
+    },
+    {
+        "name": "BGO-Bangor SE",
+        "trigraph": "BGO"
+    },
+    {
+        "name": "BGR-Blairgowrie",
+        "trigraph": "BGR"
+    },
+    {
+        "name": "BGT-Bedlands Gate",
+        "trigraph": "BGT"
+    },
+    {
+        "name": "BGW-Basingstoke West",
+        "trigraph": "BGW"
+    },
+    {
+        "name": "BHN-Bath North",
+        "trigraph": "BHN"
+    },
+    {
+        "name": "BID-Bidford",
+        "trigraph": "BID"
+    },
+    {
+        "name": "BIE-Bicester East",
+        "trigraph": "BIE"
+    },
+    {
+        "name": "BIF-Broughton-in-Furness",
+        "trigraph": "BIF"
+    },
+    {
+        "name": "BIG-Biggleswade",
+        "trigraph": "BIG"
+    },
+    {
+        "name": "BIL-Billinghay",
+        "trigraph": "BIL"
+    },
+    {
+        "name": "BIN-Biddenden",
+        "trigraph": "BIN"
+    },
+    {
+        "name": "BIR-Birdlip",
+        "trigraph": "BIR"
+    },
+    {
+        "name": "BIS-Bishop Auckland",
+        "trigraph": "BIS"
+    },
+    {
+        "name": "BKN-Bockleton",
+        "trigraph": "BKN"
+    },
+    {
+        "name": "BKY-Brinkley Church",
+        "trigraph": "BKY"
+    },
+    {
+        "name": "BLA-Blakehill Farm",
+        "trigraph": "BLA"
+    },
+    {
+        "name": "BLB-Barnstaple  Bridge",
+        "trigraph": "BLB"
+    },
+    {
+        "name": "BLD-Blandford",
+        "trigraph": "BLD"
+    },
+    {
+        "name": "BLE-Blenheim N",
+        "trigraph": "BLE"
+    },
+    {
+        "name": "BLF-Blaenau Ffestiniog",
+        "trigraph": "BLF"
+    },
+    {
+        "name": "BLG-Ballinluig",
+        "trigraph": "BLG"
+    },
+    {
+        "name": "BLH-Balloch",
+        "trigraph": "BLH"
+    },
+    {
+        "name": "BLI-Blidworth",
+        "trigraph": "BLI"
+    },
+    {
+        "name": "BLK-Blakeney Point",
+        "trigraph": "BLK"
+    },
+    {
+        "name": "BLN-Blanchland",
+        "trigraph": "BLN"
+    },
+    {
+        "name": "BLO-Bolsover SW",
+        "trigraph": "BLO"
+    },
+    {
+        "name": "BLR-Blair Atholl",
+        "trigraph": "BLR"
+    },
+    {
+        "name": "BLS-Barnsley S",
+        "trigraph": "BLS"
+    },
+    {
+        "name": "BLW-Barnsley W",
+        "trigraph": "BLW"
+    },
+    {
+        "name": "BLY-Bletchley",
+        "trigraph": "BLY"
+    },
+    {
+        "name": "BMA-Balmaha",
+        "trigraph": "BMA"
+    },
+    {
+        "name": "BMC-Brayford",
+        "trigraph": "BMC"
+    },
+    {
+        "name": "BMM-Brynamman",
+        "trigraph": "BMM"
+    },
+    {
+        "name": "BMR-Braemar East",
+        "trigraph": "BMR"
+    },
+    {
+        "name": "BMS-Barmouth Station",
+        "trigraph": "BMS"
+    },
+    {
+        "name": "BNG-Bingham",
+        "trigraph": "BNG"
+    },
+    {
+        "name": "BNK-Brinkworth",
+        "trigraph": "BNK"
+    },
+    {
+        "name": "BNS-Burn South-West",
+        "trigraph": "BNS"
+    },
+    {
+        "name": "BNV-Ben Nevis",
+        "trigraph": "BNV"
+    },
+    {
+        "name": "BNW-Bicester North West",
+        "trigraph": "BNW"
+    },
+    {
+        "name": "BO1-Booker SW",
+        "trigraph": "BO1"
+    },
+    {
+        "name": "BO4-Turville Windmill",
+        "trigraph": "BO4"
+    },
+    {
+        "name": "BO5-Rockwell End",
+        "trigraph": "BO5"
+    },
+    {
+        "name": "BOA-Bridge of Avon",
+        "trigraph": "BOA"
+    },
+    {
+        "name": "BOB-Booker M40 Bridge",
+        "trigraph": "BOB"
+    },
+    {
+        "name": "BOC-Bridge of Cally",
+        "trigraph": "BOC"
+    },
+    {
+        "name": "BOD-Bodiam",
+        "trigraph": "BOD"
+    },
+    {
+        "name": "BOG-Bridge of Gaur",
+        "trigraph": "BOG"
+    },
+    {
+        "name": "BOL-Bootle",
+        "trigraph": "BOL"
+    },
+    {
+        "name": "BOM-Bodmin SW",
+        "trigraph": "BOM"
+    },
+    {
+        "name": "BON-Boncath",
+        "trigraph": "BON"
+    },
+    {
+        "name": "BOO-Booker Airfield",
+        "trigraph": "BOO"
+    },
+    {
+        "name": "BOR-Boroughbridge",
+        "trigraph": "BOR"
+    },
+    {
+        "name": "BOS-Boston",
+        "trigraph": "BOS"
+    },
+    {
+        "name": "BOT-Bottesford",
+        "trigraph": "BOT"
+    },
+    {
+        "name": "BOU-Bourne",
+        "trigraph": "BOU"
+    },
+    {
+        "name": "BOV-Bovey Tracey",
+        "trigraph": "BOV"
+    },
+    {
+        "name": "BOW-Bourton-on-the-water",
+        "trigraph": "BOW"
+    },
+    {
+        "name": "BOZ-Bozeat",
+        "trigraph": "BOZ"
+    },
+    {
+        "name": "BPT-Bridport",
+        "trigraph": "BPT"
+    },
+    {
+        "name": "BR1-Bognor Regis Gliding Club",
+        "trigraph": "BR1"
+    },
+    {
+        "name": "BR2-Bognor Domes",
+        "trigraph": "BR2"
+    },
+    {
+        "name": "BRC-Brackley South",
+        "trigraph": "BRC"
+    },
+    {
+        "name": "BRD-Bradbury",
+        "trigraph": "BRD"
+    },
+    {
+        "name": "BRE-Brecon",
+        "trigraph": "BRE"
+    },
+    {
+        "name": "BRF-Bradford-on-avon",
+        "trigraph": "BRF"
+    },
+    {
+        "name": "BRG-Brenig",
+        "trigraph": "BRG"
+    },
+    {
+        "name": "BRH-Brough",
+        "trigraph": "BRH"
+    },
+    {
+        "name": "BRI-Bridgnorth",
+        "trigraph": "BRI"
+    },
+    {
+        "name": "BRK-Broad Oak",
+        "trigraph": "BRK"
+    },
+    {
+        "name": "BRL-Brill",
+        "trigraph": "BRL"
+    },
+    {
+        "name": "BRM-Bromsgrove",
+        "trigraph": "BRM"
+    },
+    {
+        "name": "BRN-Burn",
+        "trigraph": "BRN"
+    },
+    {
+        "name": "BRO-Broadway",
+        "trigraph": "BRO"
+    },
+    {
+        "name": "BRP-Brampton",
+        "trigraph": "BRP"
+    },
+    {
+        "name": "BRR-Brora",
+        "trigraph": "BRR"
+    },
+    {
+        "name": "BRS-Braemar Stadium",
+        "trigraph": "BRS"
+    },
+    {
+        "name": "BRT-Brent Tor",
+        "trigraph": "BRT"
+    },
+    {
+        "name": "BRU-Bruton",
+        "trigraph": "BRU"
+    },
+    {
+        "name": "BRY-Bromyard",
+        "trigraph": "BRY"
+    },
+    {
+        "name": "BRZ-Brenzett",
+        "trigraph": "BRZ"
+    },
+    {
+        "name": "BS1-Bury St Edmunds S",
+        "trigraph": "BS1"
+    },
+    {
+        "name": "BS2-Bury St Edmunds N",
+        "trigraph": "BS2"
+    },
+    {
+        "name": "BSE-Bury St Edmunds",
+        "trigraph": "BSE"
+    },
+    {
+        "name": "BSN-Basingstoke N",
+        "trigraph": "BSN"
+    },
+    {
+        "name": "BSS-Bunessan Pier",
+        "trigraph": "BSS"
+    },
+    {
+        "name": "BSW-Brecon SW",
+        "trigraph": "BSW"
+    },
+    {
+        "name": "BT2-Bassenthwaite E",
+        "trigraph": "BT2"
+    },
+    {
+        "name": "BTH-Bassenthwaite Lake NW",
+        "trigraph": "BTH"
+    },
+    {
+        "name": "BTL-Battle",
+        "trigraph": "BTL"
+    },
+    {
+        "name": "BTN-Bridlington",
+        "trigraph": "BTN"
+    },
+    {
+        "name": "BTR-Ballater",
+        "trigraph": "BTR"
+    },
+    {
+        "name": "BTT-Buttermere",
+        "trigraph": "BTT"
+    },
+    {
+        "name": "BUB-Burbage",
+        "trigraph": "BUB"
+    },
+    {
+        "name": "BUC-Buckingham",
+        "trigraph": "BUC"
+    },
+    {
+        "name": "BUD-Bude",
+        "trigraph": "BUD"
+    },
+    {
+        "name": "BUG-Burley Gate",
+        "trigraph": "BUG"
+    },
+    {
+        "name": "BUH-Burnhope Reservoir",
+        "trigraph": "BUH"
+    },
+    {
+        "name": "BUI-Builth Wells",
+        "trigraph": "BUI"
+    },
+    {
+        "name": "BUK-Buckfastleigh",
+        "trigraph": "BUK"
+    },
+    {
+        "name": "BUL-Bullington",
+        "trigraph": "BUL"
+    },
+    {
+        "name": "BUN-Bungay",
+        "trigraph": "BUN"
+    },
+    {
+        "name": "BUS-Burton upon Stather",
+        "trigraph": "BUS"
+    },
+    {
+        "name": "BUT-Butser Hill",
+        "trigraph": "BUT"
+    },
+    {
+        "name": "BUX-Buxton",
+        "trigraph": "BUX"
+    },
+    {
+        "name": "BUY-Beauly",
+        "trigraph": "BUY"
+    },
+    {
+        "name": "BVR-Belvoir",
+        "trigraph": "BVR"
+    },
+    {
+        "name": "BVT-Bovington",
+        "trigraph": "BVT"
+    },
+    {
+        "name": "BWE-Bridgwater E",
+        "trigraph": "BWE"
+    },
+    {
+        "name": "BWL-Bwlch",
+        "trigraph": "BWL"
+    },
+    {
+        "name": "BYT-Blyth",
+        "trigraph": "BYT"
+    },
+    {
+        "name": "CAA-Callander NE",
+        "trigraph": "CAA"
+    },
+    {
+        "name": "CAC-Candover Church",
+        "trigraph": "CAC"
+    },
+    {
+        "name": "CAD-Callander",
+        "trigraph": "CAD"
+    },
+    {
+        "name": "CAE-Canterbury East",
+        "trigraph": "CAE"
+    },
+    {
+        "name": "CAH-Castle Howard",
+        "trigraph": "CAH"
+    },
+    {
+        "name": "CAI-Cairnwell",
+        "trigraph": "CAI"
+    },
+    {
+        "name": "CAL-Calvert Rail Junction",
+        "trigraph": "CAL"
+    },
+    {
+        "name": "CAN-Cannock",
+        "trigraph": "CAN"
+    },
+    {
+        "name": "CAO-Canonbie",
+        "trigraph": "CAO"
+    },
+    {
+        "name": "CAR-Carlton Moor",
+        "trigraph": "CAR"
+    },
+    {
+        "name": "CAS-Cambridge South",
+        "trigraph": "CAS"
+    },
+    {
+        "name": "CAT-Canterbury",
+        "trigraph": "CAT"
+    },
+    {
+        "name": "CAX-Caxton Gibbet",
+        "trigraph": "CAX"
+    },
+    {
+        "name": "CBA-Carter Bar",
+        "trigraph": "CBA"
+    },
+    {
+        "name": "CBC-Conisbrough Castle",
+        "trigraph": "CBC"
+    },
+    {
+        "name": "CBG-Creagan Bridge",
+        "trigraph": "CBG"
+    },
+    {
+        "name": "CBK-Carisbrooke Castle",
+        "trigraph": "CBK"
+    },
+    {
+        "name": "CBN-Chilbolton",
+        "trigraph": "CBN"
+    },
+    {
+        "name": "CBR-Carrbridge",
+        "trigraph": "CBR"
+    },
+    {
+        "name": "CCB-Catacol Bridge",
+        "trigraph": "CCB"
+    },
+    {
+        "name": "CCC-Carreg Cennen Castle",
+        "trigraph": "CCC"
+    },
+    {
+        "name": "CCH-Castle Combe",
+        "trigraph": "CCH"
+    },
+    {
+        "name": "CCK-Castle Carrock Dam NW",
+        "trigraph": "CCK"
+    },
+    {
+        "name": "CCL-Crickhowell",
+        "trigraph": "CCL"
+    },
+    {
+        "name": "CCR-Clay Cross Reservoir",
+        "trigraph": "CCR"
+    },
+    {
+        "name": "CCX-Cadbury Cross",
+        "trigraph": "CCX"
+    },
+    {
+        "name": "CDB-Cromdale Spey Bridge",
+        "trigraph": "CDB"
+    },
+    {
+        "name": "CDI-Cader Idris",
+        "trigraph": "CDI"
+    },
+    {
+        "name": "CDK-Clodock",
+        "trigraph": "CDK"
+    },
+    {
+        "name": "CDO-Castle Douglas SW",
+        "trigraph": "CDO"
+    },
+    {
+        "name": "CDS-Clattershaws Dam S",
+        "trigraph": "CDS"
+    },
+    {
+        "name": "CDW-Coldwaltham",
+        "trigraph": "CDW"
+    },
+    {
+        "name": "CER-Cerne Abbas",
+        "trigraph": "CER"
+    },
+    {
+        "name": "CES-Cowes",
+        "trigraph": "CES"
+    },
+    {
+        "name": "CFB-Chollerford Bridge",
+        "trigraph": "CFB"
+    },
+    {
+        "name": "CFE-Cranwell Finish East",
+        "trigraph": "CFE"
+    },
+    {
+        "name": "CFF-Crieff",
+        "trigraph": "CFF"
+    },
+    {
+        "name": "CFN-Chalford North",
+        "trigraph": "CFN"
+    },
+    {
+        "name": "CGB-Calgary Beach Car Park",
+        "trigraph": "CGB"
+    },
+    {
+        "name": "CGF-Corgarf",
+        "trigraph": "CGF"
+    },
+    {
+        "name": "CGI-Craigellachie",
+        "trigraph": "CGI"
+    },
+    {
+        "name": "CGL-Croglin",
+        "trigraph": "CGL"
+    },
+    {
+        "name": "CGN-Cragganmore",
+        "trigraph": "CGN"
+    },
+    {
+        "name": "CGT-Cherington",
+        "trigraph": "CGT"
+    },
+    {
+        "name": "CHA-Chard",
+        "trigraph": "CHA"
+    },
+    {
+        "name": "CHB-Charlbury",
+        "trigraph": "CHB"
+    },
+    {
+        "name": "CHC-Chipping Campden",
+        "trigraph": "CHC"
+    },
+    {
+        "name": "CHD-Chesterfield",
+        "trigraph": "CHD"
+    },
+    {
+        "name": "CHE-Chedworth",
+        "trigraph": "CHE"
+    },
+    {
+        "name": "CHI-Chichester W",
+        "trigraph": "CHI"
+    },
+    {
+        "name": "CHK-Chirk",
+        "trigraph": "CHK"
+    },
+    {
+        "name": "CHM-Charlton Mires",
+        "trigraph": "CHM"
+    },
+    {
+        "name": "CHN-Chipping Norton",
+        "trigraph": "CHN"
+    },
+    {
+        "name": "CHO-Chorley West",
+        "trigraph": "CHO"
+    },
+    {
+        "name": "CHP-Chipping",
+        "trigraph": "CHP"
+    },
+    {
+        "name": "CHR-Charterhall Field",
+        "trigraph": "CHR"
+    },
+    {
+        "name": "CHS-Chelmsford S",
+        "trigraph": "CHS"
+    },
+    {
+        "name": "CHT-Chatteris",
+        "trigraph": "CHT"
+    },
+    {
+        "name": "CHU-Church Houses",
+        "trigraph": "CHU"
+    },
+    {
+        "name": "CHV-Chieveley",
+        "trigraph": "CHV"
+    },
+    {
+        "name": "CHW-Charwelton",
+        "trigraph": "CHW"
+    },
+    {
+        "name": "CIL-Castle Island Laggan",
+        "trigraph": "CIL"
+    },
+    {
+        "name": "CIN-Cinderford",
+        "trigraph": "CIN"
+    },
+    {
+        "name": "CIR-Cirencester Church",
+        "trigraph": "CIR"
+    },
+    {
+        "name": "CIW-Cirencester West",
+        "trigraph": "CIW"
+    },
+    {
+        "name": "CKL-Chicklade",
+        "trigraph": "CKL"
+    },
+    {
+        "name": "CL2-Challock Chalk Pit",
+        "trigraph": "CL2"
+    },
+    {
+        "name": "CL3-Challock East",
+        "trigraph": "CL3"
+    },
+    {
+        "name": "CLA-Claydon",
+        "trigraph": "CLA"
+    },
+    {
+        "name": "CLC-Clacton E",
+        "trigraph": "CLC"
+    },
+    {
+        "name": "CLD-Culdrose A/F",
+        "trigraph": "CLD"
+    },
+    {
+        "name": "CLE-Clee",
+        "trigraph": "CLE"
+    },
+    {
+        "name": "CLH-Culmhead airfield",
+        "trigraph": "CLH"
+    },
+    {
+        "name": "CLI-Clitheroe",
+        "trigraph": "CLI"
+    },
+    {
+        "name": "CLK-Challock",
+        "trigraph": "CLK"
+    },
+    {
+        "name": "CLL-Carlisle",
+        "trigraph": "CLL"
+    },
+    {
+        "name": "CLM-Chilham",
+        "trigraph": "CLM"
+    },
+    {
+        "name": "CLN-Calne W",
+        "trigraph": "CLN"
+    },
+    {
+        "name": "CLO-Clova",
+        "trigraph": "CLO"
+    },
+    {
+        "name": "CLP-Clyffe Pypard",
+        "trigraph": "CLP"
+    },
+    {
+        "name": "CLR-Clare Church",
+        "trigraph": "CLR"
+    },
+    {
+        "name": "CLS-Culmstock",
+        "trigraph": "CLS"
+    },
+    {
+        "name": "CLT-Corran Lighthouse",
+        "trigraph": "CLT"
+    },
+    {
+        "name": "CLU-Clunas",
+        "trigraph": "CLU"
+    },
+    {
+        "name": "CLV-Cleeve Hill",
+        "trigraph": "CLV"
+    },
+    {
+        "name": "CLW-Carloway",
+        "trigraph": "CLW"
+    },
+    {
+        "name": "CLY-Callaly Castle",
+        "trigraph": "CLY"
+    },
+    {
+        "name": "CME-Cheltenham East",
+        "trigraph": "CME"
+    },
+    {
+        "name": "CML-Carmodle",
+        "trigraph": "CML"
+    },
+    {
+        "name": "CMN-Carmarthen",
+        "trigraph": "CMN"
+    },
+    {
+        "name": "CMO-Cockermouth",
+        "trigraph": "CMO"
+    },
+    {
+        "name": "CNB-Caerleon bridge",
+        "trigraph": "CNB"
+    },
+    {
+        "name": "CNE-Canterbury North East",
+        "trigraph": "CNE"
+    },
+    {
+        "name": "CNL-Connel",
+        "trigraph": "CNL"
+    },
+    {
+        "name": "CNN-Corndon Hill",
+        "trigraph": "CNN"
+    },
+    {
+        "name": "CNO-Carno",
+        "trigraph": "CNO"
+    },
+    {
+        "name": "CNR-Chinnor",
+        "trigraph": "CNR"
+    },
+    {
+        "name": "CNW-Cirencester NW",
+        "trigraph": "CNW"
+    },
+    {
+        "name": "CNY-Conwy Bridge",
+        "trigraph": "CNY"
+    },
+    {
+        "name": "COB-Corby South",
+        "trigraph": "COB"
+    },
+    {
+        "name": "COC-Colchester",
+        "trigraph": "COC"
+    },
+    {
+        "name": "COD-Coldstream",
+        "trigraph": "COD"
+    },
+    {
+        "name": "COE-Corwen NE",
+        "trigraph": "COE"
+    },
+    {
+        "name": "COF-Crocketford",
+        "trigraph": "COF"
+    },
+    {
+        "name": "COG-Corby Glen",
+        "trigraph": "COG"
+    },
+    {
+        "name": "COH-Coldingham",
+        "trigraph": "COH"
+    },
+    {
+        "name": "COK-Cocking",
+        "trigraph": "COK"
+    },
+    {
+        "name": "COM-Comrie",
+        "trigraph": "COM"
+    },
+    {
+        "name": "CON-Condover",
+        "trigraph": "CON"
+    },
+    {
+        "name": "COR-Corby",
+        "trigraph": "COR"
+    },
+    {
+        "name": "COS-Cosford Junction",
+        "trigraph": "COS"
+    },
+    {
+        "name": "COT-Colt Crag Reservoir",
+        "trigraph": "COT"
+    },
+    {
+        "name": "COU-Coupar Angus",
+        "trigraph": "COU"
+    },
+    {
+        "name": "COW-Colchester West",
+        "trigraph": "COW"
+    },
+    {
+        "name": "CP1-Camphill Start/Finish South",
+        "trigraph": "CP1"
+    },
+    {
+        "name": "CP2-Camphill Chimney",
+        "trigraph": "CP2"
+    },
+    {
+        "name": "CPH-Camphill",
+        "trigraph": "CPH"
+    },
+    {
+        "name": "CPN-Clapham Reservoir N",
+        "trigraph": "CPN"
+    },
+    {
+        "name": "CPS-Chepstow S",
+        "trigraph": "CPS"
+    },
+    {
+        "name": "CPW-Chippenham W",
+        "trigraph": "CPW"
+    },
+    {
+        "name": "CRA-Cranwell North",
+        "trigraph": "CRA"
+    },
+    {
+        "name": "CRB-Cranbrook",
+        "trigraph": "CRB"
+    },
+    {
+        "name": "CRC-Crick",
+        "trigraph": "CRC"
+    },
+    {
+        "name": "CRD-Cricklade",
+        "trigraph": "CRD"
+    },
+    {
+        "name": "CRE-Crediton Station",
+        "trigraph": "CRE"
+    },
+    {
+        "name": "CRF-Crail",
+        "trigraph": "CRF"
+    },
+    {
+        "name": "CRG-Cerrig",
+        "trigraph": "CRG"
+    },
+    {
+        "name": "CRI-Crianlarich",
+        "trigraph": "CRI"
+    },
+    {
+        "name": "CRK-Crewkerne",
+        "trigraph": "CRK"
+    },
+    {
+        "name": "CRL-Crowland A/F",
+        "trigraph": "CRL"
+    },
+    {
+        "name": "CRM-Crymych Mast",
+        "trigraph": "CRM"
+    },
+    {
+        "name": "CRN-Crinan",
+        "trigraph": "CRN"
+    },
+    {
+        "name": "CRO-Crowland Bridge",
+        "trigraph": "CRO"
+    },
+    {
+        "name": "CRP-Cromer Pier",
+        "trigraph": "CRP"
+    },
+    {
+        "name": "CRR-Carron",
+        "trigraph": "CRR"
+    },
+    {
+        "name": "CRW-Crediton West",
+        "trigraph": "CRW"
+    },
+    {
+        "name": "CRY-Cray Reservoir",
+        "trigraph": "CRY"
+    },
+    {
+        "name": "CSD-Chirnside",
+        "trigraph": "CSD"
+    },
+    {
+        "name": "CSE-Canterbury South East",
+        "trigraph": "CSE"
+    },
+    {
+        "name": "CSF-Cosford Airfield",
+        "trigraph": "CSF"
+    },
+    {
+        "name": "CSK-Crask Bridge",
+        "trigraph": "CSK"
+    },
+    {
+        "name": "CSN-Coniston",
+        "trigraph": "CSN"
+    },
+    {
+        "name": "CSS-Cross Hands",
+        "trigraph": "CSS"
+    },
+    {
+        "name": "CSW-Colsterworth",
+        "trigraph": "CSW"
+    },
+    {
+        "name": "CTH-Crathie Bridge",
+        "trigraph": "CTH"
+    },
+    {
+        "name": "CTK-Catterick",
+        "trigraph": "CTK"
+    },
+    {
+        "name": "CTP-Clows Top",
+        "trigraph": "CTP"
+    },
+    {
+        "name": "CU2-Clunbury Hill",
+        "trigraph": "CU2"
+    },
+    {
+        "name": "CUL-Cullompton",
+        "trigraph": "CUL"
+    },
+    {
+        "name": "CUN-Clun",
+        "trigraph": "CUN"
+    },
+    {
+        "name": "CUP-Cupar",
+        "trigraph": "CUP"
+    },
+    {
+        "name": "CUR-Currock Hill",
+        "trigraph": "CUR"
+    },
+    {
+        "name": "CVN-Craven Arms",
+        "trigraph": "CVN"
+    },
+    {
+        "name": "CWA-Chipping Warden",
+        "trigraph": "CWA"
+    },
+    {
+        "name": "CWC-Crowcombe Court",
+        "trigraph": "CWC"
+    },
+    {
+        "name": "CWE-Crewe East",
+        "trigraph": "CWE"
+    },
+    {
+        "name": "CWN-Corwen",
+        "trigraph": "CWN"
+    },
+    {
+        "name": "CWS-Cwmbran SW",
+        "trigraph": "CWS"
+    },
+    {
+        "name": "CWT-Chatsworth",
+        "trigraph": "CWT"
+    },
+    {
+        "name": "CWV-Carsington Water Visitors Centre",
+        "trigraph": "CWV"
+    },
+    {
+        "name": "CWW-Conwy W",
+        "trigraph": "CWW"
+    },
+    {
+        "name": "CWY-Conwy S",
+        "trigraph": "CWY"
+    },
+    {
+        "name": "DAL-Dallachy",
+        "trigraph": "DAL"
+    },
+    {
+        "name": "DAM-Dalmally",
+        "trigraph": "DAM"
+    },
+    {
+        "name": "DAN-Danby",
+        "trigraph": "DAN"
+    },
+    {
+        "name": "DAR-Darlington",
+        "trigraph": "DAR"
+    },
+    {
+        "name": "DAW-Darwell",
+        "trigraph": "DAW"
+    },
+    {
+        "name": "DBN-Dunblane",
+        "trigraph": "DBN"
+    },
+    {
+        "name": "DBR-Devil's Bridge",
+        "trigraph": "DBR"
+    },
+    {
+        "name": "DBY-Diddlebury",
+        "trigraph": "DBY"
+    },
+    {
+        "name": "DCT-Didcot Rail Bridge",
+        "trigraph": "DCT"
+    },
+    {
+        "name": "DCW-Didcot West",
+        "trigraph": "DCW"
+    },
+    {
+        "name": "DDK-Devil's Dyke",
+        "trigraph": "DDK"
+    },
+    {
+        "name": "DEA-Deal",
+        "trigraph": "DEA"
+    },
+    {
+        "name": "DED-Deddington",
+        "trigraph": "DED"
+    },
+    {
+        "name": "DEN-Denbigh",
+        "trigraph": "DEN"
+    },
+    {
+        "name": "DEP-Depden Water Tower",
+        "trigraph": "DEP"
+    },
+    {
+        "name": "DER-Derwent",
+        "trigraph": "DER"
+    },
+    {
+        "name": "DET-Detling",
+        "trigraph": "DET"
+    },
+    {
+        "name": "DEV-Devizes",
+        "trigraph": "DEV"
+    },
+    {
+        "name": "DFF-Duffield",
+        "trigraph": "DFF"
+    },
+    {
+        "name": "DFU-Dalton-in-Furness",
+        "trigraph": "DFU"
+    },
+    {
+        "name": "DIN-Dingwall",
+        "trigraph": "DIN"
+    },
+    {
+        "name": "DIS-Diss",
+        "trigraph": "DIS"
+    },
+    {
+        "name": "DIT-Ditchlingbeacon",
+        "trigraph": "DIT"
+    },
+    {
+        "name": "DKD-Dunkeld",
+        "trigraph": "DKD"
+    },
+    {
+        "name": "DKY-Dunkery Beacon",
+        "trigraph": "DKY"
+    },
+    {
+        "name": "DLB-Dale Bridge",
+        "trigraph": "DLB"
+    },
+    {
+        "name": "DLS-Dallas",
+        "trigraph": "DLS"
+    },
+    {
+        "name": "DLT-Dalston",
+        "trigraph": "DLT"
+    },
+    {
+        "name": "DMN-Duntulm N",
+        "trigraph": "DMN"
+    },
+    {
+        "name": "DNB-Dunbar SE",
+        "trigraph": "DNB"
+    },
+    {
+        "name": "DNE-Durham Northeast",
+        "trigraph": "DNE"
+    },
+    {
+        "name": "DNG-Dunning",
+        "trigraph": "DNG"
+    },
+    {
+        "name": "DNN-Dunoon",
+        "trigraph": "DNN"
+    },
+    {
+        "name": "DNT-Duntulm",
+        "trigraph": "DNT"
+    },
+    {
+        "name": "DNW-Doncaster Northwest",
+        "trigraph": "DNW"
+    },
+    {
+        "name": "DOC-Docking",
+        "trigraph": "DOC"
+    },
+    {
+        "name": "DOG-Dolgellau",
+        "trigraph": "DOG"
+    },
+    {
+        "name": "DOL-Dollar",
+        "trigraph": "DOL"
+    },
+    {
+        "name": "DON-Doncaster",
+        "trigraph": "DON"
+    },
+    {
+        "name": "DOR-Dorchester",
+        "trigraph": "DOR"
+    },
+    {
+        "name": "DOU-Doune",
+        "trigraph": "DOU"
+    },
+    {
+        "name": "DOV-Dover Marina",
+        "trigraph": "DOV"
+    },
+    {
+        "name": "DOW-Downham Market",
+        "trigraph": "DOW"
+    },
+    {
+        "name": "DRB-Droma Bridge",
+        "trigraph": "DRB"
+    },
+    {
+        "name": "DRI-Driffield",
+        "trigraph": "DRI"
+    },
+    {
+        "name": "DRL-Darlton",
+        "trigraph": "DRL"
+    },
+    {
+        "name": "DRO-Droitwich",
+        "trigraph": "DRO"
+    },
+    {
+        "name": "DRS-Denbigh Ridge S",
+        "trigraph": "DRS"
+    },
+    {
+        "name": "DRU-Drumshade",
+        "trigraph": "DRU"
+    },
+    {
+        "name": "DSE-Daventry SE",
+        "trigraph": "DSE"
+    },
+    {
+        "name": "DSW-Dursley SW",
+        "trigraph": "DSW"
+    },
+    {
+        "name": "DTN-Donington",
+        "trigraph": "DTN"
+    },
+    {
+        "name": "DUB-Dulnain Bridge",
+        "trigraph": "DUB"
+    },
+    {
+        "name": "DUC-Duncton",
+        "trigraph": "DUC"
+    },
+    {
+        "name": "DUF-Dufftown",
+        "trigraph": "DUF"
+    },
+    {
+        "name": "DUL-Dulverton",
+        "trigraph": "DUL"
+    },
+    {
+        "name": "DUM-Dumfries",
+        "trigraph": "DUM"
+    },
+    {
+        "name": "DUN-Dunstable Airfield",
+        "trigraph": "DUN"
+    },
+    {
+        "name": "DUR-Durham",
+        "trigraph": "DUR"
+    },
+    {
+        "name": "DUS-Duns",
+        "trigraph": "DUS"
+    },
+    {
+        "name": "DUT-Dufton",
+        "trigraph": "DUT"
+    },
+    {
+        "name": "DUY-Dursley NW",
+        "trigraph": "DUY"
+    },
+    {
+        "name": "DVN-Daventry N",
+        "trigraph": "DVN"
+    },
+    {
+        "name": "DWI-Dalwhinnie",
+        "trigraph": "DWI"
+    },
+    {
+        "name": "DYN-Danbury N",
+        "trigraph": "DYN"
+    },
+    {
+        "name": "DYS-Dyserth",
+        "trigraph": "DYS"
+    },
+    {
+        "name": "EAG-Eaglescott",
+        "trigraph": "EAG"
+    },
+    {
+        "name": "EAR-Earith",
+        "trigraph": "EAR"
+    },
+    {
+        "name": "EAS-Easterton",
+        "trigraph": "EAS"
+    },
+    {
+        "name": "EAT-Eastgate",
+        "trigraph": "EAT"
+    },
+    {
+        "name": "EAW-Eastwell",
+        "trigraph": "EAW"
+    },
+    {
+        "name": "ECN-Eckford N",
+        "trigraph": "ECN"
+    },
+    {
+        "name": "EDG-Edgehill",
+        "trigraph": "EDG"
+    },
+    {
+        "name": "EDW-Edgehill West",
+        "trigraph": "EDW"
+    },
+    {
+        "name": "EDZ-Edzell",
+        "trigraph": "EDZ"
+    },
+    {
+        "name": "EGG-Eggesford N",
+        "trigraph": "EGG"
+    },
+    {
+        "name": "ELK-Elkstone S",
+        "trigraph": "ELK"
+    },
+    {
+        "name": "ELL-Ellesmere",
+        "trigraph": "ELL"
+    },
+    {
+        "name": "ELM-Elmswell W",
+        "trigraph": "ELM"
+    },
+    {
+        "name": "ELT-East Linton",
+        "trigraph": "ELT"
+    },
+    {
+        "name": "ELV-Elvanfoot",
+        "trigraph": "ELV"
+    },
+    {
+        "name": "ELY-Ely",
+        "trigraph": "ELY"
+    },
+    {
+        "name": "ENS-Enstone",
+        "trigraph": "ENS"
+    },
+    {
+        "name": "ENW-Eastbourne NW",
+        "trigraph": "ENW"
+    },
+    {
+        "name": "ETC-Etchingham",
+        "trigraph": "ETC"
+    },
+    {
+        "name": "ETL-Etal",
+        "trigraph": "ETL"
+    },
+    {
+        "name": "ETT-Ettington",
+        "trigraph": "ETT"
+    },
+    {
+        "name": "EVE-Evesham",
+        "trigraph": "EVE"
+    },
+    {
+        "name": "EWW-Ennerdale Water W",
+        "trigraph": "EWW"
+    },
+    {
+        "name": "EYE-Eyebrook",
+        "trigraph": "EYE"
+    },
+    {
+        "name": "FAK-Fakenham",
+        "trigraph": "FAK"
+    },
+    {
+        "name": "FAL-Falgunzeon",
+        "trigraph": "FAL"
+    },
+    {
+        "name": "FAR-Faringdon",
+        "trigraph": "FAR"
+    },
+    {
+        "name": "FAV-Faversham",
+        "trigraph": "FAV"
+    },
+    {
+        "name": "FAW-Falkirk West",
+        "trigraph": "FAW"
+    },
+    {
+        "name": "FBG-Fraserburgh",
+        "trigraph": "FBG"
+    },
+    {
+        "name": "FBR-Fontburn Reservoir",
+        "trigraph": "FBR"
+    },
+    {
+        "name": "FE1-Feshie Airstrip",
+        "trigraph": "FE1"
+    },
+    {
+        "name": "FE2-Feshie Start N",
+        "trigraph": "FE2"
+    },
+    {
+        "name": "FE3-Feshie Descent Point",
+        "trigraph": "FE3"
+    },
+    {
+        "name": "FE5-Feshie S",
+        "trigraph": "FE5"
+    },
+    {
+        "name": "FEA-Fearnan",
+        "trigraph": "FEA"
+    },
+    {
+        "name": "FEN-Fenny Compton",
+        "trigraph": "FEN"
+    },
+    {
+        "name": "FER-Ferness",
+        "trigraph": "FER"
+    },
+    {
+        "name": "FES-Feshiebridge",
+        "trigraph": "FES"
+    },
+    {
+        "name": "FET-Fettercairn",
+        "trigraph": "FET"
+    },
+    {
+        "name": "FEX-Felixstowe Pier",
+        "trigraph": "FEX"
+    },
+    {
+        "name": "FFD-Farnsfield",
+        "trigraph": "FFD"
+    },
+    {
+        "name": "FFI-Fforest Inn",
+        "trigraph": "FFI"
+    },
+    {
+        "name": "FFR-Forfar",
+        "trigraph": "FFR"
+    },
+    {
+        "name": "FHI-Fan Hir",
+        "trigraph": "FHI"
+    },
+    {
+        "name": "FHP-Fownhope",
+        "trigraph": "FHP"
+    },
+    {
+        "name": "FIB-Firle Beacon",
+        "trigraph": "FIB"
+    },
+    {
+        "name": "FIL-Filey",
+        "trigraph": "FIL"
+    },
+    {
+        "name": "FIM-Finmere",
+        "trigraph": "FIM"
+    },
+    {
+        "name": "FIN-Finavon",
+        "trigraph": "FIN"
+    },
+    {
+        "name": "FIS-Fishguard",
+        "trigraph": "FIS"
+    },
+    {
+        "name": "FLA-Flamborough",
+        "trigraph": "FLA"
+    },
+    {
+        "name": "FMA-Four Marks",
+        "trigraph": "FMA"
+    },
+    {
+        "name": "FNE-Fort William NE",
+        "trigraph": "FNE"
+    },
+    {
+        "name": "FNW-Falmouth NW",
+        "trigraph": "FNW"
+    },
+    {
+        "name": "FOA-Fort Augustus",
+        "trigraph": "FOA"
+    },
+    {
+        "name": "FOD-Fordoun",
+        "trigraph": "FOD"
+    },
+    {
+        "name": "FOL-Folkestone",
+        "trigraph": "FOL"
+    },
+    {
+        "name": "FON-Fontwell Park Roundabout",
+        "trigraph": "FON"
+    },
+    {
+        "name": "FOR-Fordingbridge",
+        "trigraph": "FOR"
+    },
+    {
+        "name": "FOS-Foston",
+        "trigraph": "FOS"
+    },
+    {
+        "name": "FOV-Fovant",
+        "trigraph": "FOV"
+    },
+    {
+        "name": "FRE-Freuchie",
+        "trigraph": "FRE"
+    },
+    {
+        "name": "FRI-Fridaythorpe",
+        "trigraph": "FRI"
+    },
+    {
+        "name": "FRO-Frome",
+        "trigraph": "FRO"
+    },
+    {
+        "name": "FRW-Framlingham",
+        "trigraph": "FRW"
+    },
+    {
+        "name": "FTW-Fort William",
+        "trigraph": "FTW"
+    },
+    {
+        "name": "GA2-Gainsborough Power Station",
+        "trigraph": "GA2"
+    },
+    {
+        "name": "GAA-Galashiels",
+        "trigraph": "GAA"
+    },
+    {
+        "name": "GAB-Garboldisham",
+        "trigraph": "GAB"
+    },
+    {
+        "name": "GAF-Garforth",
+        "trigraph": "GAF"
+    },
+    {
+        "name": "GAG-Gargrave West",
+        "trigraph": "GAG"
+    },
+    {
+        "name": "GAI-Gainsborough",
+        "trigraph": "GAI"
+    },
+    {
+        "name": "GAL-Gallowfauld",
+        "trigraph": "GAL"
+    },
+    {
+        "name": "GAR-Garten",
+        "trigraph": "GAR"
+    },
+    {
+        "name": "GAT-Gateshead East",
+        "trigraph": "GAT"
+    },
+    {
+        "name": "GAY-Gaydon",
+        "trigraph": "GAY"
+    },
+    {
+        "name": "GBB-Gribbin Head",
+        "trigraph": "GBB"
+    },
+    {
+        "name": "GBE-Great Bedwyn",
+        "trigraph": "GBE"
+    },
+    {
+        "name": "GBR-Glasbury Bridge",
+        "trigraph": "GBR"
+    },
+    {
+        "name": "GCB-Gloucester Canal Bridge",
+        "trigraph": "GCB"
+    },
+    {
+        "name": "GDB-Glen Dee Bridge",
+        "trigraph": "GDB"
+    },
+    {
+        "name": "GDE-Glyndebourne",
+        "trigraph": "GDE"
+    },
+    {
+        "name": "GDF-Great Dun Fell",
+        "trigraph": "GDF"
+    },
+    {
+        "name": "GDN-Gordon",
+        "trigraph": "GDN"
+    },
+    {
+        "name": "GES-Gretna Services",
+        "trigraph": "GES"
+    },
+    {
+        "name": "GFD-Glenfiddich Lodge",
+        "trigraph": "GFD"
+    },
+    {
+        "name": "GFG-Glenfarg Reservoir E",
+        "trigraph": "GFG"
+    },
+    {
+        "name": "GFL-Glen Falloch",
+        "trigraph": "GFL"
+    },
+    {
+        "name": "GHD-Garsdale Head",
+        "trigraph": "GHD"
+    },
+    {
+        "name": "GIF-Gifford",
+        "trigraph": "GIF"
+    },
+    {
+        "name": "GIL-Gillingham",
+        "trigraph": "GIL"
+    },
+    {
+        "name": "GIO-Giosla",
+        "trigraph": "GIO"
+    },
+    {
+        "name": "GIS-Gisburn",
+        "trigraph": "GIS"
+    },
+    {
+        "name": "GLA-Glastonbury",
+        "trigraph": "GLA"
+    },
+    {
+        "name": "GLB-Gelt Bridge",
+        "trigraph": "GLB"
+    },
+    {
+        "name": "GLD-Gilsland Village",
+        "trigraph": "GLD"
+    },
+    {
+        "name": "GLE-Glendevon",
+        "trigraph": "GLE"
+    },
+    {
+        "name": "GLF-Glenforsa",
+        "trigraph": "GLF"
+    },
+    {
+        "name": "GLN-Gleneagles",
+        "trigraph": "GLN"
+    },
+    {
+        "name": "GLS-Gloucester South",
+        "trigraph": "GLS"
+    },
+    {
+        "name": "GLT-Glenlatterach Dam N",
+        "trigraph": "GLT"
+    },
+    {
+        "name": "GLY-Gairlochy",
+        "trigraph": "GLY"
+    },
+    {
+        "name": "GNS-Grains",
+        "trigraph": "GNS"
+    },
+    {
+        "name": "GO2-Goole N",
+        "trigraph": "GO2"
+    },
+    {
+        "name": "GOO-Goole NE",
+        "trigraph": "GOO"
+    },
+    {
+        "name": "GOR-Goring",
+        "trigraph": "GOR"
+    },
+    {
+        "name": "GPN-Great Ponton",
+        "trigraph": "GPN"
+    },
+    {
+        "name": "GR1-Gransden NW",
+        "trigraph": "GR1"
+    },
+    {
+        "name": "GRA-Grantham",
+        "trigraph": "GRA"
+    },
+    {
+        "name": "GRC-Grasmere Church",
+        "trigraph": "GRC"
+    },
+    {
+        "name": "GRF-Great Ashfield",
+        "trigraph": "GRF"
+    },
+    {
+        "name": "GRI-Grimwith Reservoir",
+        "trigraph": "GRI"
+    },
+    {
+        "name": "GRL-Gransden Lodge",
+        "trigraph": "GRL"
+    },
+    {
+        "name": "GRM-Great Malvern",
+        "trigraph": "GRM"
+    },
+    {
+        "name": "GRN-Greenlaw",
+        "trigraph": "GRN"
+    },
+    {
+        "name": "GRO-Grosmont",
+        "trigraph": "GRO"
+    },
+    {
+        "name": "GRS-Grassington",
+        "trigraph": "GRS"
+    },
+    {
+        "name": "GRT-Great Rundale Tarn",
+        "trigraph": "GRT"
+    },
+    {
+        "name": "GRW-Grafham Water",
+        "trigraph": "GRW"
+    },
+    {
+        "name": "GSE-Grantshouse",
+        "trigraph": "GSE"
+    },
+    {
+        "name": "GSS-Glassonby",
+        "trigraph": "GSS"
+    },
+    {
+        "name": "GTN-Grantown",
+        "trigraph": "GTN"
+    },
+    {
+        "name": "GTO-Great Orme",
+        "trigraph": "GTO"
+    },
+    {
+        "name": "GTW-Great Witley",
+        "trigraph": "GTW"
+    },
+    {
+        "name": "GUI-Guisborough",
+        "trigraph": "GUI"
+    },
+    {
+        "name": "GUW-Guisborough SW",
+        "trigraph": "GUW"
+    },
+    {
+        "name": "GVE-Garve",
+        "trigraph": "GVE"
+    },
+    {
+        "name": "GWD-Goodwood Grandstand",
+        "trigraph": "GWD"
+    },
+    {
+        "name": "GYS-Great Yarmouth S",
+        "trigraph": "GYS"
+    },
+    {
+        "name": "HA2-Halton West",
+        "trigraph": "HA2"
+    },
+    {
+        "name": "HAB-Hay Bluff",
+        "trigraph": "HAB"
+    },
+    {
+        "name": "HAD-Halesland",
+        "trigraph": "HAD"
+    },
+    {
+        "name": "HAE-Halesworth",
+        "trigraph": "HAE"
+    },
+    {
+        "name": "HAI-Hailsham",
+        "trigraph": "HAI"
+    },
+    {
+        "name": "HAK-Hawick",
+        "trigraph": "HAK"
+    },
+    {
+        "name": "HAL-Halton",
+        "trigraph": "HAL"
+    },
+    {
+        "name": "HAN-Harrogate North",
+        "trigraph": "HAN"
+    },
+    {
+        "name": "HAR-Harting",
+        "trigraph": "HAR"
+    },
+    {
+        "name": "HAS-Hastings",
+        "trigraph": "HAS"
+    },
+    {
+        "name": "HAT-Hatherleigh",
+        "trigraph": "HAT"
+    },
+    {
+        "name": "HAV-Haverhill",
+        "trigraph": "HAV"
+    },
+    {
+        "name": "HAW-Hawkhurst",
+        "trigraph": "HAW"
+    },
+    {
+        "name": "HAY-Hay-on-wye",
+        "trigraph": "HAY"
+    },
+    {
+        "name": "HB1-HB Start west",
+        "trigraph": "HB1"
+    },
+    {
+        "name": "HB2-HB Start north",
+        "trigraph": "HB2"
+    },
+    {
+        "name": "HB3-HB Start east",
+        "trigraph": "HB3"
+    },
+    {
+        "name": "HB4-HB East",
+        "trigraph": "HB4"
+    },
+    {
+        "name": "HB5-HB control point east",
+        "trigraph": "HB5"
+    },
+    {
+        "name": "HB7-HB Finish West",
+        "trigraph": "HB7"
+    },
+    {
+        "name": "HBR-Haydon Bridge",
+        "trigraph": "HBR"
+    },
+    {
+        "name": "HCM-Hinderclay Meadows Air-Strip",
+        "trigraph": "HCM"
+    },
+    {
+        "name": "HDD-Haddington",
+        "trigraph": "HDD"
+    },
+    {
+        "name": "HDL-Helmsdale",
+        "trigraph": "HDL"
+    },
+    {
+        "name": "HDW-Hardwick",
+        "trigraph": "HDW"
+    },
+    {
+        "name": "HEC-Hereford Cathedral",
+        "trigraph": "HEC"
+    },
+    {
+        "name": "HEE-Heathfield E",
+        "trigraph": "HEE"
+    },
+    {
+        "name": "HEL-Helensburgh",
+        "trigraph": "HEL"
+    },
+    {
+        "name": "HER-Hereford Racecourse",
+        "trigraph": "HER"
+    },
+    {
+        "name": "HES-Henstridge",
+        "trigraph": "HES"
+    },
+    {
+        "name": "HEU-Heugh Head",
+        "trigraph": "HEU"
+    },
+    {
+        "name": "HEX-Hexham",
+        "trigraph": "HEX"
+    },
+    {
+        "name": "HGM-Highham",
+        "trigraph": "HGM"
+    },
+    {
+        "name": "HHL-Hembury Hill",
+        "trigraph": "HHL"
+    },
+    {
+        "name": "HI1-Hinton Start W",
+        "trigraph": "HI1"
+    },
+    {
+        "name": "HI2-Hinton Start N.",
+        "trigraph": "HI2"
+    },
+    {
+        "name": "HIC-Hinckley",
+        "trigraph": "HIC"
+    },
+    {
+        "name": "HIN-Hinton-in-the-Hedges",
+        "trigraph": "HIN"
+    },
+    {
+        "name": "HLH-Hunstanton Lighthouse",
+        "trigraph": "HLH"
+    },
+    {
+        "name": "HLM-Helmsley",
+        "trigraph": "HLM"
+    },
+    {
+        "name": "HLS-Harlech South",
+        "trigraph": "HLS"
+    },
+    {
+        "name": "HNN-Hungerford North",
+        "trigraph": "HNN"
+    },
+    {
+        "name": "HNT-Huntercombe",
+        "trigraph": "HNT"
+    },
+    {
+        "name": "HOL-Holsworthy",
+        "trigraph": "HOL"
+    },
+    {
+        "name": "HON-Honeybourne",
+        "trigraph": "HON"
+    },
+    {
+        "name": "HOR-Horncastle",
+        "trigraph": "HOR"
+    },
+    {
+        "name": "HOT-Hesket Old Town",
+        "trigraph": "HOT"
+    },
+    {
+        "name": "HOW-Howden Dam",
+        "trigraph": "HOW"
+    },
+    {
+        "name": "HPY-Harpley",
+        "trigraph": "HPY"
+    },
+    {
+        "name": "HRM-Horam",
+        "trigraph": "HRM"
+    },
+    {
+        "name": "HRR-Harrietsham",
+        "trigraph": "HRR"
+    },
+    {
+        "name": "HRT-Hartside Top",
+        "trigraph": "HRT"
+    },
+    {
+        "name": "HSE-Hawes",
+        "trigraph": "HSE"
+    },
+    {
+        "name": "HSG-Hathersage",
+        "trigraph": "HSG"
+    },
+    {
+        "name": "HSM-Hornsea Mere",
+        "trigraph": "HSM"
+    },
+    {
+        "name": "HTN-Honington Airfield",
+        "trigraph": "HTN"
+    },
+    {
+        "name": "HTY-Huntly",
+        "trigraph": "HTY"
+    },
+    {
+        "name": "HUD-Hope-under-Dinmore",
+        "trigraph": "HUD"
+    },
+    {
+        "name": "HUL-Hullavington M4/J17",
+        "trigraph": "HUL"
+    },
+    {
+        "name": "HUM-Humber Bridge",
+        "trigraph": "HUM"
+    },
+    {
+        "name": "HUN-Hungerford",
+        "trigraph": "HUN"
+    },
+    {
+        "name": "HUR-Hurstbourne Tarrant",
+        "trigraph": "HUR"
+    },
+    {
+        "name": "HUS-Husbands Bosworth",
+        "trigraph": "HUS"
+    },
+    {
+        "name": "HVS-Havant S",
+        "trigraph": "HVS"
+    },
+    {
+        "name": "HVT-Havant NW",
+        "trigraph": "HVT"
+    },
+    {
+        "name": "HVW-Haverfordwest",
+        "trigraph": "HVW"
+    },
+    {
+        "name": "HWB-Halfway Bridge",
+        "trigraph": "HWB"
+    },
+    {
+        "name": "HWH-Halfway House",
+        "trigraph": "HWH"
+    },
+    {
+        "name": "HWL-Haltwistle",
+        "trigraph": "HWL"
+    },
+    {
+        "name": "HYE-Hay East",
+        "trigraph": "HYE"
+    },
+    {
+        "name": "ILF-Ilfracombe",
+        "trigraph": "ILF"
+    },
+    {
+        "name": "ILS-Ilsley",
+        "trigraph": "ILS"
+    },
+    {
+        "name": "INC-Insch",
+        "trigraph": "INC"
+    },
+    {
+        "name": "ING-Ingleton",
+        "trigraph": "ING"
+    },
+    {
+        "name": "INK-Inchkinloch",
+        "trigraph": "INK"
+    },
+    {
+        "name": "INV-Inverary",
+        "trigraph": "INV"
+    },
+    {
+        "name": "IPE-Ipswich E",
+        "trigraph": "IPE"
+    },
+    {
+        "name": "ISE-Inverness SE",
+        "trigraph": "ISE"
+    },
+    {
+        "name": "ISL-Islip",
+        "trigraph": "ISL"
+    },
+    {
+        "name": "IVS-Invershin",
+        "trigraph": "IVS"
+    },
+    {
+        "name": "IVY-Ivybridge East",
+        "trigraph": "IVY"
+    },
+    {
+        "name": "IWE-Iwerne Minster",
+        "trigraph": "IWE"
+    },
+    {
+        "name": "JED-Jedburgh",
+        "trigraph": "JED"
+    },
+    {
+        "name": "KCA-Kielder Castle",
+        "trigraph": "KCA"
+    },
+    {
+        "name": "KCG-Kincraig",
+        "trigraph": "KCG"
+    },
+    {
+        "name": "KDL-Kendal",
+        "trigraph": "KDL"
+    },
+    {
+        "name": "KEE-Keevil",
+        "trigraph": "KEE"
+    },
+    {
+        "name": "KEK-Keswick",
+        "trigraph": "KEK"
+    },
+    {
+        "name": "KEL-Kelso",
+        "trigraph": "KEL"
+    },
+    {
+        "name": "KEM-Kempock Point",
+        "trigraph": "KEM"
+    },
+    {
+        "name": "KEN-Kenley",
+        "trigraph": "KEN"
+    },
+    {
+        "name": "KES-Kettering South",
+        "trigraph": "KES"
+    },
+    {
+        "name": "KEX-Kexby Bridge",
+        "trigraph": "KEX"
+    },
+    {
+        "name": "KGS-Kingsclere",
+        "trigraph": "KGS"
+    },
+    {
+        "name": "KIB-Kinbrace",
+        "trigraph": "KIB"
+    },
+    {
+        "name": "KIC-Kinclaven",
+        "trigraph": "KIC"
+    },
+    {
+        "name": "KID-Kidderminster",
+        "trigraph": "KID"
+    },
+    {
+        "name": "KIE-Kielder Reservoir",
+        "trigraph": "KIE"
+    },
+    {
+        "name": "KIG-Kingussie",
+        "trigraph": "KIG"
+    },
+    {
+        "name": "KIK-Kirkharle",
+        "trigraph": "KIK"
+    },
+    {
+        "name": "KIL-Kilcreggan",
+        "trigraph": "KIL"
+    },
+    {
+        "name": "KIM-Kingham",
+        "trigraph": "KIM"
+    },
+    {
+        "name": "KIN-Kineton",
+        "trigraph": "KIN"
+    },
+    {
+        "name": "KIP-Kippen",
+        "trigraph": "KIP"
+    },
+    {
+        "name": "KIR-Kirton-in-Lindsey",
+        "trigraph": "KIR"
+    },
+    {
+        "name": "KLE-Kellie Castle",
+        "trigraph": "KLE"
+    },
+    {
+        "name": "KLH-Kilham",
+        "trigraph": "KLH"
+    },
+    {
+        "name": "KLN-Killin",
+        "trigraph": "KLN"
+    },
+    {
+        "name": "KLO-Kirkby Lonsdale",
+        "trigraph": "KLO"
+    },
+    {
+        "name": "KLT-Kinlet",
+        "trigraph": "KLT"
+    },
+    {
+        "name": "KLY-King's Lynn",
+        "trigraph": "KLY"
+    },
+    {
+        "name": "KME-Kentmere",
+        "trigraph": "KME"
+    },
+    {
+        "name": "KML-Kirkmichael",
+        "trigraph": "KML"
+    },
+    {
+        "name": "KMR-Kenmore",
+        "trigraph": "KMR"
+    },
+    {
+        "name": "KNA-Knaresborough",
+        "trigraph": "KNA"
+    },
+    {
+        "name": "KNI-Knighton",
+        "trigraph": "KNI"
+    },
+    {
+        "name": "KNO-Knowstone",
+        "trigraph": "KNO"
+    },
+    {
+        "name": "KNW-Knighton West",
+        "trigraph": "KNW"
+    },
+    {
+        "name": "KRB-Kirkbymoorside",
+        "trigraph": "KRB"
+    },
+    {
+        "name": "KRM-Kirriemuir",
+        "trigraph": "KRM"
+    },
+    {
+        "name": "KSB-Kingston Bagpuize",
+        "trigraph": "KSB"
+    },
+    {
+        "name": "KST-Kirkby Stephen Station",
+        "trigraph": "KST"
+    },
+    {
+        "name": "KTH-Keith",
+        "trigraph": "KTH"
+    },
+    {
+        "name": "KTN-Kilmington",
+        "trigraph": "KTN"
+    },
+    {
+        "name": "KWE-Kinlochewe",
+        "trigraph": "KWE"
+    },
+    {
+        "name": "KWK-Knightwick",
+        "trigraph": "KWK"
+    },
+    {
+        "name": "KWO-Kibworth",
+        "trigraph": "KWO"
+    },
+    {
+        "name": "KYL-Kyleakin",
+        "trigraph": "KYL"
+    },
+    {
+        "name": "LA1-Lasham Start Southeast",
+        "trigraph": "LA1"
+    },
+    {
+        "name": "LA2-Lasham Start East",
+        "trigraph": "LA2"
+    },
+    {
+        "name": "LA3-Lasham Church",
+        "trigraph": "LA3"
+    },
+    {
+        "name": "LA4-Lasham Start South",
+        "trigraph": "LA4"
+    },
+    {
+        "name": "LA5-Lasham West",
+        "trigraph": "LA5"
+    },
+    {
+        "name": "LA6-Lasham Start North",
+        "trigraph": "LA6"
+    },
+    {
+        "name": "LAD-Lauder",
+        "trigraph": "LAD"
+    },
+    {
+        "name": "LAE-Llanelli East",
+        "trigraph": "LAE"
+    },
+    {
+        "name": "LAG-Langport",
+        "trigraph": "LAG"
+    },
+    {
+        "name": "LAI-Lairg",
+        "trigraph": "LAI"
+    },
+    {
+        "name": "LAL-Lake Alaw Reservoir",
+        "trigraph": "LAL"
+    },
+    {
+        "name": "LAM-Lampeter",
+        "trigraph": "LAM"
+    },
+    {
+        "name": "LAN-Langham",
+        "trigraph": "LAN"
+    },
+    {
+        "name": "LAP-Lapford",
+        "trigraph": "LAP"
+    },
+    {
+        "name": "LAR-Lattrig",
+        "trigraph": "LAR"
+    },
+    {
+        "name": "LAS-Lasham Finish North",
+        "trigraph": "LAS"
+    },
+    {
+        "name": "LAT-Latheron",
+        "trigraph": "LAT"
+    },
+    {
+        "name": "LAU-Launceston",
+        "trigraph": "LAU"
+    },
+    {
+        "name": "LBD-Longbridge Deverill",
+        "trigraph": "LBD"
+    },
+    {
+        "name": "LBE-Loch Bradan E",
+        "trigraph": "LBE"
+    },
+    {
+        "name": "LBN-Lambourn",
+        "trigraph": "LBN"
+    },
+    {
+        "name": "LBR-Laggan Bridge",
+        "trigraph": "LBR"
+    },
+    {
+        "name": "LBU-Lochbuie",
+        "trigraph": "LBU"
+    },
+    {
+        "name": "LBZ-Leighton Buzzard NE",
+        "trigraph": "LBZ"
+    },
+    {
+        "name": "LCE-Llyn Celyn NW",
+        "trigraph": "LCE"
+    },
+    {
+        "name": "LCH-Lanchester",
+        "trigraph": "LCH"
+    },
+    {
+        "name": "LCL-Lower Clopton",
+        "trigraph": "LCL"
+    },
+    {
+        "name": "LDB-Lochindorb Castle",
+        "trigraph": "LDB"
+    },
+    {
+        "name": "LDM-Laggan Dam",
+        "trigraph": "LDM"
+    },
+    {
+        "name": "LDN-Loddon",
+        "trigraph": "LDN"
+    },
+    {
+        "name": "LDR-Lindores",
+        "trigraph": "LDR"
+    },
+    {
+        "name": "LEA-Lochearnhead",
+        "trigraph": "LEA"
+    },
+    {
+        "name": "LEB-Lake Eiddew Bach",
+        "trigraph": "LEB"
+    },
+    {
+        "name": "LED-Ledbury",
+        "trigraph": "LED"
+    },
+    {
+        "name": "LEH-Leadenham",
+        "trigraph": "LEH"
+    },
+    {
+        "name": "LEI-Leicester M1 Services",
+        "trigraph": "LEI"
+    },
+    {
+        "name": "LEK-Leck",
+        "trigraph": "LEK"
+    },
+    {
+        "name": "LEL-Loch Eil West",
+        "trigraph": "LEL"
+    },
+    {
+        "name": "LEN-Leicester North",
+        "trigraph": "LEN"
+    },
+    {
+        "name": "LEO-Leominster",
+        "trigraph": "LEO"
+    },
+    {
+        "name": "LER-Loch Errochty East",
+        "trigraph": "LER"
+    },
+    {
+        "name": "LES-Leicester South",
+        "trigraph": "LES"
+    },
+    {
+        "name": "LET-Leighterton",
+        "trigraph": "LET"
+    },
+    {
+        "name": "LEW-Lewes North",
+        "trigraph": "LEW"
+    },
+    {
+        "name": "LEY-Leyburn",
+        "trigraph": "LEY"
+    },
+    {
+        "name": "LEZ-Leighton Buzzard",
+        "trigraph": "LEZ"
+    },
+    {
+        "name": "LFC-Lindisfarne Castle",
+        "trigraph": "LFC"
+    },
+    {
+        "name": "LFN-Llanfyllin",
+        "trigraph": "LFN"
+    },
+    {
+        "name": "LGG-Loch Laggan North East",
+        "trigraph": "LGG"
+    },
+    {
+        "name": "LGI-Lochgilphead",
+        "trigraph": "LGI"
+    },
+    {
+        "name": "LGN-Loch Garry N",
+        "trigraph": "LGN"
+    },
+    {
+        "name": "LGO-Lochgoilhead",
+        "trigraph": "LGO"
+    },
+    {
+        "name": "LIS-Lismore",
+        "trigraph": "LIS"
+    },
+    {
+        "name": "LIT-Littleport",
+        "trigraph": "LIT"
+    },
+    {
+        "name": "LKD-Liskeard SE",
+        "trigraph": "LKD"
+    },
+    {
+        "name": "LLA-Llangollen",
+        "trigraph": "LLA"
+    },
+    {
+        "name": "LLB-Llanbadarn",
+        "trigraph": "LLB"
+    },
+    {
+        "name": "LLC-Llanfair Caereinion",
+        "trigraph": "LLC"
+    },
+    {
+        "name": "LLD-Llandovery",
+        "trigraph": "LLD"
+    },
+    {
+        "name": "LLE-Lleweni Parc",
+        "trigraph": "LLE"
+    },
+    {
+        "name": "LLG-Llangynidr Bridge",
+        "trigraph": "LLG"
+    },
+    {
+        "name": "LLI-Llanidloes",
+        "trigraph": "LLI"
+    },
+    {
+        "name": "LLM-Llanymynech",
+        "trigraph": "LLM"
+    },
+    {
+        "name": "LLN-Llanrwst",
+        "trigraph": "LLN"
+    },
+    {
+        "name": "LLO-Llandeilo",
+        "trigraph": "LLO"
+    },
+    {
+        "name": "LLS-Llantysilio",
+        "trigraph": "LLS"
+    },
+    {
+        "name": "LLT-Loch Lomond Tarbet",
+        "trigraph": "LLT"
+    },
+    {
+        "name": "LLW-Llandrindod Wells",
+        "trigraph": "LLW"
+    },
+    {
+        "name": "LMB-Lochmaben",
+        "trigraph": "LMB"
+    },
+    {
+        "name": "LMD-Loch Mullardoch East",
+        "trigraph": "LMD"
+    },
+    {
+        "name": "LMO-Loch Morlich",
+        "trigraph": "LMO"
+    },
+    {
+        "name": "LMR-Ledmore",
+        "trigraph": "LMR"
+    },
+    {
+        "name": "LMU-Loch Muick",
+        "trigraph": "LMU"
+    },
+    {
+        "name": "LMV-Long Marston Church",
+        "trigraph": "LMV"
+    },
+    {
+        "name": "LMW-Leominster NW",
+        "trigraph": "LMW"
+    },
+    {
+        "name": "LMY-Loch Moy",
+        "trigraph": "LMY"
+    },
+    {
+        "name": "LNE-Lichfield NE",
+        "trigraph": "LNE"
+    },
+    {
+        "name": "LOA-Lochailort",
+        "trigraph": "LOA"
+    },
+    {
+        "name": "LOC-Lockerbie",
+        "trigraph": "LOC"
+    },
+    {
+        "name": "LOD-Linn of Dee",
+        "trigraph": "LOD"
+    },
+    {
+        "name": "LOG-Loch Gairloch SE",
+        "trigraph": "LOG"
+    },
+    {
+        "name": "LOI-Loch Laidon Island",
+        "trigraph": "LOI"
+    },
+    {
+        "name": "LOK-Loch Kinord",
+        "trigraph": "LOK"
+    },
+    {
+        "name": "LOL-Loch Lochy North East",
+        "trigraph": "LOL"
+    },
+    {
+        "name": "LOM-Lake of Menteith",
+        "trigraph": "LOM"
+    },
+    {
+        "name": "LON-Longleat",
+        "trigraph": "LON"
+    },
+    {
+        "name": "LOQ-Loch Quoich East",
+        "trigraph": "LOQ"
+    },
+    {
+        "name": "LOU-Louth",
+        "trigraph": "LOU"
+    },
+    {
+        "name": "LOW-Lowick",
+        "trigraph": "LOW"
+    },
+    {
+        "name": "LRI-Little Rissington",
+        "trigraph": "LRI"
+    },
+    {
+        "name": "LRK-Lanark",
+        "trigraph": "LRK"
+    },
+    {
+        "name": "LSA-Llansannan",
+        "trigraph": "LSA"
+    },
+    {
+        "name": "LSL-Llandysul",
+        "trigraph": "LSL"
+    },
+    {
+        "name": "LSN-Loch Seilich N",
+        "trigraph": "LSN"
+    },
+    {
+        "name": "LSS-Liss",
+        "trigraph": "LSS"
+    },
+    {
+        "name": "LSU-Long Sutton",
+        "trigraph": "LSU"
+    },
+    {
+        "name": "LTF-Langtoft",
+        "trigraph": "LTF"
+    },
+    {
+        "name": "LTN-Longtown",
+        "trigraph": "LTN"
+    },
+    {
+        "name": "LUD-Ludlow",
+        "trigraph": "LUD"
+    },
+    {
+        "name": "LUN-Luncarty",
+        "trigraph": "LUN"
+    },
+    {
+        "name": "LUS-Lussa Loch S",
+        "trigraph": "LUS"
+    },
+    {
+        "name": "LUT-Lutterworth",
+        "trigraph": "LUT"
+    },
+    {
+        "name": "LVE-Loch Venachar",
+        "trigraph": "LVE"
+    },
+    {
+        "name": "LVN-Lavenham",
+        "trigraph": "LVN"
+    },
+    {
+        "name": "LWL-Low Lorton",
+        "trigraph": "LWL"
+    },
+    {
+        "name": "LWN-Lewes NW",
+        "trigraph": "LWN"
+    },
+    {
+        "name": "LYB-Llwyngwril Bridge",
+        "trigraph": "LYB"
+    },
+    {
+        "name": "LYD-Leyland North East",
+        "trigraph": "LYD"
+    },
+    {
+        "name": "LYN-Lyneham A/F",
+        "trigraph": "LYN"
+    },
+    {
+        "name": "LYR-Ladybower Reservoir",
+        "trigraph": "LYR"
+    },
+    {
+        "name": "LYV-Lyveden",
+        "trigraph": "LYV"
+    },
+    {
+        "name": "MAC-Machynlleth Station",
+        "trigraph": "MAC"
+    },
+    {
+        "name": "MAD-Market Deeping",
+        "trigraph": "MAD"
+    },
+    {
+        "name": "MAE-Marlborough E",
+        "trigraph": "MAE"
+    },
+    {
+        "name": "MAH-Market Harborough",
+        "trigraph": "MAH"
+    },
+    {
+        "name": "MAI-Maidstone East",
+        "trigraph": "MAI"
+    },
+    {
+        "name": "MAL-Malton",
+        "trigraph": "MAL"
+    },
+    {
+        "name": "MAM-Malmesbury",
+        "trigraph": "MAM"
+    },
+    {
+        "name": "MAN-Manton",
+        "trigraph": "MAN"
+    },
+    {
+        "name": "MAR-Marlborough",
+        "trigraph": "MAR"
+    },
+    {
+        "name": "MAS-Masham",
+        "trigraph": "MAS"
+    },
+    {
+        "name": "MAT-Matlock",
+        "trigraph": "MAT"
+    },
+    {
+        "name": "MAW-Market Weighton",
+        "trigraph": "MAW"
+    },
+    {
+        "name": "MBL-Mablethorpe",
+        "trigraph": "MBL"
+    },
+    {
+        "name": "MBO-Market Bosworth",
+        "trigraph": "MBO"
+    },
+    {
+        "name": "MBR-Montford Bridge",
+        "trigraph": "MBR"
+    },
+    {
+        "name": "MBU-Melbury Bubb",
+        "trigraph": "MBU"
+    },
+    {
+        "name": "MBY-Manby",
+        "trigraph": "MBY"
+    },
+    {
+        "name": "MCH-March",
+        "trigraph": "MCH"
+    },
+    {
+        "name": "MDN-Maidstone North",
+        "trigraph": "MDN"
+    },
+    {
+        "name": "MEA-Measham",
+        "trigraph": "MEA"
+    },
+    {
+        "name": "MEE-East Meon",
+        "trigraph": "MEE"
+    },
+    {
+        "name": "MEL-Melksham",
+        "trigraph": "MEL"
+    },
+    {
+        "name": "MEM-Membury",
+        "trigraph": "MEM"
+    },
+    {
+        "name": "MEN-Mendlesham",
+        "trigraph": "MEN"
+    },
+    {
+        "name": "MER-Mere",
+        "trigraph": "MER"
+    },
+    {
+        "name": "MET-Melton Mowbray",
+        "trigraph": "MET"
+    },
+    {
+        "name": "MEW-West Meon Hut",
+        "trigraph": "MEW"
+    },
+    {
+        "name": "MEX-Mexborough S",
+        "trigraph": "MEX"
+    },
+    {
+        "name": "MFD-Mansfield NE",
+        "trigraph": "MFD"
+    },
+    {
+        "name": "MGH-Margery Hill",
+        "trigraph": "MGH"
+    },
+    {
+        "name": "MHT-Minchinhampton",
+        "trigraph": "MHT"
+    },
+    {
+        "name": "MIC-Micheldever",
+        "trigraph": "MIC"
+    },
+    {
+        "name": "MIG-Mingary Pier",
+        "trigraph": "MIG"
+    },
+    {
+        "name": "MIL-Milfield",
+        "trigraph": "MIL"
+    },
+    {
+        "name": "MIM-Midhurst Mast",
+        "trigraph": "MIM"
+    },
+    {
+        "name": "MIN-Mintlaw",
+        "trigraph": "MIN"
+    },
+    {
+        "name": "MIT-Milnthorpe",
+        "trigraph": "MIT"
+    },
+    {
+        "name": "MIW-Midhurst West",
+        "trigraph": "MIW"
+    },
+    {
+        "name": "MLL-Mellon Charles",
+        "trigraph": "MLL"
+    },
+    {
+        "name": "MLM-Melmerby",
+        "trigraph": "MLM"
+    },
+    {
+        "name": "MLN-Molton",
+        "trigraph": "MLN"
+    },
+    {
+        "name": "MLT-Milton",
+        "trigraph": "MLT"
+    },
+    {
+        "name": "MLY-Madley",
+        "trigraph": "MLY"
+    },
+    {
+        "name": "MNE-Maryport NE",
+        "trigraph": "MNE"
+    },
+    {
+        "name": "MNS-Menai Strait",
+        "trigraph": "MNS"
+    },
+    {
+        "name": "MNW-Millom NW",
+        "trigraph": "MNW"
+    },
+    {
+        "name": "MOK-Monkton",
+        "trigraph": "MOK"
+    },
+    {
+        "name": "MOM-Monmouth",
+        "trigraph": "MOM"
+    },
+    {
+        "name": "MON-Montgomery",
+        "trigraph": "MON"
+    },
+    {
+        "name": "MOO-Muir of Ord",
+        "trigraph": "MOO"
+    },
+    {
+        "name": "MOP-Morpeth",
+        "trigraph": "MOP"
+    },
+    {
+        "name": "MOR-Moreton-in-Marsh",
+        "trigraph": "MOR"
+    },
+    {
+        "name": "MOS-Mossat",
+        "trigraph": "MOS"
+    },
+    {
+        "name": "MOT-Mortimer Church",
+        "trigraph": "MOT"
+    },
+    {
+        "name": "MOU-Moulton Church",
+        "trigraph": "MOU"
+    },
+    {
+        "name": "MOY-Moy Lodge",
+        "trigraph": "MOY"
+    },
+    {
+        "name": "MRE-Margate E",
+        "trigraph": "MRE"
+    },
+    {
+        "name": "MRN-Market Rasen",
+        "trigraph": "MRN"
+    },
+    {
+        "name": "MRY-Maryport",
+        "trigraph": "MRY"
+    },
+    {
+        "name": "MSE-Mansfield SE",
+        "trigraph": "MSE"
+    },
+    {
+        "name": "MTD-Methwold",
+        "trigraph": "MTD"
+    },
+    {
+        "name": "MTF-Mottisfont Station",
+        "trigraph": "MTF"
+    },
+    {
+        "name": "MTH-Moota Hill",
+        "trigraph": "MTH"
+    },
+    {
+        "name": "MTM-Melton Mast",
+        "trigraph": "MTM"
+    },
+    {
+        "name": "MTR-Montrose",
+        "trigraph": "MTR"
+    },
+    {
+        "name": "MUD-Mudford Gate",
+        "trigraph": "MUD"
+    },
+    {
+        "name": "MUM-Mumbles Head",
+        "trigraph": "MUM"
+    },
+    {
+        "name": "MUN-Mundford",
+        "trigraph": "MUN"
+    },
+    {
+        "name": "MUR-Mursley",
+        "trigraph": "MUR"
+    },
+    {
+        "name": "MUT-Murton",
+        "trigraph": "MUT"
+    },
+    {
+        "name": "MVN-Methven",
+        "trigraph": "MVN"
+    },
+    {
+        "name": "MWD-Mallwyd",
+        "trigraph": "MWD"
+    },
+    {
+        "name": "MWP-Middle Wallop",
+        "trigraph": "MWP"
+    },
+    {
+        "name": "MY2-Mynd S",
+        "trigraph": "MY2"
+    },
+    {
+        "name": "MY3-Mynd N",
+        "trigraph": "MY3"
+    },
+    {
+        "name": "MYN-Mynd",
+        "trigraph": "MYN"
+    },
+    {
+        "name": "MZI-Monzie",
+        "trigraph": "MZI"
+    },
+    {
+        "name": "NAB-New Abbey",
+        "trigraph": "NAB"
+    },
+    {
+        "name": "NAE-Naseby East",
+        "trigraph": "NAE"
+    },
+    {
+        "name": "NAI-Nailsworth",
+        "trigraph": "NAI"
+    },
+    {
+        "name": "NAN-Narberth N",
+        "trigraph": "NAN"
+    },
+    {
+        "name": "NAW-Naseby West",
+        "trigraph": "NAW"
+    },
+    {
+        "name": "NBR-Norham Bridge",
+        "trigraph": "NBR"
+    },
+    {
+        "name": "NCH-Newchurch",
+        "trigraph": "NCH"
+    },
+    {
+        "name": "NDL-Needles",
+        "trigraph": "NDL"
+    },
+    {
+        "name": "NDU-North Duffield",
+        "trigraph": "NDU"
+    },
+    {
+        "name": "NEA-Northleach East",
+        "trigraph": "NEA"
+    },
+    {
+        "name": "NEC-New Cumnock",
+        "trigraph": "NEC"
+    },
+    {
+        "name": "NED-New Deer",
+        "trigraph": "NED"
+    },
+    {
+        "name": "NEE-Needham Market E",
+        "trigraph": "NEE"
+    },
+    {
+        "name": "NEF-Nefyn",
+        "trigraph": "NEF"
+    },
+    {
+        "name": "NEG-New Galloway",
+        "trigraph": "NEG"
+    },
+    {
+        "name": "NEM-Newmill",
+        "trigraph": "NEM"
+    },
+    {
+        "name": "NEN-Newbury N",
+        "trigraph": "NEN"
+    },
+    {
+        "name": "NES-Newbury South",
+        "trigraph": "NES"
+    },
+    {
+        "name": "NET-Newtown",
+        "trigraph": "NET"
+    },
+    {
+        "name": "NEW-Newbury Racecourse",
+        "trigraph": "NEW"
+    },
+    {
+        "name": "NH2-North Hill N",
+        "trigraph": "NH2"
+    },
+    {
+        "name": "NHL-North Hill",
+        "trigraph": "NHL"
+    },
+    {
+        "name": "NLE-Northleach",
+        "trigraph": "NLE"
+    },
+    {
+        "name": "NMT-Newmarket",
+        "trigraph": "NMT"
+    },
+    {
+        "name": "NOC-Newcastle on Clun",
+        "trigraph": "NOC"
+    },
+    {
+        "name": "NOR-Norman Cross",
+        "trigraph": "NOR"
+    },
+    {
+        "name": "NOS-Northampton South",
+        "trigraph": "NOS"
+    },
+    {
+        "name": "NOW-Northampton West",
+        "trigraph": "NOW"
+    },
+    {
+        "name": "NPT-Newport Pagnall",
+        "trigraph": "NPT"
+    },
+    {
+        "name": "NRA-Nunraw Abbey",
+        "trigraph": "NRA"
+    },
+    {
+        "name": "NRT-Northallerton",
+        "trigraph": "NRT"
+    },
+    {
+        "name": "NST-Newton Stewart",
+        "trigraph": "NST"
+    },
+    {
+        "name": "NTA-N Tawton",
+        "trigraph": "NTA"
+    },
+    {
+        "name": "NTB-Nethybridge",
+        "trigraph": "NTB"
+    },
+    {
+        "name": "NTN-Neenton",
+        "trigraph": "NTN"
+    },
+    {
+        "name": "NUN-Nunney",
+        "trigraph": "NUN"
+    },
+    {
+        "name": "NWK-Newark",
+        "trigraph": "NWK"
+    },
+    {
+        "name": "NWT-Newent",
+        "trigraph": "NWT"
+    },
+    {
+        "name": "NY1-Nympsfield Finish East",
+        "trigraph": "NY1"
+    },
+    {
+        "name": "NY2-Nympsfield Finish West",
+        "trigraph": "NY2"
+    },
+    {
+        "name": "NYM-Nympsfield",
+        "trigraph": "NYM"
+    },
+    {
+        "name": "OAE-Oakham E",
+        "trigraph": "OAE"
+    },
+    {
+        "name": "OAK-Oakington",
+        "trigraph": "OAK"
+    },
+    {
+        "name": "OBA-Oban Airfield",
+        "trigraph": "OBA"
+    },
+    {
+        "name": "OBN-Oban Station",
+        "trigraph": "OBN"
+    },
+    {
+        "name": "ODI-Odiham",
+        "trigraph": "ODI"
+    },
+    {
+        "name": "OGB-Ogbourne",
+        "trigraph": "OGB"
+    },
+    {
+        "name": "OKE-Okehampton East",
+        "trigraph": "OKE"
+    },
+    {
+        "name": "OLL-Ollerton",
+        "trigraph": "OLL"
+    },
+    {
+        "name": "OLN-Olney",
+        "trigraph": "OLN"
+    },
+    {
+        "name": "ORA-Old Radnor",
+        "trigraph": "ORA"
+    },
+    {
+        "name": "OSB-Osbournby",
+        "trigraph": "OSB"
+    },
+    {
+        "name": "OSW-Oswestry",
+        "trigraph": "OSW"
+    },
+    {
+        "name": "OTM-Ottercops Moss",
+        "trigraph": "OTM"
+    },
+    {
+        "name": "OUN-Oundle",
+        "trigraph": "OUN"
+    },
+    {
+        "name": "OUS-Ousby E",
+        "trigraph": "OUS"
+    },
+    {
+        "name": "OVE-Overton",
+        "trigraph": "OVE"
+    },
+    {
+        "name": "OXF-Oxford East",
+        "trigraph": "OXF"
+    },
+    {
+        "name": "OXM-Oxford M40 Services",
+        "trigraph": "OXM"
+    },
+    {
+        "name": "OXN-Oxford North",
+        "trigraph": "OXN"
+    },
+    {
+        "name": "OXS-Oxford South",
+        "trigraph": "OXS"
+    },
+    {
+        "name": "OXT-Oxton",
+        "trigraph": "OXT"
+    },
+    {
+        "name": "PA2-Pateley SE",
+        "trigraph": "PA2"
+    },
+    {
+        "name": "PAD-Paddock Wood",
+        "trigraph": "PAD"
+    },
+    {
+        "name": "PAN-Pangbourne",
+        "trigraph": "PAN"
+    },
+    {
+        "name": "PAP-Papworth",
+        "trigraph": "PAP"
+    },
+    {
+        "name": "PAR-Parham",
+        "trigraph": "PAR"
+    },
+    {
+        "name": "PAT-Pateley Bridge",
+        "trigraph": "PAT"
+    },
+    {
+        "name": "PCM-Pencombe",
+        "trigraph": "PCM"
+    },
+    {
+        "name": "PCN-Porthcawl North",
+        "trigraph": "PCN"
+    },
+    {
+        "name": "PCS-Portmoak Caravan Site",
+        "trigraph": "PCS"
+    },
+    {
+        "name": "PCT-Pontefract",
+        "trigraph": "PCT"
+    },
+    {
+        "name": "PEB-Porthmadog East Bridge",
+        "trigraph": "PEB"
+    },
+    {
+        "name": "PEE-Peebles",
+        "trigraph": "PEE"
+    },
+    {
+        "name": "PEI-Penrith",
+        "trigraph": "PEI"
+    },
+    {
+        "name": "PEM-Pembroke Dock",
+        "trigraph": "PEM"
+    },
+    {
+        "name": "PEN-Pendock",
+        "trigraph": "PEN"
+    },
+    {
+        "name": "PET-Peterborough",
+        "trigraph": "PET"
+    },
+    {
+        "name": "PEV-Peveril Castle",
+        "trigraph": "PEV"
+    },
+    {
+        "name": "PEW-Pewsey",
+        "trigraph": "PEW"
+    },
+    {
+        "name": "PGO-Pitsligo",
+        "trigraph": "PGO"
+    },
+    {
+        "name": "PIC-Pickenham",
+        "trigraph": "PIC"
+    },
+    {
+        "name": "PIE-Penrith East",
+        "trigraph": "PIE"
+    },
+    {
+        "name": "PIT-Pitsford",
+        "trigraph": "PIT"
+    },
+    {
+        "name": "PKG-Pickering",
+        "trigraph": "PKG"
+    },
+    {
+        "name": "PLE-Peterlee",
+        "trigraph": "PLE"
+    },
+    {
+        "name": "PLM-Plumpton",
+        "trigraph": "PLM"
+    },
+    {
+        "name": "PLU-Pluckley",
+        "trigraph": "PLU"
+    },
+    {
+        "name": "PLY-Pitlochry",
+        "trigraph": "PLY"
+    },
+    {
+        "name": "PNS-Pontsticill Reservoir",
+        "trigraph": "PNS"
+    },
+    {
+        "name": "PNT-Portsmouth N",
+        "trigraph": "PNT"
+    },
+    {
+        "name": "PNW-Parham NW",
+        "trigraph": "PNW"
+    },
+    {
+        "name": "PO1-Portmoak NW",
+        "trigraph": "PO1"
+    },
+    {
+        "name": "PO2-Portmoak W",
+        "trigraph": "PO2"
+    },
+    {
+        "name": "POA-Potarch Bridge",
+        "trigraph": "POA"
+    },
+    {
+        "name": "POC-Pocklington",
+        "trigraph": "POC"
+    },
+    {
+        "name": "POF-Pontypool Folly",
+        "trigraph": "POF"
+    },
+    {
+        "name": "POH-Pontesbury Hill",
+        "trigraph": "POH"
+    },
+    {
+        "name": "POL-Polegate",
+        "trigraph": "POL"
+    },
+    {
+        "name": "POP-Popham",
+        "trigraph": "POP"
+    },
+    {
+        "name": "POR-Portmoak Clubhouse",
+        "trigraph": "POR"
+    },
+    {
+        "name": "POS-Pocklington South",
+        "trigraph": "POS"
+    },
+    {
+        "name": "POT-Potton",
+        "trigraph": "POT"
+    },
+    {
+        "name": "POW-Powburn",
+        "trigraph": "POW"
+    },
+    {
+        "name": "PPE-Pontypool E",
+        "trigraph": "PPE"
+    },
+    {
+        "name": "PPN-Pontypool N",
+        "trigraph": "PPN"
+    },
+    {
+        "name": "PPP-Port Appin",
+        "trigraph": "PPP"
+    },
+    {
+        "name": "PR1-Park Control Point E",
+        "trigraph": "PR1"
+    },
+    {
+        "name": "PRE-Presteigne",
+        "trigraph": "PRE"
+    },
+    {
+        "name": "PRI-Prince's Risborough",
+        "trigraph": "PRI"
+    },
+    {
+        "name": "PRK-Park-the",
+        "trigraph": "PRK"
+    },
+    {
+        "name": "PRN-Preston North",
+        "trigraph": "PRN"
+    },
+    {
+        "name": "PRT-Portree",
+        "trigraph": "PRT"
+    },
+    {
+        "name": "PSE-Pershore SE",
+        "trigraph": "PSE"
+    },
+    {
+        "name": "PSH-Portesham",
+        "trigraph": "PSH"
+    },
+    {
+        "name": "PTD-Pontardulais",
+        "trigraph": "PTD"
+    },
+    {
+        "name": "PTE-Port Eynon",
+        "trigraph": "PTE"
+    },
+    {
+        "name": "PTF-Petersfield South",
+        "trigraph": "PTF"
+    },
+    {
+        "name": "PTH-Perth",
+        "trigraph": "PTH"
+    },
+    {
+        "name": "PTM-Porthmadog",
+        "trigraph": "PTM"
+    },
+    {
+        "name": "PTN-Pirton",
+        "trigraph": "PTN"
+    },
+    {
+        "name": "PTR-Portsmouth Tower",
+        "trigraph": "PTR"
+    },
+    {
+        "name": "PTW-Petersfield West",
+        "trigraph": "PTW"
+    },
+    {
+        "name": "PVY-Pevensey",
+        "trigraph": "PVY"
+    },
+    {
+        "name": "PWN-Penwhirn Reservoir",
+        "trigraph": "PWN"
+    },
+    {
+        "name": "PWW-Pwllheli West",
+        "trigraph": "PWW"
+    },
+    {
+        "name": "PYE-Plymouth E",
+        "trigraph": "PYE"
+    },
+    {
+        "name": "PYF-Pen-y-Fan",
+        "trigraph": "PYF"
+    },
+    {
+        "name": "PYS-Prestatyn S",
+        "trigraph": "PYS"
+    },
+    {
+        "name": "PYW-Plymouth W",
+        "trigraph": "PYW"
+    },
+    {
+        "name": "RAB-Ramsbury",
+        "trigraph": "RAB"
+    },
+    {
+        "name": "RAD-Radstock",
+        "trigraph": "RAD"
+    },
+    {
+        "name": "RAG-Raglan",
+        "trigraph": "RAG"
+    },
+    {
+        "name": "RAM-Ramsey",
+        "trigraph": "RAM"
+    },
+    {
+        "name": "RAN-Rannoch Station",
+        "trigraph": "RAN"
+    },
+    {
+        "name": "RAR-Ravensthorpe Reservoir",
+        "trigraph": "RAR"
+    },
+    {
+        "name": "RAV-Ravenglass N",
+        "trigraph": "RAV"
+    },
+    {
+        "name": "RBR-Roybridge",
+        "trigraph": "RBR"
+    },
+    {
+        "name": "RBS-Rosebush",
+        "trigraph": "RBS"
+    },
+    {
+        "name": "RBY-Rothbury",
+        "trigraph": "RBY"
+    },
+    {
+        "name": "RDN-Rattlesden A/F Centre",
+        "trigraph": "RDN"
+    },
+    {
+        "name": "RDW-Radway",
+        "trigraph": "RDW"
+    },
+    {
+        "name": "REA-Reading West",
+        "trigraph": "REA"
+    },
+    {
+        "name": "REE-Reedham",
+        "trigraph": "REE"
+    },
+    {
+        "name": "RET-Retford",
+        "trigraph": "RET"
+    },
+    {
+        "name": "RHD-Rattray Head",
+        "trigraph": "RHD"
+    },
+    {
+        "name": "RHI-Rhigos",
+        "trigraph": "RHI"
+    },
+    {
+        "name": "RHO-Rhossdhu House",
+        "trigraph": "RHO"
+    },
+    {
+        "name": "RHU-Rhuddlan",
+        "trigraph": "RHU"
+    },
+    {
+        "name": "RHY-Rhayader",
+        "trigraph": "RHY"
+    },
+    {
+        "name": "RI2-Rivar Hill North",
+        "trigraph": "RI2"
+    },
+    {
+        "name": "RIC-Richmond",
+        "trigraph": "RIC"
+    },
+    {
+        "name": "RID-Ridgewell Church",
+        "trigraph": "RID"
+    },
+    {
+        "name": "RIN-Ringmer",
+        "trigraph": "RIN"
+    },
+    {
+        "name": "RIP-Ripon",
+        "trigraph": "RIP"
+    },
+    {
+        "name": "RIV-Rivar Hill",
+        "trigraph": "RIV"
+    },
+    {
+        "name": "RIW-Ridgewell Field",
+        "trigraph": "RIW"
+    },
+    {
+        "name": "RKB-Rockbourne",
+        "trigraph": "RKB"
+    },
+    {
+        "name": "RNE-Rugby Northeast",
+        "trigraph": "RNE"
+    },
+    {
+        "name": "RNI-Rhynie",
+        "trigraph": "RNI"
+    },
+    {
+        "name": "ROA-Roadford",
+        "trigraph": "ROA"
+    },
+    {
+        "name": "ROC-Rochester",
+        "trigraph": "ROC"
+    },
+    {
+        "name": "ROD-Rodney's Pillar",
+        "trigraph": "ROD"
+    },
+    {
+        "name": "ROH-Rothes",
+        "trigraph": "ROH"
+    },
+    {
+        "name": "ROS-Ross-on-Wye",
+        "trigraph": "ROS"
+    },
+    {
+        "name": "ROT-Rotherham",
+        "trigraph": "ROT"
+    },
+    {
+        "name": "ROY-Royston",
+        "trigraph": "ROY"
+    },
+    {
+        "name": "RSE-Redruth SE",
+        "trigraph": "RSE"
+    },
+    {
+        "name": "RSN-Rosneath",
+        "trigraph": "RSN"
+    },
+    {
+        "name": "RSY-Rothesay",
+        "trigraph": "RSY"
+    },
+    {
+        "name": "RTH-Rosthwaite",
+        "trigraph": "RTH"
+    },
+    {
+        "name": "RU1-Rufforth South",
+        "trigraph": "RU1"
+    },
+    {
+        "name": "RUB-Rubha Reidh",
+        "trigraph": "RUB"
+    },
+    {
+        "name": "RUF-Rufforth",
+        "trigraph": "RUF"
+    },
+    {
+        "name": "RUG-Rugby",
+        "trigraph": "RUG"
+    },
+    {
+        "name": "RUN-Ruthin NE",
+        "trigraph": "RUN"
+    },
+    {
+        "name": "RUS-Rushden",
+        "trigraph": "RUS"
+    },
+    {
+        "name": "RUW-Ruthin West",
+        "trigraph": "RUW"
+    },
+    {
+        "name": "RVN-Ruthven",
+        "trigraph": "RVN"
+    },
+    {
+        "name": "RWD-Rutland Water Dam",
+        "trigraph": "RWD"
+    },
+    {
+        "name": "RYB-Rydal Bridge",
+        "trigraph": "RYB"
+    },
+    {
+        "name": "RYD-Ryde",
+        "trigraph": "RYD"
+    },
+    {
+        "name": "RYE-Rye",
+        "trigraph": "RYE"
+    },
+    {
+        "name": "SAC-Sackville",
+        "trigraph": "SAC"
+    },
+    {
+        "name": "SAL-Salisbury Cathedral",
+        "trigraph": "SAL"
+    },
+    {
+        "name": "SAN-Sandhill Farm",
+        "trigraph": "SAN"
+    },
+    {
+        "name": "SAP-Shap",
+        "trigraph": "SAP"
+    },
+    {
+        "name": "SAR-Sarnesfield",
+        "trigraph": "SAR"
+    },
+    {
+        "name": "SAS-Salisbury South",
+        "trigraph": "SAS"
+    },
+    {
+        "name": "SAW-Sandwich",
+        "trigraph": "SAW"
+    },
+    {
+        "name": "SAX-Saxthorpe",
+        "trigraph": "SAX"
+    },
+    {
+        "name": "SB2-Saltby NW",
+        "trigraph": "SB2"
+    },
+    {
+        "name": "SBB-Strubby",
+        "trigraph": "SBB"
+    },
+    {
+        "name": "SBR-Santon Bridge",
+        "trigraph": "SBR"
+    },
+    {
+        "name": "SBT-Simonsbath",
+        "trigraph": "SBT"
+    },
+    {
+        "name": "SBY-Saltby",
+        "trigraph": "SBY"
+    },
+    {
+        "name": "SCB-Scarborough",
+        "trigraph": "SCB"
+    },
+    {
+        "name": "SCF-Scalford Church",
+        "trigraph": "SCF"
+    },
+    {
+        "name": "SCL-Scoulton",
+        "trigraph": "SCL"
+    },
+    {
+        "name": "SCN-Strathcarron",
+        "trigraph": "SCN"
+    },
+    {
+        "name": "SCO-Scourie",
+        "trigraph": "SCO"
+    },
+    {
+        "name": "SCP-St Catherine's Point",
+        "trigraph": "SCP"
+    },
+    {
+        "name": "SCU-Scunthorpe N",
+        "trigraph": "SCU"
+    },
+    {
+        "name": "SDV-St Davids",
+        "trigraph": "SDV"
+    },
+    {
+        "name": "SDW-Seighford South-West",
+        "trigraph": "SDW"
+    },
+    {
+        "name": "SE2-Seighford Hangar",
+        "trigraph": "SE2"
+    },
+    {
+        "name": "SEA-Seaford East",
+        "trigraph": "SEA"
+    },
+    {
+        "name": "SED-Sedbergh",
+        "trigraph": "SED"
+    },
+    {
+        "name": "SEL-Selset Reservoir",
+        "trigraph": "SEL"
+    },
+    {
+        "name": "SEN-Sennybridge",
+        "trigraph": "SEN"
+    },
+    {
+        "name": "SET-Settle",
+        "trigraph": "SET"
+    },
+    {
+        "name": "SEV-Severn Bridge N",
+        "trigraph": "SEV"
+    },
+    {
+        "name": "SEW-Sheffield West",
+        "trigraph": "SEW"
+    },
+    {
+        "name": "SFB-Stamford Bridge",
+        "trigraph": "SFB"
+    },
+    {
+        "name": "SFD-Sleaford",
+        "trigraph": "SFD"
+    },
+    {
+        "name": "SFE-Sheffield East",
+        "trigraph": "SFE"
+    },
+    {
+        "name": "SFW-Stratford West",
+        "trigraph": "SFW"
+    },
+    {
+        "name": "SGW-Stelling Windmill",
+        "trigraph": "SGW"
+    },
+    {
+        "name": "SH2-Shobdon NW",
+        "trigraph": "SH2"
+    },
+    {
+        "name": "SH3-Shobdon E",
+        "trigraph": "SH3"
+    },
+    {
+        "name": "SH4-Shobdon West",
+        "trigraph": "SH4"
+    },
+    {
+        "name": "SHA-Shaftesbury",
+        "trigraph": "SHA"
+    },
+    {
+        "name": "SHB-Sherborne",
+        "trigraph": "SHB"
+    },
+    {
+        "name": "SHD-Stoer Head",
+        "trigraph": "SHD"
+    },
+    {
+        "name": "SHE-Sheffield North",
+        "trigraph": "SHE"
+    },
+    {
+        "name": "SHI-Shirebrook Station",
+        "trigraph": "SHI"
+    },
+    {
+        "name": "SHL-Salt Hill Mast",
+        "trigraph": "SHL"
+    },
+    {
+        "name": "SHM-Shepton Mallett",
+        "trigraph": "SHM"
+    },
+    {
+        "name": "SHO-Shobdon",
+        "trigraph": "SHO"
+    },
+    {
+        "name": "SHP-Shipston-on-Stour",
+        "trigraph": "SHP"
+    },
+    {
+        "name": "SHS-Shrewsbury",
+        "trigraph": "SHS"
+    },
+    {
+        "name": "SHT-Shottaton",
+        "trigraph": "SHT"
+    },
+    {
+        "name": "SHV-Shrivenham N",
+        "trigraph": "SHV"
+    },
+    {
+        "name": "SHW-Shrewsbury NW",
+        "trigraph": "SHW"
+    },
+    {
+        "name": "SHY-Shawbury",
+        "trigraph": "SHY"
+    },
+    {
+        "name": "SID-Sidmouth",
+        "trigraph": "SID"
+    },
+    {
+        "name": "SIL-Silverstone",
+        "trigraph": "SIL"
+    },
+    {
+        "name": "SIS-Stirling South",
+        "trigraph": "SIS"
+    },
+    {
+        "name": "SIT-Sittingbourne",
+        "trigraph": "SIT"
+    },
+    {
+        "name": "SIW-Stirling Northwest",
+        "trigraph": "SIW"
+    },
+    {
+        "name": "SIX-Sixpenny Handley",
+        "trigraph": "SIX"
+    },
+    {
+        "name": "SKB-Stickney Bridge",
+        "trigraph": "SKB"
+    },
+    {
+        "name": "SKE-Skeffington",
+        "trigraph": "SKE"
+    },
+    {
+        "name": "SKS-Stocks Reservoir South West",
+        "trigraph": "SKS"
+    },
+    {
+        "name": "SKW-Selkirk W",
+        "trigraph": "SKW"
+    },
+    {
+        "name": "SLE-Sleap",
+        "trigraph": "SLE"
+    },
+    {
+        "name": "SLL-Silloth",
+        "trigraph": "SLL"
+    },
+    {
+        "name": "SLS-Selsey Bill",
+        "trigraph": "SLS"
+    },
+    {
+        "name": "SMA-Smailholm Tower",
+        "trigraph": "SMA"
+    },
+    {
+        "name": "SMB-Six Mile Bottom",
+        "trigraph": "SMB"
+    },
+    {
+        "name": "SML-St Mary's Loch",
+        "trigraph": "SML"
+    },
+    {
+        "name": "SMM-St Michael's Mount",
+        "trigraph": "SMM"
+    },
+    {
+        "name": "SN2-Snitterfield SW",
+        "trigraph": "SN2"
+    },
+    {
+        "name": "SNA-Snainton",
+        "trigraph": "SNA"
+    },
+    {
+        "name": "SNI-Snitterfield",
+        "trigraph": "SNI"
+    },
+    {
+        "name": "SNO-Swindon N",
+        "trigraph": "SNO"
+    },
+    {
+        "name": "SNP-Staindrop",
+        "trigraph": "SNP"
+    },
+    {
+        "name": "SNS-St Neots S",
+        "trigraph": "SNS"
+    },
+    {
+        "name": "SNW-Stratford NW",
+        "trigraph": "SNW"
+    },
+    {
+        "name": "SOA-Stratford",
+        "trigraph": "SOA"
+    },
+    {
+        "name": "SOF-Sutton-on-Forest",
+        "trigraph": "SOF"
+    },
+    {
+        "name": "SOH-Soham",
+        "trigraph": "SOH"
+    },
+    {
+        "name": "SOS-Stokenchurch South",
+        "trigraph": "SOS"
+    },
+    {
+        "name": "SOU-Southam",
+        "trigraph": "SOU"
+    },
+    {
+        "name": "SOW-Stow",
+        "trigraph": "SOW"
+    },
+    {
+        "name": "SPA-Spalding",
+        "trigraph": "SPA"
+    },
+    {
+        "name": "SPB-Sharperton Bridge",
+        "trigraph": "SPB"
+    },
+    {
+        "name": "SPD-Spey Dam",
+        "trigraph": "SPD"
+    },
+    {
+        "name": "SPE-Spean Bridge",
+        "trigraph": "SPE"
+    },
+    {
+        "name": "SPH-Staplehurst",
+        "trigraph": "SPH"
+    },
+    {
+        "name": "SPI-Spilsby",
+        "trigraph": "SPI"
+    },
+    {
+        "name": "SPL-Spittal of Glenshee",
+        "trigraph": "SPL"
+    },
+    {
+        "name": "SPN-Spinningdale Bridge",
+        "trigraph": "SPN"
+    },
+    {
+        "name": "SPP-Sheppey E",
+        "trigraph": "SPP"
+    },
+    {
+        "name": "SPS-Shap S",
+        "trigraph": "SPS"
+    },
+    {
+        "name": "SPT-Shipton",
+        "trigraph": "SPT"
+    },
+    {
+        "name": "SPU-Spurn Head North",
+        "trigraph": "SPU"
+    },
+    {
+        "name": "SRE-Stroud E",
+        "trigraph": "SRE"
+    },
+    {
+        "name": "SRN-Strontian",
+        "trigraph": "SRN"
+    },
+    {
+        "name": "SRR-Storrington SW",
+        "trigraph": "SRR"
+    },
+    {
+        "name": "SSO-Sheffield South",
+        "trigraph": "SSO"
+    },
+    {
+        "name": "SSW-Stoke SW",
+        "trigraph": "SSW"
+    },
+    {
+        "name": "STA-Stafford",
+        "trigraph": "STA"
+    },
+    {
+        "name": "STB-St Boswells",
+        "trigraph": "STB"
+    },
+    {
+        "name": "STC-Stokenchurch Tower",
+        "trigraph": "STC"
+    },
+    {
+        "name": "STD-Stradishall",
+        "trigraph": "STD"
+    },
+    {
+        "name": "STE-Steyning",
+        "trigraph": "STE"
+    },
+    {
+        "name": "STF-St Fillans",
+        "trigraph": "STF"
+    },
+    {
+        "name": "STH-Stanhope",
+        "trigraph": "STH"
+    },
+    {
+        "name": "STI-Stirling",
+        "trigraph": "STI"
+    },
+    {
+        "name": "STK-Stockbridge",
+        "trigraph": "STK"
+    },
+    {
+        "name": "STN-St Neots",
+        "trigraph": "STN"
+    },
+    {
+        "name": "STO-Stone",
+        "trigraph": "STO"
+    },
+    {
+        "name": "STP-Stourport",
+        "trigraph": "STP"
+    },
+    {
+        "name": "STR-Strachan",
+        "trigraph": "STR"
+    },
+    {
+        "name": "STS-Stony Stratford",
+        "trigraph": "STS"
+    },
+    {
+        "name": "STT-Stretton",
+        "trigraph": "STT"
+    },
+    {
+        "name": "STU-Sturminster Newton",
+        "trigraph": "STU"
+    },
+    {
+        "name": "STW-Stow-on-the-Wold",
+        "trigraph": "STW"
+    },
+    {
+        "name": "SU1-Sutton Bank Start S",
+        "trigraph": "SU1"
+    },
+    {
+        "name": "SU2-Sutton Bank Start W",
+        "trigraph": "SU2"
+    },
+    {
+        "name": "SU3-Sutton Bank Control Point N",
+        "trigraph": "SU3"
+    },
+    {
+        "name": "SU4-Sutton Bank Control Point S",
+        "trigraph": "SU4"
+    },
+    {
+        "name": "SUD-Sudbury",
+        "trigraph": "SUD"
+    },
+    {
+        "name": "SUT-Sutton Bank",
+        "trigraph": "SUT"
+    },
+    {
+        "name": "SUW-Shipton under Wychwood",
+        "trigraph": "SUW"
+    },
+    {
+        "name": "SVN-Strathaven",
+        "trigraph": "SVN"
+    },
+    {
+        "name": "SWD-Snowdon",
+        "trigraph": "SWD"
+    },
+    {
+        "name": "SWE-Swindon East",
+        "trigraph": "SWE"
+    },
+    {
+        "name": "SWH-Shawhead",
+        "trigraph": "SWH"
+    },
+    {
+        "name": "SWL-Swalcliffe",
+        "trigraph": "SWL"
+    },
+    {
+        "name": "SWM-Southwell Minster",
+        "trigraph": "SWM"
+    },
+    {
+        "name": "SWS-Swindon South",
+        "trigraph": "SWS"
+    },
+    {
+        "name": "SWT-Swainsthorpe",
+        "trigraph": "SWT"
+    },
+    {
+        "name": "SWW-Swindon W",
+        "trigraph": "SWW"
+    },
+    {
+        "name": "SXB-Saxby Church",
+        "trigraph": "SXB"
+    },
+    {
+        "name": "SYB-Syre Bridge",
+        "trigraph": "SYB"
+    },
+    {
+        "name": "TA1-Talgarth NW",
+        "trigraph": "TA1"
+    },
+    {
+        "name": "TA2-Talgarth W",
+        "trigraph": "TA2"
+    },
+    {
+        "name": "TA3-Talgarth S",
+        "trigraph": "TA3"
+    },
+    {
+        "name": "TAD-Tarland",
+        "trigraph": "TAD"
+    },
+    {
+        "name": "TAL-Talgarth",
+        "trigraph": "TAL"
+    },
+    {
+        "name": "TAR-Tarbert",
+        "trigraph": "TAR"
+    },
+    {
+        "name": "TAU-Taunton",
+        "trigraph": "TAU"
+    },
+    {
+        "name": "TAV-Tavistock",
+        "trigraph": "TAV"
+    },
+    {
+        "name": "TB1-Tibenham Start SE",
+        "trigraph": "TB1"
+    },
+    {
+        "name": "TBK-Troutbeck",
+        "trigraph": "TBK"
+    },
+    {
+        "name": "TBN-Tetbury North",
+        "trigraph": "TBN"
+    },
+    {
+        "name": "TBS-Tetbury South",
+        "trigraph": "TBS"
+    },
+    {
+        "name": "TBW-Tetbury West",
+        "trigraph": "TBW"
+    },
+    {
+        "name": "TBY-Tenby",
+        "trigraph": "TBY"
+    },
+    {
+        "name": "TCM-The Camp",
+        "trigraph": "TCM"
+    },
+    {
+        "name": "TDL-Tindale",
+        "trigraph": "TDL"
+    },
+    {
+        "name": "TEB-Tebay",
+        "trigraph": "TEB"
+    },
+    {
+        "name": "TED-Tenterden",
+        "trigraph": "TED"
+    },
+    {
+        "name": "TEE-Telford East",
+        "trigraph": "TEE"
+    },
+    {
+        "name": "TEG-Temple Guiting",
+        "trigraph": "TEG"
+    },
+    {
+        "name": "TEL-Telford",
+        "trigraph": "TEL"
+    },
+    {
+        "name": "TEN-Tenbury Wells",
+        "trigraph": "TEN"
+    },
+    {
+        "name": "TES-Telford South",
+        "trigraph": "TES"
+    },
+    {
+        "name": "TEV-Teviothead",
+        "trigraph": "TEV"
+    },
+    {
+        "name": "TEW-Tewkesbury North",
+        "trigraph": "TEW"
+    },
+    {
+        "name": "TFS-Tarfside",
+        "trigraph": "TFS"
+    },
+    {
+        "name": "THA-Thame Church",
+        "trigraph": "THA"
+    },
+    {
+        "name": "THD-Todhead",
+        "trigraph": "THD"
+    },
+    {
+        "name": "THE-Thetford",
+        "trigraph": "THE"
+    },
+    {
+        "name": "THG-Thorngumbald",
+        "trigraph": "THG"
+    },
+    {
+        "name": "THI-Thirsk",
+        "trigraph": "THI"
+    },
+    {
+        "name": "THM-Thame Rail Bridge",
+        "trigraph": "THM"
+    },
+    {
+        "name": "THN-Thornhill",
+        "trigraph": "THN"
+    },
+    {
+        "name": "THO-Thornton",
+        "trigraph": "THO"
+    },
+    {
+        "name": "THP-Thrapston",
+        "trigraph": "THP"
+    },
+    {
+        "name": "TIA-Tintern Abbey",
+        "trigraph": "TIA"
+    },
+    {
+        "name": "TIB-Tibenham",
+        "trigraph": "TIB"
+    },
+    {
+        "name": "TIC-Tickhill",
+        "trigraph": "TIC"
+    },
+    {
+        "name": "TID-Tideswell Church",
+        "trigraph": "TID"
+    },
+    {
+        "name": "TIE-Tiverton East",
+        "trigraph": "TIE"
+    },
+    {
+        "name": "TIN-Tomatin",
+        "trigraph": "TIN"
+    },
+    {
+        "name": "TIP-Tiptree",
+        "trigraph": "TIP"
+    },
+    {
+        "name": "TIS-Tisbury",
+        "trigraph": "TIS"
+    },
+    {
+        "name": "TIV-Tiverton",
+        "trigraph": "TIV"
+    },
+    {
+        "name": "TNE-Thornbury Northeast",
+        "trigraph": "TNE"
+    },
+    {
+        "name": "TNW-Telford NW",
+        "trigraph": "TNW"
+    },
+    {
+        "name": "TOC-Tockwith",
+        "trigraph": "TOC"
+    },
+    {
+        "name": "TOD-Toddington",
+        "trigraph": "TOD"
+    },
+    {
+        "name": "TOG-Tongue",
+        "trigraph": "TOG"
+    },
+    {
+        "name": "TOK-Torksey Viaduct",
+        "trigraph": "TOK"
+    },
+    {
+        "name": "TOM-Tomintoul",
+        "trigraph": "TOM"
+    },
+    {
+        "name": "TON-Tontine Inn",
+        "trigraph": "TON"
+    },
+    {
+        "name": "TOR-Torver",
+        "trigraph": "TOR"
+    },
+    {
+        "name": "TOW-Towcester",
+        "trigraph": "TOW"
+    },
+    {
+        "name": "TRE-Tregaron",
+        "trigraph": "TRE"
+    },
+    {
+        "name": "TRF-Turriff",
+        "trigraph": "TRF"
+    },
+    {
+        "name": "TRN-Thorne",
+        "trigraph": "TRN"
+    },
+    {
+        "name": "TRO-Trowbridge",
+        "trigraph": "TRO"
+    },
+    {
+        "name": "TRR-Truro NE",
+        "trigraph": "TRR"
+    },
+    {
+        "name": "TRU-Truleigh",
+        "trigraph": "TRU"
+    },
+    {
+        "name": "TRW-Truro West",
+        "trigraph": "TRW"
+    },
+    {
+        "name": "TRY-Treyford",
+        "trigraph": "TRY"
+    },
+    {
+        "name": "TSW-Telford SW",
+        "trigraph": "TSW"
+    },
+    {
+        "name": "TUJ-Tuxford Rail Junction",
+        "trigraph": "TUJ"
+    },
+    {
+        "name": "TUL-Tulla Loch East",
+        "trigraph": "TUL"
+    },
+    {
+        "name": "TUM-Tummel Bridge",
+        "trigraph": "TUM"
+    },
+    {
+        "name": "TUW-Tulla Loch West",
+        "trigraph": "TUW"
+    },
+    {
+        "name": "ULL-Ullswater",
+        "trigraph": "ULL"
+    },
+    {
+        "name": "ULP-Ulpha",
+        "trigraph": "ULP"
+    },
+    {
+        "name": "ULV-Ulverston",
+        "trigraph": "ULV"
+    },
+    {
+        "name": "UPA-Upavon Hangar W",
+        "trigraph": "UPA"
+    },
+    {
+        "name": "UPL-Ullapool",
+        "trigraph": "UPL"
+    },
+    {
+        "name": "UPP-Uppingham N",
+        "trigraph": "UPP"
+    },
+    {
+        "name": "UPS-Upper Sapey",
+        "trigraph": "UPS"
+    },
+    {
+        "name": "UPW-Upwood Hangar",
+        "trigraph": "UPW"
+    },
+    {
+        "name": "USK-Usk",
+        "trigraph": "USK"
+    },
+    {
+        "name": "UTT-Uttoxeter",
+        "trigraph": "UTT"
+    },
+    {
+        "name": "UWH-Uffington White Horse",
+        "trigraph": "UWH"
+    },
+    {
+        "name": "VRY-Vyrnwy",
+        "trigraph": "VRY"
+    },
+    {
+        "name": "WAB-Waterbeck",
+        "trigraph": "WAB"
+    },
+    {
+        "name": "WAL-Walford",
+        "trigraph": "WAL"
+    },
+    {
+        "name": "WAN-Wantage",
+        "trigraph": "WAN"
+    },
+    {
+        "name": "WAO-Watton",
+        "trigraph": "WAO"
+    },
+    {
+        "name": "WAR-Warcop",
+        "trigraph": "WAR"
+    },
+    {
+        "name": "WAS-Washington",
+        "trigraph": "WAS"
+    },
+    {
+        "name": "WAT-Watford Gap",
+        "trigraph": "WAT"
+    },
+    {
+        "name": "WAW-Watch Water Reservoir",
+        "trigraph": "WAW"
+    },
+    {
+        "name": "WBN-Whiteburn",
+        "trigraph": "WBN"
+    },
+    {
+        "name": "WBR-Weldon Bridge",
+        "trigraph": "WBR"
+    },
+    {
+        "name": "WBS-Wetherby South",
+        "trigraph": "WBS"
+    },
+    {
+        "name": "WBY-Whitby Bridge",
+        "trigraph": "WBY"
+    },
+    {
+        "name": "WCB-Winchcombe",
+        "trigraph": "WCB"
+    },
+    {
+        "name": "WCH-Woodchurch Farm",
+        "trigraph": "WCH"
+    },
+    {
+        "name": "WDD-Widdrington Station",
+        "trigraph": "WDD"
+    },
+    {
+        "name": "WDG-Witheridge",
+        "trigraph": "WDG"
+    },
+    {
+        "name": "WDM-Windermere",
+        "trigraph": "WDM"
+    },
+    {
+        "name": "WEB-Westbury NE",
+        "trigraph": "WEB"
+    },
+    {
+        "name": "WEC-Westcott",
+        "trigraph": "WEC"
+    },
+    {
+        "name": "WEG-Wellington",
+        "trigraph": "WEG"
+    },
+    {
+        "name": "WEL-Welford",
+        "trigraph": "WEL"
+    },
+    {
+        "name": "WEN-Wendling",
+        "trigraph": "WEN"
+    },
+    {
+        "name": "WES-Westbury",
+        "trigraph": "WES"
+    },
+    {
+        "name": "WET-Wetherby",
+        "trigraph": "WET"
+    },
+    {
+        "name": "WEY-Weymouth",
+        "trigraph": "WEY"
+    },
+    {
+        "name": "WFN-Whitfield North",
+        "trigraph": "WFN"
+    },
+    {
+        "name": "WGT-Wigton",
+        "trigraph": "WGT"
+    },
+    {
+        "name": "WGW-Wing W",
+        "trigraph": "WGW"
+    },
+    {
+        "name": "WH2-Whitchurch Hants",
+        "trigraph": "WH2"
+    },
+    {
+        "name": "WHD-Whiddon Down",
+        "trigraph": "WHD"
+    },
+    {
+        "name": "WHI-Whitchurch Shropshire",
+        "trigraph": "WHI"
+    },
+    {
+        "name": "WHM-Whitehaven Marina",
+        "trigraph": "WHM"
+    },
+    {
+        "name": "WHN-Whittington",
+        "trigraph": "WHN"
+    },
+    {
+        "name": "WHR-Whiteadder Reservoir",
+        "trigraph": "WHR"
+    },
+    {
+        "name": "WHT-Whitstable",
+        "trigraph": "WHT"
+    },
+    {
+        "name": "WHW-Whitchurch Shropshire West",
+        "trigraph": "WHW"
+    },
+    {
+        "name": "WIC-Whickham",
+        "trigraph": "WIC"
+    },
+    {
+        "name": "WIG-Wingham",
+        "trigraph": "WIG"
+    },
+    {
+        "name": "WIK-Wick West",
+        "trigraph": "WIK"
+    },
+    {
+        "name": "WIM-Wimbleball",
+        "trigraph": "WIM"
+    },
+    {
+        "name": "WIN-Wincanton",
+        "trigraph": "WIN"
+    },
+    {
+        "name": "WIS-Wisbech",
+        "trigraph": "WIS"
+    },
+    {
+        "name": "WIW-Wilton West",
+        "trigraph": "WIW"
+    },
+    {
+        "name": "WKB-Warkworth Bridge",
+        "trigraph": "WKB"
+    },
+    {
+        "name": "WKE-Worksop East",
+        "trigraph": "WKE"
+    },
+    {
+        "name": "WKW-Wickwar",
+        "trigraph": "WKW"
+    },
+    {
+        "name": "WLD-West Lomond Hill",
+        "trigraph": "WLD"
+    },
+    {
+        "name": "WLL-Willersley",
+        "trigraph": "WLL"
+    },
+    {
+        "name": "WLS-Wells",
+        "trigraph": "WLS"
+    },
+    {
+        "name": "WLT-Waternish Point",
+        "trigraph": "WLT"
+    },
+    {
+        "name": "WLW-Worlingworth",
+        "trigraph": "WLW"
+    },
+    {
+        "name": "WLY-Woolley Down",
+        "trigraph": "WLY"
+    },
+    {
+        "name": "WME-Wormingford East",
+        "trigraph": "WME"
+    },
+    {
+        "name": "WML-Wormelow",
+        "trigraph": "WML"
+    },
+    {
+        "name": "WMW-Wormingford West",
+        "trigraph": "WMW"
+    },
+    {
+        "name": "WNE-Welshpool NE",
+        "trigraph": "WNE"
+    },
+    {
+        "name": "WNT-Westnewton",
+        "trigraph": "WNT"
+    },
+    {
+        "name": "WNW-Wantage Northwest",
+        "trigraph": "WNW"
+    },
+    {
+        "name": "WO2-Weston Finish Point",
+        "trigraph": "WO2"
+    },
+    {
+        "name": "WOB-Woburn Abbey",
+        "trigraph": "WOB"
+    },
+    {
+        "name": "WOC-Worcester Racecourse",
+        "trigraph": "WOC"
+    },
+    {
+        "name": "WOD-Woodall Services",
+        "trigraph": "WOD"
+    },
+    {
+        "name": "WOE-Woore",
+        "trigraph": "WOE"
+    },
+    {
+        "name": "WOG-Weston-on-the-Green",
+        "trigraph": "WOG"
+    },
+    {
+        "name": "WOL-Wooler East",
+        "trigraph": "WOL"
+    },
+    {
+        "name": "WOM-Woburn",
+        "trigraph": "WOM"
+    },
+    {
+        "name": "WON-Walton on Naze Pier",
+        "trigraph": "WON"
+    },
+    {
+        "name": "WOO-Wooler",
+        "trigraph": "WOO"
+    },
+    {
+        "name": "WOR-Worcester",
+        "trigraph": "WOR"
+    },
+    {
+        "name": "WPL-Withypool",
+        "trigraph": "WPL"
+    },
+    {
+        "name": "WPR-Wistlandpound Reservoir",
+        "trigraph": "WPR"
+    },
+    {
+        "name": "WRA-Wragby",
+        "trigraph": "WRA"
+    },
+    {
+        "name": "WRK-Workington",
+        "trigraph": "WRK"
+    },
+    {
+        "name": "WRM-Wormingford",
+        "trigraph": "WRM"
+    },
+    {
+        "name": "WRO-Wroughton",
+        "trigraph": "WRO"
+    },
+    {
+        "name": "WSG-Wimborne St Giles",
+        "trigraph": "WSG"
+    },
+    {
+        "name": "WSL-Winslow",
+        "trigraph": "WSL"
+    },
+    {
+        "name": "WSM-Wattisham",
+        "trigraph": "WSM"
+    },
+    {
+        "name": "WSP-Worksop",
+        "trigraph": "WSP"
+    },
+    {
+        "name": "WTB-Waterbeach N",
+        "trigraph": "WTB"
+    },
+    {
+        "name": "WTH-Worthing",
+        "trigraph": "WTH"
+    },
+    {
+        "name": "WTM-Worthen",
+        "trigraph": "WTM"
+    },
+    {
+        "name": "WTN-Watlington",
+        "trigraph": "WTN"
+    },
+    {
+        "name": "WWE-Wast Water E",
+        "trigraph": "WWE"
+    },
+    {
+        "name": "WWW-Wast Water W",
+        "trigraph": "WWW"
+    },
+    {
+        "name": "WYL-Wylye",
+        "trigraph": "WYL"
+    },
+    {
+        "name": "WYM-Wymondham",
+        "trigraph": "WYM"
+    },
+    {
+        "name": "YAT-Yate",
+        "trigraph": "YAT"
+    },
+    {
+        "name": "YEO-Yeovil Reservoir",
+        "trigraph": "YEO"
+    },
+    {
+        "name": "YET-Yetholm",
+        "trigraph": "YET"
+    },
+    {
+        "name": "YOE-York East",
+        "trigraph": "YOE"
+    },
+    {
+        "name": "YOR-York",
+        "trigraph": "YOR"
+    },
+    {
+        "name": "YTN-Yeovilton",
+        "trigraph": "YTN"
+    },
+    {
+        "name": "YTT-Yattendon",
+        "trigraph": "YTT"
+    }
+]
